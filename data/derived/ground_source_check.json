@@ -1,0 +1,1 @@
+{"source":"FABDEM V1-2","ground_min_m":195.59910583496094,"ground_max_m":246.8551025390625,"copernicus_minus_fabdem_median_m":2.7657318115234375,"copernicus_minus_fabdem_p95_m":6.829876899719238,"surface_minus_ground_matches_building_heights":true,"shape":[1575,1203],"crs":"EPSG:32643","created_at":"2026-10-31T22:28:37.230834+00:00"}

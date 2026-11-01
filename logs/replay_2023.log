@@ -1,0 +1,11 @@
+
+[2026-11-01T04:25:55+05:30] New authorized job attempt: replay_2023
+Waiting for A/B: {'job_a': 'running', 'job_b': 'complete'}; missing outputs: s1_water_before.tif, s1_water_peak.tif, s1_meta.json
+[2026-11-01T04:28:27+05:30] replay_2023: failed; exit=143; elapsed=152.0s
+
+[2026-11-01T04:28:28+05:30] New authorized job attempt: replay_2023
+Waiting for A/B: {'job_a': 'running', 'job_b': 'complete'}; missing outputs: s1_water_before.tif, s1_water_peak.tif, s1_meta.json
+Waiting for A/B: {'job_a': 'needs_input', 'job_b': 'complete'}; missing outputs: s1_water_before.tif, s1_water_peak.tif
+
+[2026-11-01T04:56:05+05:30] New authorized job attempt: replay_2023
+Waiting for A/B: {'job_a': 'needs_input', 'job_b': 'complete'}; missing outputs: s1_water_before.tif, s1_water_peak.tif

@@ -1,0 +1,382 @@
+
+[2026-11-01T04:33:23+05:30] New authorized job attempt: api_preview
+INFO:     Started server process [91028]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:57595 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57603 - "GET /imagery/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57606 - "GET /imagery/tiles/16/46830/27320.jpg HTTP/1.1" 204 No Content
+INFO:     127.0.0.1:57608 - "GET /imagery/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57618 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57632 - "GET /imagery/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58376 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58395 - "GET /imagery/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58551 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58566 - "GET /imagery/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58617 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58622 - "GET /imagery/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58627 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58629 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58634 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58644 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58651 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58656 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58660 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58667 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58669 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58682 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58684 - "GET /imagery/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58770 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58779 - "GET /imagery/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58800 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58816 - "GET /imagery/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59072 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59077 - "GET /imagery/status HTTP/1.1" 200 OK
+INFO:     Shutting down
+
+[2026-11-01T04:49:19+05:30] New authorized job attempt: api_preview
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [91028]
+INFO:     Started server process [28009]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:59196 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59807 - "GET /drone-proof/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59900 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59901 - "GET /imagery/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59905 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60842 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60851 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60858 - "GET /imagery/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60868 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60873 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60878 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60890 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60897 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60904 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60909 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60922 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60973 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61014 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61299 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61302 - "GET /product/catalog HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61306 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61307 - "GET /product/catalog HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61313 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61324 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61333 - "GET /product/catalog HTTP/1.1" 404 Not Found
+INFO:     Shutting down
+
+[2026-11-01T05:34:55+05:30] New authorized job attempt: api_preview
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [28009]
+INFO:     Started server process [92067]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:61348 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61349 - "GET /gemini/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61377 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61442 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61446 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61462 - "POST /product/runs/product_678af33bbbef4fa5/briefing HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61496 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61527 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61587 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61753 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61770 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61769 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61804 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61812 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61814 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61815 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61820 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61821 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61829 - "GET /gemini/status HTTP/1.1" 200 OK
+INFO:     Shutting down
+
+[2026-11-01T05:42:30+05:30] New authorized job attempt: api_preview
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [92067]
+INFO:     Started server process [8091]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:61869 - "GET /drone-proof/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61869 - "GET /drone-proof/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61892 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61893 - "GET /gemini/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61916 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61926 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61929 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61928 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61944 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61933 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61934 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61942 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61959 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61965 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61967 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61972 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61974 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61985 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61988 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61997 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62004 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62009 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62016 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62015 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62027 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62032 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62039 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62046 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62055 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62061 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62075 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62085 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62092 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62098 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62099 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62119 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62121 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62122 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62128 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62130 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62142 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62148 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62156 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62158 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62160 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62163 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62170 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62172 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62179 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62182 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62188 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62200 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62209 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     Shutting down
+
+[2026-11-01T05:45:52+05:30] New authorized job attempt: api_preview
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [8091]
+INFO:     Started server process [15373]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:62222 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62226 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62238 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62244 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62256 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62237 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62241 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62267 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62270 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62276 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62278 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62280 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62294 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62297 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62300 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62305 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62310 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62315 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62321 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62323 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62331 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62334 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62337 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62344 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62348 - "GET /drone-proof/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62350 - "GET /drone-proof/metrics HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62358 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000002.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62363 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000006.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62362 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000005.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62359 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000003.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62356 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000001.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62361 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000004.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62371 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000014.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62369 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000010.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62367 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000011.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62365 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000007.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62373 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000009.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62375 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000008.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62387 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000018.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62377 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000015.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62385 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000017.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62381 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000013.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62379 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000012.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62384 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000016.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62390 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000019.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62391 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000020.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62395 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000022.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62393 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000021.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62397 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000023.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62399 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000024.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62405 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000027.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62402 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000025.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62403 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000026.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62407 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000028.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62409 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000029.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62411 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000030.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62413 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000031.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62415 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000032.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62417 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000033.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62419 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000034.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62423 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000036.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62421 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000035.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62426 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000037.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62427 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000038.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62429 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000039.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62431 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000040.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62433 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000041.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62435 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000042.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62437 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000043.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62439 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000044.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62441 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000045.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62443 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000046.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62445 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000047.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62447 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000048.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62453 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62449 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000049.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62451 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000050.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62455 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000051.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62457 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000052.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62460 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000053.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62461 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000054.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62463 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000055.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62465 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000056.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62469 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000058.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62467 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000057.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62471 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000059.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62473 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000060.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62475 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000061.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62477 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000062.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62481 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000064.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62479 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000063.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62485 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000066.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62483 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000065.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62487 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000067.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62489 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000068.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62492 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000069.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62494 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000070.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62498 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000072.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62497 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000071.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62500 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000073.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62502 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000074.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62505 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000075.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62506 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000076.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62508 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/frames/frame_000077.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62513 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62515 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62518 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/dense/scene_dense_preview.ply HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62522 - "GET /drone-proof/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62525 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62527 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62532 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62534 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62538 - "GET /drone-proof/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62542 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62545 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62547 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62549 - "GET /drone-proof/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62552 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62555 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62562 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62572 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62581 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62583 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62585 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62586 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62596 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62600 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62604 - "GET /drone-proof/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62607 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62609 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62612 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62614 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62618 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62620 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62623 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62625 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62631 - "GET /drone-proof/status HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62632 - "GET /drone-proof/assets/data/derived/drone_proof/run_20261031T230839622664Z/dense/scene_dense_preview.ply HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62637 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62640 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62650 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62659 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62663 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62666 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62665 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62672 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62675 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62678 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62680 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62684 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62687 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62697 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62701 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62708 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62709 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62712 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62717 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62737 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62748 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62803 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62811 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62818 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62822 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     Shutting down
+
+[2026-11-01T05:50:18+05:30] New authorized job attempt: api_preview
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [15373]
+INFO:     Started server process [23489]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:62831 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62832 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62837 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62840 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62847 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62850 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62857 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62869 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62878 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62886 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62879 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62882 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62881 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62901 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62908 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62910 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62914 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62920 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62925 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62932 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62941 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62943 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62944 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62945 - "GET /product/catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62955 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62976 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62980 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62990 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62992 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62997 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63005 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63023 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63083 - "GET /catalog HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [23489]

@@ -1,0 +1,5 @@
+
+[2026-11-01T04:25:07+05:30] New authorized job attempt: job_c_openmvs
+InterfaceCOLMAP help exit 1
+DensifyPointCloud help exit 1
+[2026-11-01T04:29:50+05:30] job_c_openmvs: complete; exit=0; elapsed=282.6s

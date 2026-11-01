@@ -1,0 +1,6 @@
+{
+  "project": "project-ade28d51-55f0-45fb-bd9",
+  "configuration": "otec",
+  "key_resource": "projects/794626398039/locations/global/keys/otec-gemini-server",
+  "model": "models/gemini-3.5-flash-lite"
+}

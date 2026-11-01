@@ -1,0 +1,20 @@
+
+[2026-11-01T04:29:13+05:30] New authorized job attempt: earthengine_auth
+To authorize access needed by Earth Engine, open the following URL in a web browser and follow the instructions. If the web browser does not start automatically, please manually browse the URL below.
+
+    https://accounts.google.com/o/oauth2/auth?client_id=517222506229-vsmmajv00ul0bs7p89v5m89qs8eb9359.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fearthengine+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.full_control&redirect_uri=http%3A%2F%2Flocalhost%3A8085&response_type=code&code_challenge=npTALGQq_hnJu9MCqiYZQ7yvD9l6MHSV9bwB_pGvmnA&code_challenge_method=S256
+
+Waiting for successful authorization from web browser ...
+
+Successfully saved authorization token.
+[2026-11-01T04:30:08+05:30] earthengine_auth: complete; exit=0; elapsed=55.2s
+
+[2026-11-01T04:36:04+05:30] New authorized job attempt: earthengine_auth
+To authorize access needed by Earth Engine, open the following URL in a web browser and follow the instructions. If the web browser does not start automatically, please manually browse the URL below.
+
+    https://accounts.google.com/o/oauth2/auth?client_id=517222506229-vsmmajv00ul0bs7p89v5m89qs8eb9359.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fearthengine+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdevstorage.full_control&redirect_uri=http%3A%2F%2Flocalhost%3A8085&response_type=code&code_challenge=D7NnzgGpWd87UWw3VFS-dYl71fJ4X8mmMG99mheZHqo&code_challenge_method=S256
+
+Waiting for successful authorization from web browser ...
+
+Successfully saved authorization token.
+[2026-11-01T04:36:13+05:30] earthengine_auth: complete; exit=0; elapsed=9.9s

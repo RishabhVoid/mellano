@@ -1,0 +1,973 @@
+{
+  "checked_at": "2026-11-01T01:02:26+00:00",
+  "host": {
+    "system": "Darwin",
+    "machine": "arm64",
+    "python": "3.11.15"
+  },
+  "ground": {
+    "source": "FABDEM V1-2",
+    "license": "CC BY-NC-SA 4.0",
+    "shape": [
+      1575,
+      1203
+    ],
+    "cell_size_m": 10,
+    "native_resolution_m": 30,
+    "crs": "EPSG:32643",
+    "origin": [
+      714880.0,
+      3179180.0
+    ],
+    "min_m": 195.59910583496094,
+    "max_m": 246.8551025390625,
+    "finite": true,
+    "web_binary_exact_match": true,
+    "surface_equals_ground_plus_building_heights_once": true,
+    "source_sha256": "6764c2c6b277a4dfda138286aca880119a755c2a2f00b836c6b91db035775050",
+    "copernicus_role": "comparison only",
+    "verified_at": "2026-10-31T22:40:45.068673+00:00"
+  },
+  "buildings": {
+    "counts": {
+      "OSM": 40195,
+      "Open Buildings": 165410
+    },
+    "total": 205605,
+    "height_2023_count": 191390,
+    "height_known": 191585,
+    "height_missing": 14020,
+    "google_available": true,
+    "height_available": true,
+    "google_candidates": 221019,
+    "google_overlapping_osm": 55609,
+    "deduplication": "Keep OSM; reject Google footprint if it intersects any OSM footprint buffered by 2 m.",
+    "confidence_min": 0.75,
+    "height_source": "GOOGLE/Research/open-buildings-temporal/v1, building_height, 2023",
+    "height_sampling": "Median of valid positive, presence-masked pixel centres per footprint; OSM fallback when no valid Google pixels; otherwise null.",
+    "updated_at": "2026-10-31T22:39:44.472068+00:00",
+    "height_known_by_footprint_source": {
+      "OSM": 38548,
+      "Open Buildings": 153037
+    },
+    "height_2023_by_footprint_source": {
+      "OSM": 38353,
+      "Open Buildings": 153037
+    },
+    "height_known_by_measurement_source": {
+      "Google Open Buildings 2.5D Temporal v1, 2023; footprint median": 191390,
+      "Estimated: OSM building:levels \u00d7 3 m": 193,
+      "OSM height": 2
+    }
+  },
+  "context": {
+    "osm_water_features": 216,
+    "rendered_road_segments": 22759,
+    "bridge_tagged_segments": 595,
+    "water_cells": 72235,
+    "green_cells": 154317
+  },
+  "flood": {
+    "static_replay": "unchanged static 8-neighbour connected-stage fill; no calibrated 2023 run yet",
+    "what_if_solver": "deterministic fixed-step virtual-pipe local-inertial shallow-water approximation",
+    "relative_runs_precomputed": true,
+    "relative_label": "Hypothetical, not a forecast",
+    "relative_reference": "Per-row FABDEM elevations within mapped OSM main river, interpolated and smoothed over about 500 m; no observed bathymetry or gauge forcing.",
+    "relative_runs": {
+      "relative_river_plus_1m": {
+        "runtime_s": 66.74807495799905,
+        "flooded_area_km2": 0.5565,
+        "buildings_wet": 50,
+        "roads_closed": 28,
+        "relative_stage_m": 1,
+        "parameters": {
+          "cell_size_m": 10.0,
+          "dt_s": 0.25,
+          "duration_s": 300,
+          "output_interval_s": 10,
+          "manning_n": 0.04,
+          "max_courant": 0.45,
+          "river_ramp_s": 60
+        },
+        "created_at": "2026-10-31T22:56:38.577807+00:00",
+        "frame_count": 31,
+        "metrics_path": "runs/relative_river_plus_1m/metrics.json",
+        "hypothetical": true,
+        "satellite_score": null
+      },
+      "relative_river_plus_2m": {
+        "runtime_s": 67.10534225000447,
+        "flooded_area_km2": 1.0081,
+        "buildings_wet": 110,
+        "roads_closed": 31,
+        "relative_stage_m": 2,
+        "parameters": {
+          "cell_size_m": 10.0,
+          "dt_s": 0.25,
+          "duration_s": 300,
+          "output_interval_s": 10,
+          "manning_n": 0.04,
+          "max_courant": 0.45,
+          "river_ramp_s": 60
+        },
+        "created_at": "2026-10-31T22:57:46.430751+00:00",
+        "frame_count": 31,
+        "metrics_path": "runs/relative_river_plus_2m/metrics.json",
+        "hypothetical": true,
+        "satellite_score": null
+      },
+      "relative_river_plus_3m": {
+        "runtime_s": 67.8806377909932,
+        "flooded_area_km2": 1.5176,
+        "buildings_wet": 172,
+        "roads_closed": 47,
+        "relative_stage_m": 3,
+        "parameters": {
+          "cell_size_m": 10.0,
+          "dt_s": 0.25,
+          "duration_s": 300,
+          "output_interval_s": 10,
+          "manning_n": 0.04,
+          "max_courant": 0.45,
+          "river_ramp_s": 60
+        },
+        "created_at": "2026-10-31T22:58:55.032789+00:00",
+        "frame_count": 31,
+        "metrics_path": "runs/relative_river_plus_3m/metrics.json",
+        "hypothetical": true,
+        "satellite_score": null
+      },
+      "relative_breach_near_ito": {
+        "runtime_s": 69.07736387500336,
+        "flooded_area_km2": 0.5565,
+        "buildings_wet": 50,
+        "roads_closed": 28,
+        "relative_stage_m": 1,
+        "parameters": {
+          "cell_size_m": 10.0,
+          "dt_s": 0.25,
+          "duration_s": 300,
+          "output_interval_s": 10,
+          "manning_n": 0.04,
+          "max_courant": 0.45,
+          "river_ramp_s": 60
+        },
+        "created_at": "2026-10-31T23:00:04.866235+00:00",
+        "frame_count": 31,
+        "metrics_path": "runs/relative_breach_near_ito/metrics.json",
+        "hypothetical": true,
+        "satellite_score": null
+      },
+      "relative_debris_ring_road": {
+        "runtime_s": 88.82852333399933,
+        "flooded_area_km2": 0.5565,
+        "buildings_wet": 50,
+        "roads_closed": 28,
+        "relative_stage_m": 1,
+        "parameters": {
+          "cell_size_m": 10.0,
+          "dt_s": 0.25,
+          "duration_s": 300,
+          "output_interval_s": 10,
+          "manning_n": 0.04,
+          "max_courant": 0.45,
+          "river_ramp_s": 60
+        },
+        "created_at": "2026-10-31T23:01:37.111849+00:00",
+        "frame_count": 31,
+        "metrics_path": "runs/relative_debris_ring_road/metrics.json",
+        "hypothetical": true,
+        "satellite_score": null
+      }
+    },
+    "stage_audit": {
+      "generated_at": "2026-11-01T04:24:40.239552+05:30",
+      "verified_rows": 10,
+      "hourly_frames": 248,
+      "interpolated_frames": 238,
+      "uncertain_timestamp_observations": 1,
+      "verification_method": "Manual check of explicit value/time and dated article context on the linked pages; verified means publication-matched, not independent gauge certification.",
+      "peak_time_policy": "19:00 anchor, 20:00 alternative; one-hour timestamp uncertainty propagates to interpolated intervals touching this anchor.",
+      "source_urls": [
+        "https://www.noidadiary.in/2023/07/yamuna-water-level-breaches-danger-mark-amid-rains-timeline-of-floods-in-noida-delhi-in-july-2023/",
+        "https://timesofindia.indiatimes.com/videos/news/delhi-army-personnel-conducts-desilting-work-at-itos-yamuna-barrage/videoshow/101787251.cms"
+      ],
+      "stage_csv_sha256": "eed297cd0e74696713c0e487b390406442a4bba1fdeb906c9db656a584fde7c9"
+    },
+    "static_replay_missing": [
+      "s1_water_before.tif",
+      "s1_water_peak.tif",
+      "datum_offset.json"
+    ],
+    "optional_real_layers_missing": [
+      "s1_flood_new.tif",
+      "s1_water_recession.tif",
+      "reported_flooded.geojson",
+      "freshness.geojson"
+    ],
+    "real_masks_auto_refresh": true,
+    "mask_names": [
+      "s1_water_before",
+      "s1_water_peak",
+      "s1_flood_new",
+      "s1_water_recession"
+    ],
+    "preflood_stage_policy": "Use closest cited reading to the actual before acquisition only under the explicit temporal-proxy authorization; record acquisition gap. Do not claim acquisition-time gauge observation.",
+    "edit_audit": {
+      "path": "runs/relative_validation.json",
+      "created_at": "2026-10-31T23:03:49.165418+00:00",
+      "completed_at": "2026-10-31T23:07:59.377214+00:00",
+      "runtime_s": 250.21886279200407,
+      "label": "Numerical audit of hypothetical runs; not validation against observed floods",
+      "scenarios": {
+        "relative_breach_near_ito": {
+          "all_saved_frames_bitwise_equal": true,
+          "saved_frame_count": 31,
+          "edit_cells": 6,
+          "internal_steps_checked": 1201,
+          "internal_time_step_s": 0.25,
+          "maximum_true_liquid_depth_on_edit_m": 0.0,
+          "maximum_absolute_flux_on_edit_faces_m2_s": 0.0,
+          "minimum_distance_to_saved_baseline_water_m": 1102.905254316979,
+          "all_reconstructed_frames_bitwise_equal_to_saved": true,
+          "conclusion": "Selected edit cells stay numerically dry at every solver step; all saved depths equal the unedited +1 m run. No breach/debris effect is demonstrated by this 300-second experiment."
+        },
+        "relative_debris_ring_road": {
+          "all_saved_frames_bitwise_equal": true,
+          "saved_frame_count": 31,
+          "edit_cells": 33,
+          "internal_steps_checked": 1201,
+          "internal_time_step_s": 0.25,
+          "maximum_true_liquid_depth_on_edit_m": 0.0,
+          "maximum_absolute_flux_on_edit_faces_m2_s": 0.0,
+          "minimum_distance_to_saved_baseline_water_m": 316.2277660168379,
+          "all_reconstructed_frames_bitwise_equal_to_saved": true,
+          "conclusion": "Selected edit cells stay numerically dry at every solver step; all saved depths equal the unedited +1 m run. No breach/debris effect is demonstrated by this 300-second experiment."
+        }
+      }
+    },
+    "metric_caveat": "Area is >0.1 m maximum saved-frame depth outside mapped OSM water; footprint exposure uses >0.5 m neighboring depth because buildings are impermeable; road counts are >0.3 m exposed mapped ways, not observed closures.",
+    "placeholder_data_created": false,
+    "replay_waiter": {
+      "status": "stopped",
+      "detail": "Stopped by user request; no automatic EE/replay work."
+    },
+    "new_shoreline_cut_status": "Source-current product_3009e5128b1a512a passed saved-file audit. Stored matched +3m native comparison:28 cells differ >1mm,max0.307300m,+0.001km2 affected land. Independent40m exported-depth check:3 cells differ >1mm,max0.306368m. No new recording or observed-flood validation."
+  },
+  "drone_proof": {
+    "available": true,
+    "status": "complete_with_diagnostic_limitations",
+    "run_id": "run_20261031T230839622664Z",
+    "run_date": "2026-10-31T23:08:39.622664+00:00",
+    "completed_at": "2026-11-01T00:10:02.063395+00:00",
+    "label": "Real drone images (OpenDroneMap aukerman) and real USGS LiDAR. Delhi drone data is not public.",
+    "source": "OpenDroneMap Aukerman original photographs",
+    "license": "CC0-1.0",
+    "image_count": 77,
+    "image_capture_date": "2016-06-29",
+    "lidar_project": "OH_Statewide_Phase1_1_2019",
+    "lidar_acquisition_range": [
+      "2019-11-04",
+      "2020-05-02"
+    ],
+    "lidar_exact_local_flight_date_verified": false,
+    "steps": {
+      "frames": {
+        "available": true,
+        "count": 77,
+        "path": "data/derived/drone_proof/run_20261031T230839622664Z/frames.json",
+        "source_kind": "image_collection"
+      },
+      "features": {
+        "available": true,
+        "count": 1024310,
+        "measurement": "Sum of COLMAP keypoint rows in this fresh run"
+      },
+      "sparse": {
+        "available": true,
+        "point_count": 48787,
+        "intrinsics": "Estimated by COLMAP SIMPLE_RADIAL; inspect reprojection error before claiming accuracy"
+      },
+      "gps_alignment": {
+        "available": true,
+        "scale": 25.227326029842565,
+        "rotation_matrix": [
+          [
+            0.08336466813707573,
+            0.979477360195632,
+            -0.18350594805234668
+          ],
+          [
+            0.9940980562514354,
+            -0.06891148718120726,
+            0.08378700073156758
+          ],
+          [
+            0.06942180250838077,
+            -0.18940778177960282,
+            -0.9794413231724592
+          ]
+        ],
+        "translation_m": [
+          204.00374471595563,
+          127.04924278912605,
+          342.10906449854406
+        ],
+        "gps_camera_rmse_m": 1.1150993435497607,
+        "camera_count": 77,
+        "horizontal_crs": "EPSG:32617",
+        "local_origin_m": [
+          436833,
+          4572662,
+          0
+        ],
+        "vertical_datum": "EXIF GPSAltitudeRef sea level; exact geoid unspecified",
+        "note": "GPS fit residual is not independent LiDAR validation. Altitudes retain the explicitly supplied telemetry datum."
+      },
+      "dense": {
+        "available": true,
+        "backend": "OpenMVS CPU",
+        "generated_at": "2026-11-01T00:05:54.440776+00:00",
+        "point_count": 8734937,
+        "preview_point_count": 99261
+      },
+      "ndsm": {
+        "available": true,
+        "resolution_m": 0.5,
+        "ground_method": {
+          "observed_cells": 207913,
+          "interpolated_cells": 106094,
+          "max_distance_m": 20,
+          "method": "Linear triangles from this source only, inside ground convex hull; cells farther than limit stay missing"
+        },
+        "generated_at": "2026-11-01T00:10:00.674281+00:00"
+      },
+      "lidar": {
+        "available": true,
+        "project": "OH_Statewide_Phase1_1_2019",
+        "vertical_datum": "NAVD88/GEOID12B; EPT Z converted to metres by USGS",
+        "acquired_at": "2019-11-04 to 2020-05-02 (project range; exact flight date pending)",
+        "acquisition_range": [
+          "2019-11-04",
+          "2020-05-02"
+        ],
+        "ground_method": {
+          "observed_cells": 402935,
+          "interpolated_cells": 4978,
+          "max_distance_m": 20,
+          "method": "Linear triangles from this source only, inside ground convex hull; cells farther than limit stay missing"
+        }
+      },
+      "validation": {
+        "available": true,
+        "path": "runs/drone_proof/metrics.json",
+        "held_out": true,
+        "all_requested_diagnostics_available": false
+      }
+    },
+    "metrics_path": "runs/drone_proof/metrics.json",
+    "metrics": {
+      "fitted_xy_shift_m": [
+        8.24489775856475,
+        -5.854368664674847
+      ],
+      "fitted_vertical_offset_m": 34.87810516357422,
+      "fit_count": 1854,
+      "fit_objective_m2": 0.008973448537290096,
+      "fit_search_bound_m": 10,
+      "fit_objective_curvature": [
+        -999999999999.9906,
+        999999999999.9916
+      ],
+      "fit_at_search_boundary": false,
+      "fit_ground_nmad_m": 0.09788833923339843,
+      "fit_method": "Ground-height translation, robust demeaned residual search. Only frozen fit cells with full search support used; largest 10% residuals trimmed in fitting only.",
+      "surface_nmad_m": 1.0596011169433592,
+      "surface_rmse_m": 5.294563293457031,
+      "surface_bias_m": -0.094512939453125,
+      "surface_held_out_cells": 62184,
+      "held_out_z_nmad_m": 1.0596011169433592,
+      "held_out_z_rmse_m": 5.294563293457031,
+      "tilt_m_per_km": [
+        -11.446208994121312,
+        12.996063474057758
+      ],
+      "tilt_deg": 0.9921495318224116,
+      "held_out_count": 2,
+      "held_out_xy_rmse_m": null,
+      "scale_error_percent": null,
+      "rotation_error_deg": null,
+      "label": "Real drone images (OpenDroneMap aukerman) and real USGS LiDAR. Delhi drone data is not public.",
+      "run_id": "run_20261031T230839622664Z",
+      "run_date": "2026-10-31T23:08:39.622664+00:00",
+      "validation_date": "2026-11-01T00:10:02.063395+00:00",
+      "validation_method": "Frozen disjoint spatial regions; fit ground translation only, evaluate full held-out surfaces and separate ground-patch correspondences",
+      "validation_input_sha256": {
+        "areas_geojson": "11b57c26a44c2ce9edf65d12b25dde714de3878e80c7661759417cd17d9a69b8",
+        "buildings_geojson": "4dc264713ebff53b0b555ab5fd3bdceae63266bcceca2963699c9df2fcdaf515"
+      },
+      "correction_policy": "Only XY translation and vertical offset fitted from the fit region. Scale, rotation and tilt are independent held-out diagnostics and are never corrected away.",
+      "vertical_offset_interpretation": "Empirical local datum/bias offset, not an assumed geoid conversion",
+      "image_acquired_at": "2016-06-29 (EXIF local date; timezone unspecified)",
+      "lidar_acquired_at": "2019-11-04 to 2020-05-02 (project range; exact flight date pending)",
+      "lidar_acquisition_range": [
+        "2019-11-04",
+        "2020-05-02"
+      ],
+      "image_vertical_datum": "EXIF GPSAltitudeRef sea level; exact geoid unspecified",
+      "lidar_vertical_datum": "NAVD88/GEOID12B; EPT Z converted to metres by USGS",
+      "temporal_gap_days": null,
+      "per_building": [
+        {
+          "id": "way/749959908",
+          "source_url": "https://www.openstreetmap.org/way/749959908",
+          "ours_median_m": 0.22599069774150848,
+          "lidar_median_m": 3.96307373046875,
+          "paired_cells": 489,
+          "coverage_fraction": 1.0
+        },
+        {
+          "id": "way/749959909",
+          "source_url": "https://www.openstreetmap.org/way/749959909",
+          "ours_median_m": 0.18904219567775726,
+          "lidar_median_m": 3.16680908203125,
+          "paired_cells": 3,
+          "coverage_fraction": 0.1
+        },
+        {
+          "id": "way/749959910",
+          "source_url": "https://www.openstreetmap.org/way/749959910",
+          "ours_median_m": 0.22665438055992126,
+          "lidar_median_m": 3.319732666015625,
+          "paired_cells": 47,
+          "coverage_fraction": 0.8545454545454545
+        }
+      ],
+      "held_out_ground_matches": [
+        {
+          "lidar_xy": [
+            437101.75,
+            4572811.75
+          ],
+          "ours_aligned_xy": [
+            437103.4981490923,
+            4572811.526726866
+          ],
+          "local_shift_m": [
+            -1.748149092309177,
+            0.22327313432469964
+          ],
+          "patch_rmse_after_local_offset_m": 0.08028867709160238,
+          "minimum_curvature": 0.0008466804546736417
+        },
+        {
+          "lidar_xy": [
+            437041.75,
+            4572691.75
+          ],
+          "ours_aligned_xy": [
+            437039.51353257574,
+            4572693.555148593
+          ],
+          "local_shift_m": [
+            2.236467424269023,
+            -1.8051485934464466
+          ],
+          "patch_rmse_after_local_offset_m": 0.6356399852445367,
+          "minimum_curvature": 0.024393149040987137
+        }
+      ],
+      "limitations": [
+        "Images are from 2016 and LiDAR project acquisition spans 2019\u20132020. Surface differences include real change and seasonal vegetation, not only measurement error.",
+        "EXIF altitudes have no confirmed geoid model; the fitted local vertical offset is an empirical bias/datum correction.",
+        "Horizontal diagnostics use independent held-out terrain patches, not surveyed ground control.",
+        "Too few unambiguous held-out ground patches to measure scale/rotation independently; those metrics remain unavailable.",
+        "Terrain offers weak XY registration constraints; fitted translation is poorly identifiable."
+      ],
+      "all_requested_diagnostics_available": false
+    },
+    "dense_preview": {
+      "source_point_count": 8734937,
+      "preview_point_count": 99261,
+      "sampling_stride": 88,
+      "note": "Display-only deterministic sample of actual reconstructed points. Full-resolution cloud and validation metrics are unchanged."
+    },
+    "dense_preview_http": {
+      "checked_at": "2026-11-01T00:20:35.917187+00:00",
+      "status": 200,
+      "bytes": 2680373,
+      "valid_ply_header": true
+    },
+    "visual_check": {
+      "passed": true,
+      "source": "Root Chrome UI check after API restart PID15348",
+      "checks": [
+        "stills, counts, per-building table and current metrics",
+        "Inspect fresh dense cloud renders sampled actual grassland reconstruction",
+        "No browser errors observed"
+      ]
+    },
+    "limitations": [
+      "Images are from 2016 and LiDAR project acquisition spans 2019\u20132020. Surface differences include real change and seasonal vegetation, not only measurement error.",
+      "EXIF altitudes have no confirmed geoid model; the fitted local vertical offset is an empirical bias/datum correction.",
+      "Horizontal diagnostics use independent held-out terrain patches, not surveyed ground control.",
+      "Too few unambiguous held-out ground patches to measure scale/rotation independently; those metrics remain unavailable.",
+      "Terrain offers weak XY registration constraints; fitted translation is poorly identifiable."
+    ],
+    "pending": []
+  },
+  "imagery": {
+    "status": "removed_by_user_request",
+    "current_mode": "matte",
+    "active_acceptance_requirement": false,
+    "historical_evidence": "data/derived/check_history/viewer_check_20261101_0459_IST.json"
+  },
+  "verification": {
+    "python_tests": 200,
+    "python_tests_passed": 199,
+    "python_tests_skipped": 1,
+    "python_tests_note": "Canvas-workspace integrated check:200 total,199 passed,1 optional Earth Engine skip.",
+    "node_tests_passed": 23,
+    "combined_tests_passed": 222,
+    "typescript": "passed",
+    "production_build": "passed",
+    "verified_by": "Root integration and browser QA; historical measurements archived separately.",
+    "make_run": {
+      "status": "verified",
+      "host": "127.0.0.1",
+      "port": 5173,
+      "foreground_server": true,
+      "automatic_workers": false,
+      "old_api_and_web_previews": "stopped",
+      "health_http": 200,
+      "areas_catalog_http": 200,
+      "missing_json_http": 404,
+      "runtime_note": "Prior area-first QA server stopped. Current canvas QA reuses user-started PID64941 on5173, no duplicate server; snapshot only."
+    },
+    "browser": {
+      "distant_real_model": "passed",
+      "cached_2km_subset": "passed",
+      "no_report_assessment": "No confirmed incident; passed",
+      "live_gemini_recommendations": "Gemini-ranked recommendations and human-review label; actual provider success",
+      "synthetic_incident_submitted": false,
+      "terrain_chunk_shadow_seams": {
+        "status": "passed",
+        "center_lon_lat": [
+          77.26003,
+          28.65005
+        ],
+        "size_km": 2,
+        "observations": [
+          "Dark chunk cross-lines gone across river and terrain",
+          "Cut walls smooth without speckles"
+        ],
+        "source": "Root final browser screenshot review"
+      },
+      "cached_plus3": "Opened existing current product without computation",
+      "uncached_area": {
+        "center": [
+          77.4,
+          28.8
+        ],
+        "size_km": 2,
+        "result": "Area build required; no server/time promise"
+      },
+      "simulation_to_area_transition": {
+        "status": "passed",
+        "source": "Root final browser check",
+        "checks": [
+          "Cached+3m loaded without compute",
+          "Reopen Select area clears simulated-water label/playback",
+          "Prior impact/response disabled",
+          "Selected clip restored",
+          "No stale assessment"
+        ]
+      }
+    },
+    "new_lod_performance_measurement": null,
+    "performance_note": "Earlier41.3\u201351.9fps/full-detail allocation measurements are history, not benchmarks of this LOD version.",
+    "python_test_elapsed_s": 4.128,
+    "vite_build_elapsed_ms": 118,
+    "lod_geometry_fixture_tests": 14,
+    "lod_source_memory_note": "Approximately64MB source building export still loads into browser RAM. Initial geometry construction occurs at startup; LOD reduces rendered geometry, not source loading to zero.",
+    "final_visual_checked_at": "2026-11-01T00:40:45.393862+00:00",
+    "runtime_shutdown": {
+      "verified_at": "2026-11-01T00:41:19.811466+00:00",
+      "registered_active_jobs": 0,
+      "port_5173_open": false,
+      "port_8000_open": false,
+      "qa_browser": "closed",
+      "foreground_server": "stopped_with_ctrl_c"
+    }
+  },
+  "acceptance_complete": false,
+  "downloads": {
+    "duplicate_jobs_started": false,
+    "google_footprints": {
+      "url": "https://storage.googleapis.com/open-buildings-data/v3/polygons_s2_level_4_gzip/391_buildings.csv.gz",
+      "version": 3,
+      "aoi_candidates": 486294,
+      "source_rows": 73380259,
+      "license": "ODbL",
+      "spatial_filter_margin_degrees": 0.002
+    },
+    "google_height_valid_pixels": 11255225
+  },
+  "acceptance_remaining": [
+    "New LOD FPS/memory not profiled; do not substitute historical full-detail measurements.",
+    "Cloud deployment and broader source packs are not present; uncached areas remain explicit server requests.",
+    "Radar before mask, calibration and scored historical2023 replay remain missing; setup work stopped.",
+    "Drone scale/rotation and reliable building-height agreement are not established; source date and registration limitations remain visible.",
+    "Live facility capacity, current occupancy and verified road conditions are unavailable."
+  ],
+  "completed_at": null,
+  "meko": {
+    "saved": true,
+    "datapack": "otec-build",
+    "memory_id": "daf0f498-a352-4b2b-ba0a-9cf2c657161f",
+    "supporting_receipt": "e1decbc9-f3ce-451a-886e-10d43692c14d",
+    "note": "Root final summary includes verified transition and complete QA teardown."
+  },
+  "snapshot_note": "Canvas-workspace Python check:199 passed,1 skipped;23 Node tests,TypeScript and production build passed(142 modules,120ms). All five cached event files and browser playback/transition/layer paths passed. Top view verified;Otec QA tab closed;existing user server left untouched. No new FPS/memory measurement. Heavy jobs stopped;deployment prepared only.",
+  "cloud_apis": {
+    "checked_at": "2026-10-31T23:55:02.711801+00:00",
+    "project": "project-ade28d51-55f0-45fb-bd9",
+    "configuration": "otec",
+    "expected_account_verified": true,
+    "earthengine_api_enabled": true,
+    "gemini_api_enabled": true,
+    "gemini_authentication": {
+      "status": "working",
+      "credential_source": "Gemini-only restricted API key fetched from Google Cloud via explicit otec gcloud config; secret in memory only",
+      "key_resource": "projects/794626398039/locations/global/keys/otec-gemini-server",
+      "key_created_for_requested_fix": true,
+      "restrictions": {
+        "apiTargets": [
+          {
+            "service": "generativelanguage.googleapis.com"
+          }
+        ]
+      },
+      "models_listing_http_status": 200,
+      "selected_model": "models/gemini-3.5-flash-lite",
+      "environment_files_accessed": false,
+      "billing_or_iam_changed": false
+    },
+    "gemini_inference": {
+      "status": "working",
+      "ready": true,
+      "model": "models/gemini-3.5-flash-lite",
+      "http_status": 200,
+      "nonempty_text": true,
+      "check_marker": "OTEC_GEMINI_OK",
+      "check_marker_matched": true,
+      "checked_at": "2026-10-31T23:55:02.711801+00:00",
+      "method": "one real generateContent request through installed sim.gemini check; max_output_tokens=512; no retry",
+      "environment_files_accessed": false
+    },
+    "gemini_key_model_listing": {
+      "available": true,
+      "http_status": 200,
+      "model_count": 46,
+      "key_resource_listing_succeeded": true,
+      "key_resource": "projects/794626398039/locations/global/keys/otec-gemini-server",
+      "keys_created_or_changed": true,
+      "secret_persisted_to_project": false
+    },
+    "gemini_used_for_scientific_metrics": false,
+    "earthengine_registration": "Noncommercial eligibility expired. Setup/diagnostic work stopped at user direction; no final early-July before mask.",
+    "historical_errors": "Prior OAuth scope403 and prepaid402 resolved by authorized restricted-key setup and provider funding; preserved in google_api_check.json."
+  },
+  "jobs_snapshot": {
+    "response_population": {
+      "status": "stopped",
+      "pid": 80128,
+      "updated_at": "2026-11-01T05:55:21+05:30",
+      "detail": "Stopped at user request: no automatic background computation or downloads; completed outputs and partial source bytes preserved"
+    },
+    "product_population_refresh": {
+      "status": "stopped",
+      "pid": 22525,
+      "updated_at": "2026-11-01T05:55:21+05:30",
+      "detail": "Stopped at user request: no automatic background computation or downloads; completed outputs and partial source bytes preserved"
+    },
+    "job_a_wait_project": {
+      "status": "stopped",
+      "pid": 90596,
+      "updated_at": "2026-11-01T05:55:21+05:30",
+      "detail": "Stopped at user request: no automatic background computation or downloads; completed outputs and partial source bytes preserved"
+    },
+    "replay_2023": {
+      "status": "stopped",
+      "pid": 47607,
+      "updated_at": "2026-11-01T05:55:21+05:30",
+      "detail": "Stopped at user request: no automatic background computation or downloads; completed outputs and partial source bytes preserved"
+    },
+    "api_preview": {
+      "status": "stopped",
+      "pid": 23485,
+      "updated_at": "2026-11-01T06:05:33+05:30",
+      "detail": "Stopped to replace two previews with one foreground make run command."
+    },
+    "web_preview": {
+      "status": "stopped",
+      "pid": 86328,
+      "updated_at": "2026-11-01T06:05:33+05:30",
+      "detail": "Stopped to replace two previews with one foreground make run command."
+    },
+    "job_c_run": {
+      "status": "complete",
+      "pid": 1524,
+      "updated_at": "2026-11-01T05:40:02+05:30",
+      "detail": "Fresh reconstruction and independent LiDAR comparison completed at two-thread limit"
+    }
+  },
+  "monitoring": {
+    "status": "no_auto_restart",
+    "policy": "No background downloads, simulation jobs, replay/EE watchers or data exports are started by make run."
+  },
+  "history": [
+    {
+      "snapshot_at": "2026-10-31T23:29:52.844722+00:00",
+      "report": "docs/diorama-check-20261101-0459-IST.md",
+      "evidence": "data/derived/check_history/viewer_check_20261101_0459_IST.json",
+      "note": "Superseded state retained verbatim; pending drone, Gemini errors and active imagery acceptance in this snapshot are historical."
+    },
+    {
+      "snapshot_at": "2026-11-01T00:20:58.943389+00:00",
+      "report": "docs/diorama-check-20261101-0550-IST.md",
+      "evidence": "data/derived/check_history/viewer_check_20261101_0550_IST.json",
+      "note": "Before the stop-work/area-first pivot. Its active download/product-refresh and old performance state is superseded."
+    }
+  ],
+  "response_context": {
+    "schema_version": 1,
+    "generated_at": "2026-11-01T00:12:45.102423+00:00",
+    "coordinate_system": "local_metres_east_south",
+    "origin_utm": [
+      714880.0,
+      3179180.0
+    ],
+    "crs": "EPSG:32643",
+    "counts": {
+      "hospital": 131,
+      "school": 268,
+      "police": 89,
+      "clinic": 113,
+      "fire_station": 15
+    },
+    "facilities_status": "complete_fetched",
+    "facilities_fetch_errors": [],
+    "source": "OpenStreetMap contributors",
+    "license": "ODbL",
+    "source_url": "https://www.openstreetmap.org/copyright",
+    "snapshot_time": "2026-10-31T23:56:56Z",
+    "facilities_note": "Mapped facilities only; operation, staffing, fleet, capacity and flood-time availability are unknown. Schools are potential relief sites, not designated camps.",
+    "road_graph": {
+      "url": "/data/road_graph.json",
+      "source": "OpenStreetMap contributors",
+      "license": "ODbL",
+      "source_url": "https://www.openstreetmap.org/copyright",
+      "node_count": 99000,
+      "directed_edge_count": 204823,
+      "weak_component_count": 4902,
+      "largest_weak_component_nodes": 93422,
+      "skipped": {},
+      "topology": "Shared OSM node IDs only. No planar intersections or snapped bridge crossings. AOI boundary clips are unique per road segment.",
+      "limitations": "OSM completeness and current access unknown. Turn restrictions and conditional restrictions are not implemented. AOI-truncated routes cannot detour outside the grid. No inferred bridge deck elevations.",
+      "fallback_speeds_kmh": {
+        "motorway": 60.0,
+        "trunk": 50.0,
+        "primary": 40.0,
+        "secondary": 35.0,
+        "tertiary": 30.0,
+        "unclassified": 25.0,
+        "residential": 25.0
+      },
+      "link_speed_rule": "min(parent class speed,25 km/h)",
+      "speed_assumptions": "Fallback speeds are modelling assumptions, not observed travel speeds. No live traffic; no emergency one-way override.",
+      "snapshot_time": "2026-10-31T21:42:21Z"
+    },
+    "population": {
+      "available": true,
+      "status": "available",
+      "source": "WorldPop",
+      "year": 2020,
+      "source_url": "https://hub.worldpop.org/geodata/summary?id=6527",
+      "download_url": "https://data.worldpop.org/GIS/Population/Global_2000_2020/2020/IND/ind_ppp_2020.tif",
+      "license": "CC BY 4.0",
+      "license_url": "https://hub.worldpop.org/data/licence.txt",
+      "doi": "10.5258/SOTON/WP00645",
+      "native_resolution_m": 100,
+      "native_resolution_description": "3 arcseconds, approximately 100m at equator",
+      "unit": "people per cell",
+      "output_cell_size_m": 10,
+      "crs": "EPSG:32643",
+      "origin_utm": [
+        714880.0,
+        3179180.0
+      ],
+      "width": 1203,
+      "height": 1575,
+      "coverage_fraction": 0.9649574476507145,
+      "valid_cell_count": 1828329,
+      "nodata_cell_count": 66396,
+      "valid_population_total": 5335852.031391547,
+      "raster_path": "data/derived/population_10m.tif",
+      "limitations": "Modelled 2020 residential population, not current occupancy or observed evacuations. 10m allocation adds no demographic detail.",
+      "checked_at": "2026-11-01T00:12:26.575850+00:00",
+      "source_valid_pixel_count": 26426,
+      "source_window_population": 5735574.49819231,
+      "allocated_population_before_coverage_mask": 5343848.336323147,
+      "partial_coverage_population_excluded": 7996.304931587701,
+      "expected_valid_population": 5335852.031391559,
+      "method": "Source pixel count multiplied by UTM polygon intersection area/source pixel area; contributions summed into exact 10m cells. Incomplete source coverage stays NoData. Uniform density inside each native pixel is an explicit assumption.",
+      "conservation_error_float32": 2.3098662495613098e-05,
+      "acquisition": {
+        "source_url": "https://data.worldpop.org/GIS/Population/Global_2000_2020/2020/IND/ind_ppp_2020.tif",
+        "catalog_url": "https://hub.worldpop.org/geodata/summary?id=6527",
+        "source": "WorldPop India2020 unconstrained population counts",
+        "year": 2020,
+        "license": "CC BY 4.0",
+        "doi": "10.5258/SOTON/WP00645",
+        "clipped_at": "2026-11-01T00:12:26.574078+00:00",
+        "method": "All native AOI blocks decoded from already-downloaded official TIFF bytes; independently re-read lossless clip. Single full-country download continues separately.",
+        "partial_file_snapshot_bytes": 659816448,
+        "full_country_sha256_pending": true,
+        "native_clip_sha256": "17e90cccebd9d19c4282b9c731ddd51dce03ca7d552206f557b16ee787ea24e9",
+        "native_window_shape": [
+          176,
+          155
+        ],
+        "native_valid_pixel_count": 26426,
+        "native_nodata_pixel_count": 854,
+        "download_status": "stopped_by_user_request"
+      },
+      "native_clip_sha256": "17e90cccebd9d19c4282b9c731ddd51dce03ca7d552206f557b16ee787ea24e9",
+      "native_clip_path": "data/raw/worldpop_2020_aoi_verified.tif"
+    },
+    "station_count": 616
+  },
+  "product": {
+    "workflow": "Select area \u2192 assess current situation \u2192 reported/verified response OR hypothetical simulation",
+    "area_selection": {
+      "square_sizes_km": [
+        1,
+        2,
+        5,
+        10
+      ],
+      "coordinates_anywhere": true,
+      "cached_return": "ready real model descriptor and clip",
+      "uncached_return": "durable queued/server-required metadata, no automatic local build",
+      "whole_aoi_metrics_disclosure": true,
+      "actual_full_recompute_on_crop": false
+    },
+    "current_situation": {
+      "human_report": "Response labelled reported_unverified after explicit current confirmation",
+      "trusted_observations": "Only server-owned verified incident observations within24h; no future dates",
+      "historical_and_simulated_data": "Never establish a current incident",
+      "automatic_dispatch": false
+    },
+    "recommendations": {
+      "live_gemini_browser_verified": true,
+      "structured_actions": "Allowed actions and known evidence IDs; server wording and copied metrics",
+      "fallback": "Clearly labelled deterministic evidence checklist",
+      "human_review_required": true,
+      "meko": "Optional build/provenance memory, no hidden runtime dependency"
+    },
+    "old_product_refresh": "stopped; completed outputs preserved, interrupted output not claimed ready",
+    "new_recordings": "stopped/deprioritized; earthquake capture did not produce a completed MP4",
+    "published_current_runs": {
+      "river_plus_3m": "product_bccdfb445271313f",
+      "breach_near_ito": "product_3009e5128b1a512a",
+      "chain_quake_flood": "product_f4a4de248f6e9290",
+      "quake_m6_east_bank": "product_2d1494d87b9b86a0",
+      "old_delhi_market_fire": "product_e057b6c46900920d"
+    }
+  },
+  "scope": "Matte canvas event workspace with completed hypothetical event playback, impact and modelled response; area/evidence workflows retained, no automatic heavy jobs; prepare server deployment only.",
+  "background_policy": {
+    "heavy_jobs": "stopped_by_user_request",
+    "restart_automatically": false,
+    "partial_outputs": "preserved",
+    "full_worldpop_source_checksum": "unfinished; existing verified AOI remains usable"
+  },
+  "deployment": {
+    "status": "deployment_files_prepared_not_executed",
+    "server_connected": false,
+    "global_builder_available": false,
+    "default_metadata": "local SQLite",
+    "optional_metadata_adapter": "PostgreSQL/Yugabyte",
+    "default_assets": "local validated publication",
+    "object_storage": "proposed deployment architecture, not provisioned",
+    "regional_builder_coverage": "Verified FABDEM N28E077 source pack + real OSM; additional regions require verified packs/builders",
+    "one_hour_completion_guarantee": false,
+    "readme": "prepared_not_executed"
+  },
+  "canvas_workspace": {
+    "checked_at": "2026-11-01T01:02:26+00:00",
+    "browser_status": "passed",
+    "workflow": "Select completed event, play on canvas, inspect impact and modelled response",
+    "uncached_arbitrary_settings": "hidden in the new sidebar; no local compute launched",
+    "recording_hooks_preserved": ["?scene=", "?record=1"],
+    "cached_event_audit": {
+      "passed": true,
+      "source_current_runs": 5,
+      "frames": 130,
+      "asset_references": 632,
+      "unique_assets": 628,
+      "run_asset_bytes": 170403445,
+      "runtime_s": 1.29,
+      "regression_tests_passed": 5,
+      "script": "scripts/check_cached_events.py",
+      "report": "/Users/rishabh/Documents/Codex/2026-11-01/otec-otec-is-a-live-height/outputs/cached-events-audit.json",
+      "scope": "Saved-file integrity and actual progression, not empirical model validation"
+    },
+    "browser_verified": [
+      "All five cached events complete with visible effects and actual saved metrics:quake60s;fire,flood,bank300s;chain360s",
+      "Earthquake response shows two modelled units,12.3-minute average ETA,one unreached hotspot",
+      "Fire focuses the real small footprint cluster",
+      "Pause/Resume and orbit work",
+      "Rapid Fire-to-Quake switch followed by Reset clears state",
+      "Area open clears active hazard to idle;Area close-to-Fire starts",
+      "All four layer checkboxes off/on",
+      "Info and Drone proof open/back",
+      "Fit,zoom and overhead Top preset",
+      "Gemini Explain returned actual provider text with snapshot-time caption",
+      "Blue computed flood/breach water,transparent severity zero and legible paper panels/footer"
+    ],
+    "browser_pending": [],
+    "administrative_pending": [],
+    "qa_tab_closed": true,
+    "qa_tab_closure_note": "Otec QA tab closed with Cmd-W;Chrome for Testing returned to New Tab;existing user server unchanged",
+    "render_policy": "Severity zero transparent;flood/breach use the computed blue water mesh without a terrain heatmap;switching does not restore the old heatmap",
+    "final_build": {
+      "passed": true,
+      "modules": 142,
+      "runtime_ms": 120
+    },
+    "server": {
+      "pid": 64941,
+      "port": 5173,
+      "ownership": "existing user-started foreground server reused and left untouched",
+      "duplicate_started": false,
+      "uptime_guarantee": false
+    },
+    "heavy_jobs_started": false,
+    "registered_running_jobs": 0,
+    "new_simulations_or_downloads": false,
+    "new_fps_measurement": null,
+    "meko_ui_summaries": {
+      "saved": true,
+      "scope": "CSS,event-state and rendering-fix summaries;separate from the denied detailed run/audit payload"
+    },
+    "meko_audit_upload": {
+      "status": "denied_by_automatic_approval_review",
+      "reason": "Detailed internal project/run audit metadata would be sent to external Meko without sufficiently specific destination authorization",
+      "uploaded": false,
+      "retried": false,
+      "fallback": "Detailed audit and current status saved locally;successful area-first,CSS,event-state and rendering-fix summaries preserved"
+    }
+  }
+}

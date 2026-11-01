@@ -1,0 +1,4 @@
+
+[2026-11-01T05:49:34+05:30] New authorized job attempt: recording_intro_final
+{"scene": "01_intro", "frames": 413, "duration_s": 13.780198, "capture_fps": 29.97054178757083, "mp4": "/Users/rishabh/Documents/Codex/2026-11-01/otec-otec-is-a-live-height/outputs/01_intro.mp4"}
+[2026-11-01T05:49:49+05:30] recording_intro_final: complete; exit=0; elapsed=15.0s

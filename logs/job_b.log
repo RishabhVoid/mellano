@@ -1,0 +1,4 @@
+
+[2026-11-01T04:24:39+05:30] New authorized job attempt: job_b
+{"observed_rows": 10, "verified_rows": 10, "hourly_frames": 248, "interpolated_frames": 238, "uncertain_timestamp_observations": 1}
+[2026-11-01T04:24:40+05:30] job_b: complete; exit=0; elapsed=0.3s

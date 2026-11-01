@@ -1,0 +1,71 @@
+
+[2026-11-01T04:33:37+05:30] New authorized job attempt: verification
+/Users/rishabh/.local/bin/uv run --frozen python -m sim.check
+/Users/rishabh/Documents/codebase/projects/hackcbs/the_one/.venv/lib/python3.11/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+OK numpy 2.4.6
+OK scipy 1.17.1
+OK rasterio 1.4.4
+OK geopandas 1.2.0
+OK shapely 2.2.0
+OK pyproj 3.7.2
+OK requests 2.34.2
+OK fastapi 0.162.0
+OK uvicorn 0.54.0
+OK /health on Darwin arm64, Python 3.11.15
+/Users/rishabh/.local/bin/uv run --frozen python -m unittest tests.test_pipeline tests.test_dynamic tests.test_imagery tests.test_drone_proof tests.test_stages tests.test_relative tests.test_sentinel
+/Users/rishabh/Documents/codebase/projects/hackcbs/the_one/.venv/lib/python3.11/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+.../Users/rishabh/Documents/codebase/projects/hackcbs/the_one/.venv/lib/python3.11/site-packages/rasterio/transform.py:178: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+  return Affine.translation(west, north) * Affine.scale(xsize, -ysize)
+/Users/rishabh/Documents/codebase/projects/hackcbs/the_one/.venv/lib/python3.11/site-packages/rasterio/windows.py:360: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+  x, y = transform * (window.col_off or 0.0, window.row_off or 0.0)
+/Users/rishabh/Documents/codebase/projects/hackcbs/the_one/.venv/lib/python3.11/site-packages/rasterio/windows.py:361: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+  return Affine.translation(
+.............../Users/rishabh/Documents/codebase/projects/hackcbs/the_one/.venv/lib/python3.11/site-packages/rasterio/transform.py:178: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+  return Affine.translation(west, north) * Affine.scale(xsize, -ysize)
+................./Users/rishabh/Documents/codebase/projects/hackcbs/the_one/.venv/lib/python3.11/site-packages/rasterio/transform.py:178: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+  return Affine.translation(west, north) * Affine.scale(xsize, -ysize)
+./Users/rishabh/Documents/codebase/projects/hackcbs/the_one/sim/drone_proof.py:578: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  regions={split:[transform(project,shape(f['geometry'])) for f in areas if f['properties']['split']==split] for split in ('fit','held_out')}
+/Users/rishabh/Documents/codebase/projects/hackcbs/the_one/sim/drone_proof.py:624: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+  shifted=ours.transform*rasterio.Affine.translation(dx/ours.transform.a,dy/ours.transform.e)
+/Users/rishabh/Documents/codebase/projects/hackcbs/the_one/sim/drone_proof.py:634: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+  shifted=ours.transform*rasterio.Affine.translation(dx/ours.transform.a,dy/ours.transform.e)
+/Users/rishabh/Documents/codebase/projects/hackcbs/the_one/sim/drone_proof.py:638: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  geometry=transform(project,shape(feature['geometry']))
+.../Users/rishabh/Documents/codebase/projects/hackcbs/the_one/.venv/lib/python3.11/site-packages/rasterio/transform.py:178: PendingDeprecationWarning: Use `@` matmul instead of `*` mul operator for matrix multiplication
+  return Affine.translation(west, north) * Affine.scale(xsize, -ysize)
+..../Users/rishabh/Documents/codebase/projects/hackcbs/the_one/sim/drone_proof.py:578: DeprecationWarning: The 'shapely.ops.transform()' function is deprecated. Use 'shapely.transform()' or 'shapely.transform_coordseq()' instead. See https://shapely.readthedocs.io/en/latest/manual.html#shapely.ops.transform for more details.
+  regions={split:[transform(project,shape(f['geometry'])) for f in areas if f['properties']['split']==split] for split in ('fit','held_out')}
+......................
+----------------------------------------------------------------------
+Ran 65 tests in 4.176s
+
+OK
+npm --prefix web run check
+
+> otec-viewer@0.1.0 check
+> tsc --noEmit
+
+npm --prefix web run build
+
+> otec-viewer@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 129 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   8.19 kB │ gzip:   2.97 kB
+dist/assets/index-BoQYpHTr.css   10.10 kB │ gzip:   3.13 kB
+dist/assets/index-DgtWQdmj.js   818.76 kB │ gzip: 221.44 kB
+
+✓ built in 468ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[2026-11-01T04:33:44+05:30] verification: complete; exit=0; elapsed=7.0s

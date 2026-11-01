@@ -1,0 +1,35 @@
+{
+  "checked_at": "2026-11-01T00:03:51.617252+00:00",
+  "configuration": "otec",
+  "project": "project-ade28d51-55f0-45fb-bd9",
+  "http_status": 403,
+  "error_status": "PERMISSION_DENIED",
+  "reason": "noncommercial_eligibility_expired",
+  "safe_service_message": "Project noncommercial Earth Engine access has expired. Reverify the project noncommercial eligibility or change to commercial access.",
+  "next_action": "Reverify existing noncommercial eligibility in Google Cloud Earth Engine configuration; no OAuth reset required.",
+  "existing_projects_checked": [
+    {
+      "project": "gen-lang-client-0949817810",
+      "http_status": 403,
+      "reason": "earth_engine_api_disabled_or_unused"
+    },
+    {
+      "project": "project-c039051d-df60-424b-853",
+      "http_status": 403,
+      "reason": "earth_engine_api_disabled_or_unused"
+    },
+    {
+      "project": "project-392a6e2b-8a99-4811-831",
+      "http_status": 403,
+      "reason": "earth_engine_api_disabled_or_unused"
+    },
+    {
+      "project": "shivam-store-489108",
+      "http_status": 403,
+      "reason": "earth_engine_api_disabled_or_unused"
+    }
+  ],
+  "ready_existing_project_found": false,
+  "cloud_mutations": false,
+  "credentials_printed_or_saved": false
+}

@@ -1,0 +1,210 @@
+
+[2026-11-01T04:31:24+05:30] New authorized job attempt: web_preview
+
+> otec-viewer@0.1.0 dev
+> vite --host 127.0.0.1 --port 5173
+
+
+  VITE v8.3.5  ready in 185 ms
+
+  ➜  Local:   http://127.0.0.1:5173/
+Open the printed Local URL in your browser.
+4:31:26 AM [vite] http proxy error: /catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:31:27 AM [vite] http proxy error: /catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:31:28 AM [vite] http proxy error: /imagery/status
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:31:30 AM [vite] (client) [Unhandled rejection] TypeError: Cannot read properties of undefined (reading 'includes')
+ > SatelliteImagery.imageryState [as onChange] src/main.ts:99:43
+    97 |    const append=(node:Node,target:Node):void=>{if(node.nodeType===Node.TEXT_NODE){target.appendChild(document.createTe...
+    98 |    documentCredits.body.childNodes.forEach(node=>append(node,credits));
+    99 |    const showMapbox=imagery.activeProviders.includes('mapbox');el('mapbox-logo').hidden=!showMapbox;
+       |                                             ^
+    100|    if(showMapbox){
+    101|      if(!credits.textContent?.includes('Mapbox')){const a=document.createElement('a');a.href='https://www.mapbox.com/a...
+ > SatelliteImagery.initialize src/imagery.ts:52:9
+
+4:31:33 AM [vite] http proxy error: /catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:31:38 AM [vite] http proxy error: /catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:31:39 AM [vite] (client) page reload scenes/03_breach.json
+4:31:39 AM [vite] (client) page reload src/main.ts
+4:31:39 AM [vite] http proxy error: /catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:31:41 AM [vite] http proxy error: /imagery/status
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:31:41 AM [vite] (client) [Unhandled rejection] TypeError: Cannot read properties of undefined (reading 'includes')
+ > SatelliteImagery.imageryState [as onChange] src/main.ts:100:43
+    98  |    const append=(node:Node,target:Node):void=>{if(node.nodeType===Node.TEXT_NODE){target.appendChild(document.createTe...
+    99  |    documentCredits.body.childNodes.forEach(node=>append(node,credits));
+    100 |    const showMapbox=imagery.activeProviders.includes('mapbox');el('mapbox-logo').hidden=!showMapbox;
+        |                                             ^
+    101 |    if(showMapbox){
+    102 |      if(!credits.textContent?.includes('Mapbox')){const a=document.createElement('a');a.href='https://www.mapbox.com/a...
+ > SatelliteImagery.initialize src/imagery.ts:52:9
+
+4:31:46 AM [vite] http proxy error: /catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:31:51 AM [vite] http proxy error: /catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:31:56 AM [vite] http proxy error: /catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:32:01 AM [vite] http proxy error: /catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:32:06 AM [vite] http proxy error: /catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:32:11 AM [vite] http proxy error: /catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:32:16 AM [vite] http proxy error: /catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:32:21 AM [vite] http proxy error: /catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:32:26 AM [vite] http proxy error: /catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:32:31 AM [vite] http proxy error: /catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:32:36 AM [vite] http proxy error: /catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:32:41 AM [vite] http proxy error: /catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:32:43 AM [vite] (client) page reload src/model.ts
+4:32:43 AM [vite] (client) hmr update /src/style.css
+4:32:43 AM [vite] (client) page reload src/main.ts
+4:32:43 AM [vite] http proxy error: /catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:32:45 AM [vite] http proxy error: /imagery/status
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:32:45 AM [vite] (client) [Unhandled rejection] TypeError: Cannot read properties of undefined (reading 'includes')
+ > SatelliteImagery.imageryState [as onChange] src/main.ts:100:43
+    98  |    const append=(node:Node,target:Node):void=>{if(node.nodeType===Node.TEXT_NODE){target.appendChild(document.createTe...
+    99  |    documentCredits.body.childNodes.forEach(node=>append(node,credits));
+    100 |    const showMapbox=imagery.activeProviders.includes('mapbox');el('mapbox-logo').hidden=!showMapbox;
+        |                                             ^
+    101 |    if(showMapbox){
+    102 |      if(!credits.textContent?.includes('Mapbox')){const a=document.createElement('a');a.href='https://www.mapbox.com/a...
+ > SatelliteImagery.initialize src/imagery.ts:52:9
+
+4:32:50 AM [vite] http proxy error: /catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:33:03 AM [vite] http proxy error: /catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:33:05 AM [vite] http proxy error: /imagery/status
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:33:05 AM [vite] (client) [Unhandled rejection] TypeError: Cannot read properties of undefined (reading 'includes')
+ > SatelliteImagery.imageryState [as onChange] src/main.ts:100:43
+    98  |    const append=(node:Node,target:Node):void=>{if(node.nodeType===Node.TEXT_NODE){target.appendChild(document.createTe...
+    99  |    documentCredits.body.childNodes.forEach(node=>append(node,credits));
+    100 |    const showMapbox=imagery.activeProviders.includes('mapbox');el('mapbox-logo').hidden=!showMapbox;
+        |                                             ^
+    101 |    if(showMapbox){
+    102 |      if(!credits.textContent?.includes('Mapbox')){const a=document.createElement('a');a.href='https://www.mapbox.com/a...
+ > SatelliteImagery.initialize src/imagery.ts:52:9
+
+4:33:09 AM [vite] (client) page reload src/imagery.ts
+4:33:09 AM [vite] http proxy error: /catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+4:33:37 AM [vite] (client) page reload src/model.ts
+4:33:37 AM [vite] (client) page reload src/main.ts
+4:33:37 AM [vite] (client) hmr update /src/style.css
+4:36:35 AM [vite] (client) page reload src/drone.ts
+4:37:08 AM [vite] (client) page reload src/main.ts
+4:39:51 AM [vite] (client) page reload src/main.ts
+4:40:12 AM [vite] (client) page reload src/drone.ts
+4:48:04 AM [vite] (client) page reload index.html
+5:25:48 AM [vite] (client) page reload src/main.ts
+5:25:48 AM [vite] (client) page reload src/model.ts
+5:25:48 AM [vite] (client) hmr update /src/style.css
+5:25:48 AM [vite] (client) page reload index.html
+5:27:49 AM [vite] (client) page reload src/main.ts
+5:27:49 AM [vite] (client) page reload src/model.ts
+5:27:49 AM [vite] (client) page reload src/product.ts
+5:27:50 AM [vite] (client) dependency optimized: three/addons/loaders/GLTFLoader.js
+5:28:40 AM [vite] (client) page reload src/responseVisuals.ts
+5:28:40 AM [vite] (client) hmr update /src/style.css
+5:28:40 AM [vite] (client) page reload scenes/01_intro.json
+5:28:40 AM [vite] (client) page reload scenes/03_breach_response.json
+5:28:40 AM [vite] (client) page reload scenes/06_quake_response.json
+5:28:40 AM [vite] (client) page reload scenes/07_chain.json
+5:29:21 AM [vite] (client) page reload src/product.ts
+5:29:21 AM [vite] (client) page reload src/responseVisuals.ts
+5:32:53 AM [vite] (client) page reload src/main.ts
+5:32:53 AM [vite] (client) page reload src/product.ts
+5:32:53 AM [vite] (client) page reload index.html
+5:33:35 AM [vite] (client) page reload src/main.ts
+5:33:35 AM [vite] (client) page reload src/product.ts
+5:33:35 AM [vite] (client) page reload scenes/06_quake_response.json
+5:33:35 AM [vite] (client) page reload scenes/07_chain.json
+5:34:49 AM [vite] (client) page reload src/product.ts
+5:34:49 AM [vite] (client) page reload src/main.ts
+5:34:49 AM [vite] (client) page reload src/responseVisuals.ts
+5:35:21 AM [vite] (client) page reload src/model.ts
+5:35:21 AM [vite] (client) page reload src/responseVisuals.ts
+5:35:45 AM [vite] (client) page reload src/product.ts
+5:35:45 AM [vite] (client) page reload index.html
+5:36:48 AM [vite] (client) page reload src/main.ts
+5:36:48 AM [vite] (client) page reload src/product.ts
+5:36:48 AM [vite] (client) page reload src/responseVisuals.ts
+5:37:20 AM [vite] vite.config.ts changed, restarting server...
+5:37:21 AM [vite] server restarted.
+Open the printed Local URL in your browser.
+5:38:30 AM [vite] (client) page reload src/model.ts
+5:42:04 AM [vite] (client) page reload src/model.ts
+5:43:34 AM [vite] (client) page reload src/main.ts
+5:43:34 AM [vite] (client) page reload src/model.ts
+5:43:34 AM [vite] (client) page reload src/product.ts
+5:44:05 AM [vite] (client) page reload src/drone.ts
+5:44:54 AM [vite] (client) page reload src/product.ts
+5:44:54 AM [vite] (client) page reload src/model.ts
+5:44:54 AM [vite] (client) page reload index.html
+5:45:49 AM [vite] (client) page reload index.html
+5:45:49 AM [vite] (client) hmr update /src/style.css
+5:45:52 AM [vite] http proxy error: /product/catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+5:45:54 AM [vite] http proxy error: /product/catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+5:45:54 AM [vite] http proxy error: /product/catalog
+Error: connect ECONNREFUSED 127.0.0.1:8000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1705:16)
+5:47:51 AM [vite] (client) page reload src/product.ts
+5:47:51 AM [vite] (client) page reload scenes/03_breach_response.json
+5:48:26 AM [vite] (client) page reload src/main.ts
+5:48:26 AM [vite] (client) page reload src/product.ts
+5:50:50 AM [vite] (client) page reload src/product.ts
+6:00:30 AM [vite] (client) page reload src/model.ts
+6:03:03 AM [vite] (client) page reload src/model.ts
+6:04:52 AM [vite] (client) page reload src/main.ts
+6:04:52 AM [vite] (client) page reload src/product.ts
+6:05:02 AM [vite] (client) page reload src/main.ts
+6:05:17 AM [vite] (client) page reload src/model.ts
+6:05:18 AM [vite] vite.config.ts changed, restarting server...
+6:05:18 AM [vite] server restarted.
+Open the printed Local URL in your browser.

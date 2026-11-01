@@ -1,0 +1,935 @@
+2026-10-31T22:52:57.556886+00:00 JOB C install starting: colmap pdal. Original brew.env loader disabled before any metadata access.
+Installer wrapper sha256 200eb8a66f0101de97d5dbc9b63fdb36341199b31912deefc215807b8472fd79
+==> Downloading Homebrew API data
+✔︎ JSON API packages.arm64_golden_gate.jws.json
+Warning: The following taps are not trusted:
+  jandedobbeleer/oh-my-posh
+
+Homebrew is currently ignoring formulae, casks and commands
+from these taps because tap trust is required.
+Prefer trusting only the specific formulae, casks or commands you need.
+Trust installed formulae from these taps with:
+  brew trust --formula jandedobbeleer/oh-my-posh/oh-my-posh
+Trust other specific casks and commands with:
+  brew trust --cask <user>/<tap>/<cask>
+  brew trust --command <user>/<tap>/<command>
+Whole-tap trust is broader and includes all current and future formulae,
+casks and commands from the listed taps. Trust whole taps with:
+  brew trust jandedobbeleer/oh-my-posh
+Untap them with:
+  brew untap jandedobbeleer/oh-my-posh
+For more information, see:
+  https://docs.brew.sh/Tap-Trust
+==> Downloading bottle manifests
+✔︎ Bottle Manifest pdal (2.10.2_5)
+✔︎ Bottle Manifest colmap (4.2.1_4)
+==> Would install 2 formulae:
+colmap  4.2.1_4
+pdal    2.10.2_5
+==> Would install 44 dependencies for colmap:
+icu4c@79           79.1
+boost              1.92.0_1
+gflags             2.3.1
+glog               0.7.1
+eigen              5.0.1
+metis              5.1.0
+gmp                6.3.0
+isl                0.28
+mpfr               4.2.2
+libmpc             1.4.1
+gcc                16.2.0
+openblas           0.3.34
+suite-sparse       7.14.1
+hwloc              2.15.0
+tbb                2023.2.0
+ceres-solver       2.2.0_6
+cgal               6.2.1
+faiss              1.15.1
+libaec             1.1.7
+hdf5               2.2.0
+flann              1.9.2_4
+glew               2.3.1
+abseil             20260817.0
+protobuf           36.2
+onnx               1.23.2
+re2                2025-11-05_2
+onnxruntime        1.31.1
+libde265           1.1.3
+libheif            1.23.7
+libraw             0.22.3
+minizip-ng         4.2.2
+pystring           1.2.0
+yaml-cpp           0.9.0
+zlib-ng-compat     2.3.3_1
+opencolorio        2.6.0
+pugixml            1.16
+python@3.15        3.15.2
+openimageio        3.2.2.0
+dbus               1.16.2_1
+double-conversion  3.4.0
+libb2              0.98.1
+md4c               0.6.0
+qtbase             6.12.0_2
+qtsvg              6.12.0_1
+==> Would upgrade 18 dependencies for colmap:
+libomp           23.1.3     -> 23.1.4
+pkgconf          3.0.7      -> 3.0.10
+libvmaf          3.2.0      -> 3.2.1
+ca-certificates  2026-09-25 -> 2026-10-20
+openssl@4        4.0.3      -> 4.1.0
+ffmpeg           9.0.1_1    -> 9.0.2_1
+fmt              12.1.0     -> 12.2.0
+brotli           1.2.0      -> 1.2.1
+imath            3.2.2      -> 3.2.3
+jpeg-turbo       3.2.0      -> 3.2.1
+libdeflate       1.25       -> 1.26
+openjph          0.27.3     -> 0.32.0
+openexr          3.4.12     -> 3.5.3
+jpeg-xl          0.11.2     -> 0.12.0_1
+aom              3.14.1     -> 3.15.3
+readline         8.3.3      -> 8.3.6
+sqlite           3.53.3     -> 3.54.1
+harfbuzz         14.6.0     -> 15.0.0_1
+==> Would install 90 dependencies for pdal:
+abseil              20260817.0
+aws-c-common        1.0.5
+aws-c-cal           1.0.0_1
+aws-c-compression   1.0.0
+s2n                 1.7.13
+aws-c-io            1.1.1
+aws-c-http          1.1.1
+aws-c-sdkutils      1.0.1
+aws-c-auth          1.0.2
+aws-checksums       1.0.1
+aws-c-event-stream  1.0.0_1
+aws-c-mqtt          1.1.2
+aws-c-s3            1.5.1
+aws-crt-cpp         0.44.3
+aws-sdk-cpp         1.11.915_2
+protobuf            36.2
+re2                 2025-11-05_2
+grpc                1.85.1
+z3                  5.3.3
+llvm                23.1.4
+snappy              1.3.1
+thrift              0.25.0_1
+uriparser           1.0.3
+apache-arrow        26.0.0_3
+libpsl              0.23.3
+libssh2             1.11.1_7
+curl                8.23.0
+draco               1.5.9
+c-blosc             1.21.7
+cfitsio             4.7.0
+popt                1.19
+epsilon             0.9.2
+minizip             1.3.2_1
+freexl              2.0.0
+geos                3.15.0
+gmp                 6.3.0
+isl                 0.28
+mpfr                4.2.2
+libmpc              1.4.1
+gcc                 16.2.0
+libaec              1.1.7
+hdf5                2.2.0
+libb2               0.98.1
+libarchive          3.8.11
+proj                9.9.0
+libgeotiff          1.7.4
+libde265            1.1.3
+libheif             1.23.7
+libkml              1.3.0_1
+liblerc             4.3.0
+icu4c@79            79.1
+krb5                1.22.2_2
+libpq               18.6_2
+librttopo           1.1.0
+libxml2             2.15.4
+libspatialite       5.1.0_4
+netcdf              4.10.1_1
+openblas            0.3.34
+numpy               2.5.4
+openjpeg            2.5.4_1
+libidn2             2.3.8
+libtasn1            4.21.0
+nettle              4.0
+p11-kit             0.26.5
+gnutls              3.8.13_2
+libgpg-error        1.61
+libassuan           3.0.2
+libgcrypt           1.12.4
+libksba             1.8.1
+npth                1.8
+pinentry            1.3.3
+gnupg               2.5.24_1
+gpgme               2.2.0
+gpgmepp             2.2.0
+nspr                4.40
+nss                 3.132
+poppler             26.10.0
+python@3.15         3.15.2
+qhull               2020.2
+boost               1.92.0_1
+eigen               5.0.1
+cgal                6.2.1
+sfcgal              2.3.0_1
+m4                  1.4.21
+libtool             2.6.2
+unixodbc            2.3.14
+xerces-c            3.3.0
+gdal                3.13.3_5
+spdlog              1.17.0
+tiledb              2.30.1_1
+==> Would upgrade 23 dependencies for pdal:
+ca-certificates  2026-09-25 -> 2026-10-20
+openssl@4        4.0.3      -> 4.1.0
+brotli           1.2.0      -> 1.2.1
+c-ares           1.34.6     -> 1.34.9
+simdjson         4.6.4      -> 5.1.0
+utf8proc         2.11.3     -> 2.12.0
+libnghttp2       1.69.0     -> 1.70.0
+libnghttp3       1.16.0     -> 1.18.0
+libngtcp2        1.23.0     -> 1.25.0_1
+pkgconf          3.0.7      -> 3.0.10
+imath            3.2.2      -> 3.2.3
+jpeg-turbo       3.2.0      -> 3.2.1
+libdeflate       1.25       -> 1.26
+openjph          0.27.3     -> 0.32.0
+openexr          3.4.12     -> 3.5.3
+jpeg-xl          0.11.2     -> 0.12.0_1
+libvmaf          3.2.0      -> 3.2.1
+aom              3.14.1     -> 3.15.3
+readline         8.3.3      -> 8.3.6
+sqlite           3.53.3     -> 3.54.1
+libomp           23.1.3     -> 23.1.4
+harfbuzz         14.6.0     -> 15.0.0_1
+fmt              12.1.0     -> 12.2.0
+==> Fetching downloads for: colmap and pdal
+✔︎ Bottle Manifest eigen (5.0.1)
+✔︎ Bottle Manifest icu4c@79 (79.1)
+✔︎ Bottle Manifest gflags (2.3.1)
+✔︎ Bottle Manifest glog (0.7.1)
+✔︎ Bottle Manifest gmp (6.3.0)
+✔︎ Bottle Manifest isl (0.28)
+✔︎ Bottle Manifest mpfr (4.2.2)
+✔︎ Bottle Manifest metis (5.1.0)
+✔︎ Bottle Manifest boost (1.92.0_1)
+✔︎ Bottle glog (0.7.1)
+✔︎ Bottle Manifest libmpc (1.4.1)
+✔︎ Bottle Manifest gcc (16.2.0)
+✔︎ Bottle Manifest libomp (23.1.4)
+✔︎ Bottle Manifest openblas (0.3.34)
+✔︎ Bottle gflags (2.3.1)
+✔︎ Bottle Manifest suite-sparse (7.14.1)
+✔︎ Bottle Manifest hwloc (2.15.0)
+✔︎ Bottle Manifest ceres-solver (2.2.0_6)
+✔︎ Bottle Manifest cgal (6.2.1)
+✔︎ Bottle libmpc (1.4.1)
+✔︎ Bottle libomp (23.1.4)
+✔︎ Bottle eigen (5.0.1)
+✔︎ Bottle mpfr (4.2.2)
+✔︎ Bottle Manifest tbb (2023.2.0)
+✔︎ Bottle Manifest faiss (1.15.1)
+✔︎ Bottle Manifest libaec (1.1.7)
+✔︎ Bottle Manifest pkgconf (3.0.10)
+✔︎ Bottle tbb (2023.2.0)
+✔︎ Bottle Manifest hdf5 (2.2.0)
+✔︎ Bottle Manifest flann (1.9.2_4)
+✔︎ Bottle libaec (1.1.7)
+✔︎ Bottle gmp (6.3.0)
+✔︎ Bottle Manifest glew (2.3.1)
+✔︎ Bottle Manifest abseil (20260817.0)
+✔︎ Bottle Manifest protobuf (36.2)
+✔︎ Bottle Manifest onnx (1.23.2)
+✔︎ Bottle pkgconf (3.0.10)
+✔︎ Bottle Manifest re2 (2025-11-05_2)
+✔︎ Bottle glew (2.3.1)
+✔︎ Bottle Manifest onnxruntime (1.31.1)
+✔︎ Bottle ceres-solver (2.2.0_6)
+✔︎ Bottle Manifest ca-certificates (2026-10-20)
+✔︎ Bottle abseil (20260817.0)
+✔︎ Bottle isl (0.28)
+✔︎ Bottle Manifest libvmaf (3.2.1)
+✔︎ Bottle onnx (1.23.2)
+✔︎ Bottle Manifest openssl@4 (4.1.0)
+✔︎ Bottle Manifest ffmpeg (9.0.2_1)
+✔︎ Bottle Manifest fmt (12.2.0)
+✔︎ Bottle re2 (2025-11-05_2)
+✔︎ Bottle Manifest brotli (1.2.1)
+✔︎ Bottle Manifest imath (3.2.3)
+✔︎ Bottle ca-certificates (2026-10-20)
+✔︎ Bottle Manifest jpeg-turbo (3.2.1)
+✔︎ Bottle faiss (1.15.1)
+✔︎ Bottle protobuf (36.2)
+✔︎ Bottle fmt (12.2.0)
+✔︎ Bottle brotli (1.2.1)
+✔︎ Bottle Manifest libdeflate (1.26)
+✔︎ Bottle Manifest openjph (0.32.0)
+✔︎ Bottle libvmaf (3.2.1)
+✔︎ Bottle imath (3.2.3)
+✔︎ Bottle flann (1.9.2_4)
+✔︎ Bottle libdeflate (1.26)
+✔︎ Bottle Manifest openexr (3.5.3)
+✔︎ Bottle Manifest jpeg-xl (0.12.0_1)
+✔︎ Bottle Manifest aom (3.15.3)
+✔︎ Bottle Manifest libde265 (1.1.3)
+✔︎ Bottle Manifest libheif (1.23.7)
+✔︎ Bottle hwloc (2.15.0)
+✔︎ Bottle openjph (0.32.0)
+✔︎ Bottle Manifest libraw (0.22.3)
+✔︎ Bottle Manifest minizip-ng (4.2.2)
+✔︎ Bottle Manifest pystring (1.2.0)
+✔︎ Bottle jpeg-turbo (3.2.1)
+✔︎ Bottle Manifest yaml-cpp (0.9.0)
+✔︎ Bottle openexr (3.5.3)
+✔︎ Bottle Manifest zlib-ng-compat (2.3.3_1)
+✔︎ Bottle libde265 (1.1.3)
+✔︎ Bottle minizip-ng (4.2.2)
+✔︎ Bottle pystring (1.2.0)
+✔︎ Bottle Manifest opencolorio (2.6.0)
+✔︎ Bottle libheif (1.23.7)
+✔︎ Bottle yaml-cpp (0.9.0)
+✔︎ Bottle Manifest pugixml (1.16)
+✔︎ Bottle Manifest readline (8.3.6)
+✔︎ Bottle zlib-ng-compat (2.3.3_1)
+✔︎ Bottle Manifest sqlite (3.54.1)
+✔︎ Bottle colmap (4.2.1_4)
+✔︎ Bottle Manifest python@3.15 (3.15.2)
+✔︎ Bottle Manifest dbus (1.16.2_1)
+✔︎ Bottle libraw (0.22.3)
+✔︎ Bottle Manifest openimageio (3.2.2.0)
+✔︎ Bottle Manifest double-conversion (3.4.0)
+✔︎ Bottle metis (5.1.0)
+✔︎ Bottle Manifest harfbuzz (15.0.0_1)
+✔︎ Bottle aom (3.15.3)
+✔︎ Bottle pugixml (1.16)
+✔︎ Bottle Manifest libb2 (0.98.1)
+✔︎ Bottle Manifest md4c (0.6.0)
+✔︎ Bottle readline (8.3.6)
+✔︎ Bottle sqlite (3.54.1)
+✔︎ Bottle onnxruntime (1.31.1)
+✔︎ Bottle Manifest qtbase (6.12.0_2)
+✔︎ Bottle Manifest aws-c-common (1.0.5)
+✔︎ Bottle Manifest aws-c-cal (1.0.0_1)
+✔︎ Bottle Manifest aws-c-compression (1.0.0)
+✔︎ Bottle opencolorio (2.6.0)
+✔︎ Bottle Manifest qtsvg (6.12.0_1)
+✔︎ Bottle dbus (1.16.2_1)
+✔︎ Bottle libb2 (0.98.1)
+✔︎ Bottle Manifest s2n (1.7.13)
+✔︎ Bottle md4c (0.6.0)
+✔︎ Bottle Manifest aws-c-io (1.1.1)
+✔︎ Bottle Manifest aws-c-http (1.1.1)
+✔︎ Bottle Manifest aws-c-sdkutils (1.0.1)
+✔︎ Bottle double-conversion (3.4.0)
+✔︎ Bottle Manifest aws-c-auth (1.0.2)
+✔︎ Bottle harfbuzz (15.0.0_1)
+✔︎ Bottle Manifest aws-checksums (1.0.1)
+✔︎ Bottle qtsvg (6.12.0_1)
+✔︎ Bottle Manifest aws-c-event-stream (1.0.0_1)
+✔︎ Bottle aws-c-common (1.0.5)
+✔︎ Bottle Manifest aws-c-s3 (1.5.1)
+✔︎ Bottle aws-c-cal (1.0.0_1)
+✔︎ Bottle aws-c-compression (1.0.0)
+✔︎ Bottle aws-c-http (1.1.1)
+✔︎ Bottle Manifest aws-c-mqtt (1.1.2)
+✔︎ Bottle aws-c-sdkutils (1.0.1)
+✔︎ Bottle aws-c-io (1.1.1)
+✔︎ Bottle Manifest aws-crt-cpp (0.44.3)
+✔︎ Bottle Manifest aws-sdk-cpp (1.11.915_2)
+✔︎ Bottle Manifest c-ares (1.34.9)
+✔︎ Bottle Manifest grpc (1.85.1)
+✔︎ Bottle aws-c-auth (1.0.2)
+✔︎ Bottle aws-checksums (1.0.1)
+✔︎ Bottle Manifest z3 (5.3.3)
+✔︎ Bottle Manifest llvm (23.1.4)
+✔︎ Bottle Manifest simdjson (5.1.0)
+✔︎ Bottle Manifest snappy (1.3.1)
+✔︎ Bottle Manifest thrift (0.25.0_1)
+✔︎ Bottle hdf5 (2.2.0)
+✔︎ Bottle Manifest uriparser (1.0.3)
+✔︎ Bottle aws-c-event-stream (1.0.0_1)
+✔︎ Bottle Manifest utf8proc (2.12.0)
+✔︎ Bottle aws-c-mqtt (1.1.2)
+✔︎ Bottle s2n (1.7.13)
+✔︎ Bottle Manifest apache-arrow (26.0.0_3)
+✔︎ Bottle aws-c-s3 (1.5.1)
+✔︎ Bottle Manifest libnghttp2 (1.70.0)
+✔︎ Bottle Manifest libnghttp3 (1.18.0)
+✔︎ Bottle aws-crt-cpp (0.44.3)
+✔︎ Bottle Manifest libngtcp2 (1.25.0_1)
+✔︎ Bottle c-ares (1.34.9)
+✔︎ Bottle Manifest libpsl (0.23.3)
+✔︎ Bottle snappy (1.3.1)
+✔︎ Bottle uriparser (1.0.3)
+✔︎ Bottle utf8proc (2.12.0)
+✔︎ Bottle Manifest libssh2 (1.11.1_7)
+✔︎ Bottle Manifest curl (8.23.0)
+✔︎ Bottle Manifest draco (1.5.9)
+✔︎ Bottle Manifest c-blosc (1.21.7)
+✔︎ Bottle openimageio (3.2.2.0)
+✔︎ Bottle Manifest cfitsio (4.7.0)
+✔︎ Bottle libnghttp2 (1.70.0)
+✔︎ Bottle libnghttp3 (1.18.0)
+✔︎ Bottle Manifest popt (1.19)
+✔︎ Bottle cgal (6.2.1)
+✔︎ Bottle thrift (0.25.0_1)
+✔︎ Bottle Manifest epsilon (0.9.2)
+✔︎ Bottle libngtcp2 (1.25.0_1)
+✔︎ Bottle Manifest minizip (1.3.2_1)
+✔︎ Bottle simdjson (5.1.0)
+✔︎ Bottle libpsl (0.23.3)
+✔︎ Bottle Manifest geos (3.15.0)
+✔︎ Bottle libssh2 (1.11.1_7)
+✔︎ Bottle Manifest freexl (2.0.0)
+✔︎ Bottle Manifest libarchive (3.8.11)
+✔︎ Bottle Manifest proj (9.9.0)
+✔︎ Bottle Manifest libgeotiff (1.7.4)
+✔︎ Bottle draco (1.5.9)
+✔︎ Bottle curl (8.23.0)
+✔︎ Bottle Manifest libkml (1.3.0_1)
+✔︎ Bottle Manifest liblerc (4.3.0)
+✔︎ Bottle c-blosc (1.21.7)
+✔︎ Bottle Manifest krb5 (1.22.2_2)
+✔︎ Bottle popt (1.19)
+✔︎ Bottle Manifest libpq (18.6_2)
+✔︎ Bottle cfitsio (4.7.0)
+✔︎ Bottle Manifest librttopo (1.1.0)
+✔︎ Bottle epsilon (0.9.2)
+✔︎ Bottle Manifest libxml2 (2.15.4)
+✔︎ Bottle minizip (1.3.2_1)
+✔︎ Bottle freexl (2.0.0)
+✔︎ Bottle Manifest libspatialite (5.1.0_4)
+✔︎ Bottle Manifest netcdf (4.10.1_1)
+✔︎ Bottle libarchive (3.8.11)
+✔︎ Bottle Manifest numpy (2.5.4)
+✔︎ Bottle libgeotiff (1.7.4)
+✔︎ Bottle libkml (1.3.0_1)
+✔︎ Bottle Manifest openjpeg (2.5.4_1)
+✔︎ Bottle Manifest libidn2 (2.3.8)
+✔︎ Bottle Manifest libtasn1 (4.21.0)
+✔︎ Bottle liblerc (4.3.0)
+✔︎ Bottle krb5 (1.22.2_2)
+✔︎ Bottle Manifest nettle (4.0)
+✔︎ Bottle openblas (0.3.34)
+✔︎ Bottle Manifest p11-kit (0.26.5)
+✔︎ Bottle Manifest gnutls (3.8.13_2)
+✔︎ Bottle librttopo (1.1.0)
+✔︎ Bottle libxml2 (2.15.4)
+✔︎ Bottle Manifest libgpg-error (1.61)
+✔︎ Bottle netcdf (4.10.1_1)
+✔︎ Bottle suite-sparse (7.14.1)
+✔︎ Bottle Manifest libassuan (3.0.2)
+✔︎ Bottle jpeg-xl (0.12.0_1)
+✔︎ Bottle Manifest libgcrypt (1.12.4)
+✔︎ Bottle openssl@4 (4.1.0)
+✔︎ Bottle libidn2 (2.3.8)
+✔︎ Bottle Manifest libksba (1.8.1)
+✔︎ Bottle Manifest npth (1.8)
+✔︎ Bottle grpc (1.85.1)
+✔︎ Bottle Manifest pinentry (1.3.3)
+✔︎ Bottle libtasn1 (4.21.0)
+✔︎ Bottle openjpeg (2.5.4_1)
+✔︎ Bottle nettle (4.0)
+✔︎ Bottle geos (3.15.0)
+✔︎ Bottle Manifest gnupg (2.5.24_1)
+✔︎ Bottle Manifest gpgme (2.2.0)
+✔︎ Bottle Manifest nspr (4.40)
+✔︎ Bottle p11-kit (0.26.5)
+✔︎ Bottle Manifest gpgmepp (2.2.0)
+✔︎ Bottle Manifest nss (3.132)
+✔︎ Bottle libspatialite (5.1.0_4)
+✔︎ Bottle Manifest poppler (26.10.0)
+✔︎ Bottle Manifest qhull (2020.2)
+✔︎ Bottle npth (1.8)
+✔︎ Bottle Manifest sfcgal (2.3.0_1)
+✔︎ Bottle Manifest m4 (1.4.21)
+✔︎ Bottle libassuan (3.0.2)
+✔︎ Bottle Manifest libtool (2.6.2)
+✔︎ Bottle libgpg-error (1.61)
+✔︎ Bottle Manifest unixodbc (2.3.14)
+✔︎ Bottle libksba (1.8.1)
+✔︎ Bottle Manifest xerces-c (3.3.0)
+✔︎ Bottle libgcrypt (1.12.4)
+✔︎ Bottle pinentry (1.3.3)
+✔︎ Bottle Manifest gdal (3.13.3_5)
+✔︎ Bottle Manifest spdlog (1.17.0)
+✔︎ Bottle Manifest tiledb (2.30.1_1)
+✔︎ Bottle gpgmepp (2.2.0)
+✔︎ Bottle gnutls (3.8.13_2)
+✔︎ Bottle nspr (4.40)
+✔︎ Bottle gpgme (2.2.0)
+✔︎ Bottle m4 (1.4.21)
+✔︎ Bottle unixodbc (2.3.14)
+✔︎ Bottle qhull (2020.2)
+✔︎ Bottle libtool (2.6.2)
+✔︎ Bottle ffmpeg (9.0.2_1)
+✔︎ Bottle spdlog (1.17.0)
+✔︎ Bottle nss (3.132)
+✔︎ Bottle qtbase (6.12.0_2)
+✔︎ Bottle sfcgal (2.3.0_1)
+✔︎ Bottle gnupg (2.5.24_1)
+✔︎ Bottle tiledb (2.30.1_1)
+✔︎ Bottle libpq (18.6_2)
+✔︎ Bottle poppler (26.10.0)
+✔︎ Bottle z3 (5.3.3)
+✔︎ Bottle numpy (2.5.4)
+✔︎ Bottle xerces-c (3.3.0)
+✔︎ Bottle python@3.15 (3.15.2)
+✔︎ Bottle gdal (3.13.3_5)
+✔︎ Bottle apache-arrow (26.0.0_3)
+✔︎ Bottle icu4c@79 (79.1)
+✔︎ Bottle boost (1.92.0_1)
+✔︎ Bottle pdal (2.10.2_5)
+✔︎ Bottle aws-sdk-cpp (1.11.915_2)
+✔︎ Bottle gcc (16.2.0)
+✔︎ Bottle llvm (23.1.4)
+✔︎ Bottle proj (9.9.0)
+==> Installing dependencies for colmap: icu4c@79, boost, gflags, glog, eigen, metis, gmp, isl, mpfr, libmpc, gcc, libomp, openblas, suite-sparse, hwloc, tbb, ceres-solver, cgal, faiss, libaec, pkgconf, hdf5, flann, glew, abseil, protobuf, onnx, re2, onnxruntime, libvmaf, ca-certificates, openssl@4, ffmpeg, fmt, brotli, imath, libdeflate, openjph, openexr, jpeg-xl, aom, libde265, libheif, libraw, minizip-ng, pystring, yaml-cpp, zlib-ng-compat, opencolorio, pugixml, readline, sqlite, python@3.15, openimageio, dbus, double-conversion, harfbuzz, libb2, md4c, qtbase and qtsvg
+==> Installing colmap dependency: icu4c@79 (79.1)
+==> Pouring icu4c@79--79.1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/icu4c@79/79.1: 279 files, 88.6MB
+==> Installing colmap dependency: boost (1.92.0_1)
+==> Pouring boost--1.92.0_1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/boost/1.92.0_1: 16,678 files, 360.9MB
+==> Installing colmap dependency: gflags (2.3.1)
+==> Pouring gflags--2.3.1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gflags/2.3.1: 27 files, 721.7KB
+==> Installing colmap dependency: glog (0.7.1)
+==> Pouring glog--0.7.1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/glog/0.7.1: 25 files, 427.8KB
+==> Installing colmap dependency: eigen (5.0.1)
+==> Pouring eigen--5.0.1.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/eigen/5.0.1: 615 files, 10.2MB
+==> Installing colmap dependency: metis (5.1.0)
+==> Pouring metis--5.1.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/metis/5.1.0: 19 files, 12.6MB
+==> Installing colmap dependency: gmp (6.3.0)
+==> Pouring gmp--6.3.0.arm64_golden_gate.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/gmp/6.3.0: 22 files, 3.4MB
+==> Installing colmap dependency: isl (0.28)
+==> Pouring isl--0.28.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/isl/0.28: 80 files, 8MB
+==> Installing colmap dependency: mpfr (4.2.2)
+==> Pouring mpfr--4.2.2.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/mpfr/4.2.2: 31 files, 3.3MB
+==> Installing colmap dependency: libmpc (1.4.1)
+==> Pouring libmpc--1.4.1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libmpc/1.4.1: 14 files, 527.6KB
+==> Installing colmap dependency: gcc (16.2.0)
+==> Pouring gcc--16.2.0.arm64_golden_gate.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/gcc/16.2.0: 1,705 files, 500.6MB
+==> Upgrading colmap dependency: libomp (23.1.3 -> 23.1.4)
+==> Pouring libomp--23.1.4.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libomp/23.1.4: 11 files, 1.8MB
+==> Installing colmap dependency: openblas (0.3.34)
+==> Pouring openblas--0.3.34.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openblas/0.3.34: 30 files, 40.3MB
+==> Installing colmap dependency: suite-sparse (7.14.1)
+==> Pouring suite-sparse--7.14.1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/suite-sparse/7.14.1: 258 files, 50.7MB
+==> Installing colmap dependency: hwloc (2.15.0)
+==> Pouring hwloc--2.15.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/hwloc/2.15.0: 996 files, 11.3MB
+==> Installing colmap dependency: tbb (2023.2.0)
+==> Pouring tbb--2023.2.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/tbb/2023.2.0: 187 files, 2.9MB
+==> Installing colmap dependency: ceres-solver (2.2.0_6)
+==> Pouring ceres-solver--2.2.0_6.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ceres-solver/2.2.0_6: 167 files, 14.5MB
+==> Installing colmap dependency: cgal (6.2.1)
+==> Pouring cgal--6.2.1.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/cgal/6.2.1: 3,930 files, 44.5MB
+==> Installing colmap dependency: faiss (1.15.1)
+==> Pouring faiss--1.15.1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/faiss/1.15.1: 283 files, 10.6MB
+==> Installing colmap dependency: libaec (1.1.7)
+==> Pouring libaec--1.1.7.arm64_golden_gate.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/libaec/1.1.7: 23 files, 222.7KB
+==> Upgrading colmap dependency: pkgconf (3.0.7 -> 3.0.10)
+==> Pouring pkgconf--3.0.10.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pkgconf/3.0.10: 35 files, 752.9KB
+==> Installing colmap dependency: hdf5 (2.2.0)
+==> Pouring hdf5--2.2.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/hdf5/2.2.0: 272 files, 23.2MB
+==> Installing colmap dependency: flann (1.9.2_4)
+==> Pouring flann--1.9.2_4.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/flann/1.9.2_4: 67 files, 11MB
+==> Installing colmap dependency: glew (2.3.1)
+==> Pouring glew--2.3.1.arm64_golden_gate.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/glew/2.3.1: 39 files, 3.3MB
+==> Installing colmap dependency: abseil (20260817.0)
+==> Pouring abseil--20260817.0.arm64_golden_gate.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/abseil/20260817.0: 832 files, 11.8MB
+==> Installing colmap dependency: protobuf (36.2)
+==> Pouring protobuf--36.2.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/protobuf/36.2: 387 files, 17.9MB
+==> Installing colmap dependency: onnx (1.23.2)
+==> Pouring onnx--1.23.2.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/onnx/1.23.2: 124 files, 7.1MB
+==> Installing colmap dependency: re2 (2025-11-05_2)
+==> Pouring re2--2025-11-05_2.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/re2/2025-11-05_2: 18 files, 1.2MB
+==> Installing colmap dependency: onnxruntime (1.31.1)
+==> Pouring onnxruntime--1.31.1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/onnxruntime/1.31.1: 33 files, 22MB
+==> Upgrading colmap dependency: libvmaf (3.2.0 -> 3.2.1)
+==> Pouring libvmaf--3.2.1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libvmaf/3.2.1: 243 files, 8.2MB
+==> Upgrading colmap dependency: ca-certificates (2026-09-25 -> 2026-10-20)
+==> Pouring ca-certificates--2026-10-20.all.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ca-certificates/2026-10-20: 5 files, 196.1KB
+==> Upgrading colmap dependency: openssl@4 (4.0.3 -> 4.1.0)
+==> Pouring openssl@4--4.1.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@4/4.1.0: 6,869 files, 24.6MB
+==> Upgrading colmap dependency: ffmpeg (9.0.1_1 -> 9.0.2_1)
+==> Pouring ffmpeg--9.0.2_1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/ffmpeg/9.0.2_1: 290 files, 53.9MB
+==> Upgrading colmap dependency: fmt (12.1.0 -> 12.2.0)
+==> Pouring fmt--12.2.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/fmt/12.2.0: 31 files, 1.1MB
+==> Upgrading colmap dependency: brotli (1.2.0 -> 1.2.1)
+==> Pouring brotli--1.2.1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/brotli/1.2.1: 33 files, 1.9MB
+==> Upgrading colmap dependency: imath (3.2.2 -> 3.2.3)
+==> Pouring imath--3.2.3.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/imath/3.2.3: 50 files, 977.3KB
+==> Upgrading colmap dependency: libdeflate (1.25 -> 1.26)
+==> Pouring libdeflate--1.26.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libdeflate/1.26: 17 files, 303.3KB
+==> Upgrading colmap dependency: openjph (0.27.3 -> 0.32.0)
+==> Pouring openjph--0.32.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjph/0.32.0: 25 files, 629.8KB
+==> Upgrading colmap dependency: openexr (3.4.12 -> 3.5.3)
+==> Upgrading openexr dependency: jpeg-turbo (3.2.0 -> 3.2.1)
+==> Pouring jpeg-turbo--3.2.1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jpeg-turbo/3.2.1: 47 files, 4.1MB
+==> Installing openexr
+==> Pouring openexr--3.5.3.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openexr/3.5.3: 214 files, 4.6MB
+==> Upgrading colmap dependency: jpeg-xl (0.11.2 -> 0.12.0_1)
+==> Pouring jpeg-xl--0.12.0_1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/jpeg-xl/0.12.0_1: 65 files, 36.9MB
+==> Upgrading colmap dependency: aom (3.14.1 -> 3.15.3)
+==> Pouring aom--3.15.3.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/aom/3.15.3: 30 files, 11.3MB
+==> Installing colmap dependency: libde265 (1.1.3)
+==> Pouring libde265--1.1.3.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libde265/1.1.3: 18 files, 436.6KB
+==> Installing colmap dependency: libheif (1.23.7)
+==> Pouring libheif--1.23.7.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libheif/1.23.7: 53 files, 9.2MB
+==> Installing colmap dependency: libraw (0.22.3)
+==> Pouring libraw--0.22.3.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libraw/0.22.3: 74 files, 6.2MB
+==> Installing colmap dependency: minizip-ng (4.2.2)
+==> Pouring minizip-ng--4.2.2.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/minizip-ng/4.2.2: 35 files, 425.8KB
+==> Installing colmap dependency: pystring (1.2.0)
+==> Pouring pystring--1.2.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pystring/1.2.0: 17 files, 269.2KB
+==> Installing colmap dependency: yaml-cpp (0.9.0)
+==> Pouring yaml-cpp--0.9.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/yaml-cpp/0.9.0: 51 files, 467.8KB
+==> Installing colmap dependency: zlib-ng-compat (2.3.3_1)
+==> Pouring zlib-ng-compat--2.3.3_1.arm64_golden_gate.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/zlib-ng-compat/2.3.3_1: 17 files, 428KB
+==> Installing colmap dependency: opencolorio (2.6.0)
+==> Pouring opencolorio--2.6.0.arm64_golden_gate.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/opencolorio/2.6.0: 43 files, 13MB
+==> Installing colmap dependency: pugixml (1.16)
+==> Pouring pugixml--1.16.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pugixml/1.16: 16 files, 507KB
+==> Upgrading colmap dependency: readline (8.3.3 -> 8.3.6)
+==> Pouring readline--8.3.6.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/readline/8.3.6: 56 files, 2.6MB
+==> Upgrading colmap dependency: sqlite (3.53.3 -> 3.54.1)
+==> Pouring sqlite--3.54.1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.54.1: 13 files, 5.4MB
+==> Installing colmap dependency: python@3.15 (3.15.2)
+==> Pouring python@3.15--3.15.2.arm64_golden_gate.bottle.tar.gz
+Warning: These files were overwritten during the `brew link` step:
+/opt/homebrew/bin/idle3
+/opt/homebrew/bin/pip3
+/opt/homebrew/bin/pydoc3
+/opt/homebrew/bin/python3
+/opt/homebrew/bin/python3-config
+/opt/homebrew/share/man/man1/python3.1
+/opt/homebrew/lib/pkgconfig/python3-embed.pc
+/opt/homebrew/lib/pkgconfig/python3.pc
+/opt/homebrew/Frameworks/Python.framework/Headers
+/opt/homebrew/Frameworks/Python.framework/Python
+/opt/homebrew/Frameworks/Python.framework/Resources
+/opt/homebrew/Frameworks/Python.framework/Versions/Current
+
+They have been backed up to: /Users/rishabh/Library/Caches/Homebrew/Backup
+==> Summary
+🍺  /opt/homebrew/Cellar/python@3.15/3.15.2: 4,002 files, 79.8MB
+==> Installing colmap dependency: openimageio (3.2.2.0)
+==> Pouring openimageio--3.2.2.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openimageio/3.2.2.0: 102 files, 16.5MB
+==> Installing colmap dependency: dbus (1.16.2_1)
+==> Pouring dbus--1.16.2_1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/dbus/1.16.2_1: 79 files, 2MB
+==> Installing colmap dependency: double-conversion (3.4.0)
+==> Pouring double-conversion--3.4.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/double-conversion/3.4.0: 29 files, 258KB
+==> Upgrading colmap dependency: harfbuzz (14.6.0 -> 15.0.0_1)
+==> Pouring harfbuzz--15.0.0_1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/harfbuzz/15.0.0_1: 96 files, 16.3MB
+==> Installing colmap dependency: libb2 (0.98.1)
+==> Pouring libb2--0.98.1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libb2/0.98.1: 9 files, 113.6KB
+==> Installing colmap dependency: md4c (0.6.0)
+==> Pouring md4c--0.6.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/md4c/0.6.0: 20 files, 307.5KB
+==> Installing colmap dependency: qtbase (6.12.0_2)
+==> Pouring qtbase--6.12.0_2.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/qtbase/6.12.0_2: 5,965 files, 62.3MB
+==> Installing colmap dependency: qtsvg (6.12.0_1)
+==> Pouring qtsvg--6.12.0_1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/qtsvg/6.12.0_1: 132 files, 1.2MB
+==> Installing colmap
+==> Pouring colmap--4.2.1_4.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/colmap/4.2.1_4: 491 files, 39.9MB
+==> Installing dependencies for pdal: aws-c-common, aws-c-cal, aws-c-compression, s2n, aws-c-io, aws-c-http, aws-c-sdkutils, aws-c-auth, aws-checksums, aws-c-event-stream, aws-c-mqtt, aws-c-s3, aws-crt-cpp, aws-sdk-cpp, c-ares, grpc, z3, llvm, simdjson, snappy, thrift, uriparser, utf8proc, apache-arrow, libnghttp2, libnghttp3, libngtcp2, libpsl, libssh2, curl, draco, c-blosc, cfitsio, popt, epsilon, minizip, freexl, geos, libarchive, proj, libgeotiff, libkml, liblerc, krb5, libpq, librttopo, libxml2, libspatialite, netcdf, numpy, openjpeg, libidn2, libtasn1, nettle, p11-kit, gnutls, libgpg-error, libassuan, libgcrypt, libksba, npth, pinentry, gnupg, gpgme, gpgmepp, nspr, nss, poppler, qhull, sfcgal, m4, libtool, unixodbc, xerces-c, gdal, spdlog and tiledb
+==> Installing pdal dependency: aws-c-common (1.0.5)
+==> Pouring aws-c-common--1.0.5.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/aws-c-common/1.0.5: 111 files, 1.1MB
+==> Installing pdal dependency: aws-c-cal (1.0.0_1)
+==> Pouring aws-c-cal--1.0.0_1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/aws-c-cal/1.0.0_1: 23 files, 187.8KB
+==> Installing pdal dependency: aws-c-compression (1.0.0)
+==> Pouring aws-c-compression--1.0.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/aws-c-compression/1.0.0: 16 files, 92.2KB
+==> Installing pdal dependency: s2n (1.7.13)
+==> Pouring s2n--1.7.13.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/s2n/1.7.13: 28 files, 3MB
+==> Installing pdal dependency: aws-c-io (1.1.1)
+==> Pouring aws-c-io--1.1.1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/aws-c-io/1.1.1: 43 files, 860KB
+==> Installing pdal dependency: aws-c-http (1.1.1)
+==> Pouring aws-c-http--1.1.1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/aws-c-http/1.1.1: 24 files, 576.4KB
+==> Installing pdal dependency: aws-c-sdkutils (1.0.1)
+==> Pouring aws-c-sdkutils--1.0.1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/aws-c-sdkutils/1.0.1: 21 files, 195.2KB
+==> Installing pdal dependency: aws-c-auth (1.0.2)
+==> Pouring aws-c-auth--1.0.2.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/aws-c-auth/1.0.2: 21 files, 419.4KB
+==> Installing pdal dependency: aws-checksums (1.0.1)
+==> Pouring aws-checksums--1.0.1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/aws-checksums/1.0.1: 16 files, 157.3KB
+==> Installing pdal dependency: aws-c-event-stream (1.0.0_1)
+==> Pouring aws-c-event-stream--1.0.0_1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/aws-c-event-stream/1.0.0_1: 19 files, 206.7KB
+==> Installing pdal dependency: aws-c-mqtt (1.1.2)
+==> Pouring aws-c-mqtt--1.1.2.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/aws-c-mqtt/1.1.2: 22 files, 518.7KB
+==> Installing pdal dependency: aws-c-s3 (1.5.1)
+==> Pouring aws-c-s3--1.5.1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/aws-c-s3/1.5.1: 19 files, 481.6KB
+==> Installing pdal dependency: aws-crt-cpp (0.44.3)
+==> Pouring aws-crt-cpp--0.44.3.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/aws-crt-cpp/0.44.3: 71 files, 1.8MB
+==> Installing pdal dependency: aws-sdk-cpp (1.11.915_2)
+==> Pouring aws-sdk-cpp--1.11.915_2.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/aws-sdk-cpp/1.11.915_2: 88,138 files, 683.4MB
+==> Upgrading pdal dependency: c-ares (1.34.6 -> 1.34.9)
+==> Pouring c-ares--1.34.9.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/c-ares/1.34.9: 176 files, 1.1MB
+==> Installing pdal dependency: grpc (1.85.1)
+==> Pouring grpc--1.85.1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/grpc/1.85.1: 404 files, 36MB
+==> Installing pdal dependency: z3 (5.3.3)
+==> Pouring z3--5.3.3.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/z3/5.3.3: 143 files, 44.9MB
+==> Installing pdal dependency: llvm (23.1.4)
+==> Pouring llvm--23.1.4.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/llvm/23.1.4: 9,338 files, 1.9GB
+==> Upgrading pdal dependency: simdjson (4.6.4 -> 5.1.0)
+==> Pouring simdjson--5.1.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/simdjson/5.1.0: 19 files, 10.7MB
+==> Installing pdal dependency: snappy (1.3.1)
+==> Pouring snappy--1.3.1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/snappy/1.3.1: 20 files, 173.5KB
+==> Installing pdal dependency: thrift (0.25.0_1)
+==> Pouring thrift--0.25.0_1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/thrift/0.25.0_1: 107 files, 7.4MB
+==> Installing pdal dependency: uriparser (1.0.3)
+==> Pouring uriparser--1.0.3.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/uriparser/1.0.3: 25 files, 376.2KB
+==> Upgrading pdal dependency: utf8proc (2.11.3 -> 2.12.0)
+==> Pouring utf8proc--2.12.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/utf8proc/2.12.0: 15 files, 461.5KB
+==> Installing pdal dependency: apache-arrow (26.0.0_3)
+==> Pouring apache-arrow--26.0.0_3.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/apache-arrow/26.0.0_3: 600 files, 128.2MB
+==> Upgrading pdal dependency: libnghttp2 (1.69.0 -> 1.70.0)
+==> Pouring libnghttp2--1.70.0.arm64_golden_gate.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp2/1.70.0: 14 files, 857.9KB
+==> Upgrading pdal dependency: libnghttp3 (1.16.0 -> 1.18.0)
+==> Pouring libnghttp3--1.18.0.arm64_golden_gate.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/libnghttp3/1.18.0: 20 files, 600.7KB
+==> Upgrading pdal dependency: libngtcp2 (1.23.0 -> 1.25.0_1)
+==> Pouring libngtcp2--1.25.0_1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libngtcp2/1.25.0_1: 21 files, 1.4MB
+==> Installing pdal dependency: libpsl (0.23.3)
+==> Pouring libpsl--0.23.3.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libpsl/0.23.3: 18 files, 286.5KB
+==> Installing pdal dependency: libssh2 (1.11.1_7)
+==> Pouring libssh2--1.11.1_7.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libssh2/1.11.1_7: 201 files, 1.3MB
+==> Installing pdal dependency: curl (8.23.0)
+==> Pouring curl--8.23.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/curl/8.23.0: 558 files, 5MB
+==> Installing pdal dependency: draco (1.5.9)
+==> Pouring draco--1.5.9.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/draco/1.5.9: 225 files, 5.9MB
+==> Installing pdal dependency: c-blosc (1.21.7)
+==> Pouring c-blosc--1.21.7.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/c-blosc/1.21.7: 12 files, 1.5MB
+==> Installing pdal dependency: cfitsio (4.7.0)
+==> Pouring cfitsio--4.7.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/cfitsio/4.7.0: 28 files, 2.3MB
+==> Installing pdal dependency: popt (1.19)
+==> Pouring popt--1.19.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/popt/1.19: 11 files, 181.3KB
+==> Installing pdal dependency: epsilon (0.9.2)
+==> Pouring epsilon--0.9.2.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/epsilon/0.9.2: 18 files, 407.6KB
+==> Installing pdal dependency: minizip (1.3.2_1)
+==> Pouring minizip--1.3.2_1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/minizip/1.3.2_1: 16 files, 267.1KB
+==> Installing pdal dependency: freexl (2.0.0)
+==> Pouring freexl--2.0.0.arm64_golden_gate.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/freexl/2.0.0: 11 files, 206.7KB
+==> Installing pdal dependency: geos (3.15.0)
+==> Pouring geos--3.15.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/geos/3.15.0: 571 files, 18.8MB
+==> Installing pdal dependency: libarchive (3.8.11)
+==> Pouring libarchive--3.8.11.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libarchive/3.8.11: 65 files, 4.1MB
+==> Installing pdal dependency: proj (9.9.0)
+==> Pouring proj--9.9.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/proj/9.9.0: 530 files, 835.8MB
+==> Installing pdal dependency: libgeotiff (1.7.4)
+==> Pouring libgeotiff--1.7.4.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libgeotiff/1.7.4: 41 files, 786.6KB
+==> Installing pdal dependency: libkml (1.3.0_1)
+==> Pouring libkml--1.3.0_1.arm64_golden_gate.bottle.3.tar.gz
+🍺  /opt/homebrew/Cellar/libkml/1.3.0_1: 168 files, 2MB
+==> Installing pdal dependency: liblerc (4.3.0)
+==> Pouring liblerc--4.3.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/liblerc/4.3.0: 12 files, 502.6KB
+==> Installing pdal dependency: krb5 (1.22.2_2)
+==> Pouring krb5--1.22.2_2.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/krb5/1.22.2_2: 163 files, 5.2MB
+==> Installing pdal dependency: libpq (18.6_2)
+==> Pouring libpq--18.6_2.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libpq/18.6_2: 2,429 files, 35.5MB
+==> Installing pdal dependency: librttopo (1.1.0)
+==> Pouring librttopo--1.1.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/librttopo/1.1.0: 13 files, 1.1MB
+==> Installing pdal dependency: libxml2 (2.15.4)
+==> Pouring libxml2--2.15.4.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libxml2/2.15.4: 59 files, 1.8MB
+==> Installing pdal dependency: libspatialite (5.1.0_4)
+==> Pouring libspatialite--5.1.0_4.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libspatialite/5.1.0_4: 41 files, 31MB
+==> Installing pdal dependency: netcdf (4.10.1_1)
+==> Pouring netcdf--4.10.1_1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/netcdf/4.10.1_1: 42 files, 4.5MB
+==> Installing pdal dependency: numpy (2.5.4)
+==> Pouring numpy--2.5.4.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/numpy/2.5.4: 1,855 files, 39.7MB
+==> Installing pdal dependency: openjpeg (2.5.4_1)
+==> Pouring openjpeg--2.5.4_1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openjpeg/2.5.4_1: 518 files, 14.9MB
+==> Installing pdal dependency: libidn2 (2.3.8)
+==> Pouring libidn2--2.3.8.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libidn2/2.3.8: 80 files, 924.2KB
+==> Installing pdal dependency: libtasn1 (4.21.0)
+==> Pouring libtasn1--4.21.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libtasn1/4.21.0: 64 files, 657.1KB
+==> Installing pdal dependency: nettle (4.0)
+==> Pouring nettle--4.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/nettle/4.0: 93 files, 2.7MB
+==> Installing pdal dependency: p11-kit (0.26.5)
+==> Pouring p11-kit--0.26.5.arm64_golden_gate.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/p11-kit/0.26.5: 33 files, 4.8MB
+==> Installing pdal dependency: gnutls (3.8.13_2)
+==> Pouring gnutls--3.8.13_2.arm64_golden_gate.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/gnutls/3.8.13_2: 1,289 files, 11.1MB
+==> Installing pdal dependency: libgpg-error (1.61)
+==> Pouring libgpg-error--1.61.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libgpg-error/1.61: 50 files, 1.9MB
+==> Installing pdal dependency: libassuan (3.0.2)
+==> Pouring libassuan--3.0.2.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libassuan/3.0.2: 18 files, 563.4KB
+==> Installing pdal dependency: libgcrypt (1.12.4)
+==> Pouring libgcrypt--1.12.4.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libgcrypt/1.12.4: 24 files, 4.1MB
+==> Installing pdal dependency: libksba (1.8.1)
+==> Pouring libksba--1.8.1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libksba/1.8.1: 19 files, 536.9KB
+==> Installing pdal dependency: npth (1.8)
+==> Pouring npth--1.8.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/npth/1.8: 13 files, 155.3KB
+==> Installing pdal dependency: pinentry (1.3.3)
+==> Pouring pinentry--1.3.3.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pinentry/1.3.3: 13 files, 446.4KB
+==> Installing pdal dependency: gnupg (2.5.24_1)
+==> Pouring gnupg--2.5.24_1.arm64_golden_gate.bottle.tar.gz
+No matching processes belonging to you were found
+🍺  /opt/homebrew/Cellar/gnupg/2.5.24_1: 149 files, 16MB
+==> Installing pdal dependency: gpgme (2.2.0)
+==> Pouring gpgme--2.2.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gpgme/2.2.0: 29 files, 2.7MB
+==> Installing pdal dependency: gpgmepp (2.2.0)
+==> Pouring gpgmepp--2.2.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/gpgmepp/2.2.0: 73 files, 859.9KB
+==> Installing pdal dependency: nspr (4.40)
+==> Pouring nspr--4.40.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/nspr/4.40: 79 files, 1.2MB
+==> Installing pdal dependency: nss (3.132)
+==> Pouring nss--3.132.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/nss/3.132: 210 files, 19.1MB
+==> Installing pdal dependency: poppler (26.10.0)
+==> Pouring poppler--26.10.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/poppler/26.10.0: 447 files, 34.6MB
+==> Installing pdal dependency: qhull (2020.2)
+==> Pouring qhull--2020.2.arm64_golden_gate.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/qhull/2020.2: 117 files, 5.7MB
+==> Installing pdal dependency: sfcgal (2.3.0_1)
+==> Pouring sfcgal--2.3.0_1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sfcgal/2.3.0_1: 170 files, 21.1MB
+==> Installing pdal dependency: m4 (1.4.21)
+==> Pouring m4--1.4.21.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/m4/1.4.21: 14 files, 819.2KB
+==> Installing pdal dependency: libtool (2.6.2)
+==> Pouring libtool--2.6.2.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/libtool/2.6.2: 78 files, 4.2MB
+==> Installing pdal dependency: unixodbc (2.3.14)
+==> Pouring unixodbc--2.3.14.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/unixodbc/2.3.14: 48 files, 2.2MB
+==> Installing pdal dependency: xerces-c (3.3.0)
+==> Pouring xerces-c--3.3.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/xerces-c/3.3.0: 1,715 files, 41.1MB
+==> Installing pdal dependency: gdal (3.13.3_5)
+==> Pouring gdal--3.13.3_5.arm64_golden_gate.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/gdal/3.13.3_5: 659 files, 47MB
+==> Installing pdal dependency: spdlog (1.17.0)
+==> Pouring spdlog--1.17.0.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/spdlog/1.17.0: 104 files, 1.6MB
+==> Installing pdal dependency: tiledb (2.30.1_1)
+==> Pouring tiledb--2.30.1_1.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/tiledb/2.30.1_1: 120 files, 17.2MB
+==> Installing pdal
+==> Pouring pdal--2.10.2_5.arm64_golden_gate.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/pdal/2.10.2_5: 935 files, 166.3MB
+==> Caveats
+==> ffmpeg
+ffmpeg-full includes additional tools and libraries that are not included in the regular ffmpeg formula.
+2026-10-31T23:21:01.231004+00:00 JOB C install finished 0

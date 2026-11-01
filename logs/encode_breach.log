@@ -1,0 +1,56 @@
+
+[2026-11-01T04:39:51+05:30] New authorized job attempt: encode_breach
+ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers
+  built with Apple clang version 21.0.0 (clang-2100.3.34.2)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/9.0.2_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gpl --enable-libsvtav1 --enable-libopus --enable-libx264 --enable-libmp3lame --enable-libdav1d --enable-libvmaf --enable-libvpx --enable-libx265 --enable-openssl --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      61.  1.102 / 61.  1.102
+  libavcodec     63.  1.102 / 63.  1.102
+  libavformat    63.  1.102 / 63.  1.102
+  libavdevice    63.  1.102 / 63.  1.102
+  libavfilter    12.  1.102 / 12.  1.102
+  libswscale     10.  1.102 / 10.  1.102
+  libswresample   7.  1.102 /  7.  1.102
+Input #0, matroska,webm, from '/Users/rishabh/Downloads/03_breach.webm':
+  Metadata:
+    encoder         : Chrome
+  Duration: 00:00:20.58, start: 0.000000, bitrate: 6147 kb/s
+  Stream #0:0(eng): Video: vp9 (Profile 0), yuv420p(pc, bt709/bt709/iec61966-2-1), 1920x1080, SAR 1:1 DAR 16:9, 1k tbr, 1k tbn (default)
+    Metadata:
+      alpha_mode      : 1
+Stream mapping:
+  Stream #0:0 -> #0:0 (vp9 (native) -> h264 (libx264))
+[libx264 @ 0x7c36c2ce00] using SAR=1/1
+[libx264 @ 0x7c36c2ce00] using cpu capabilities: ARMv8 NEON DotProd I8MM
+[libx264 @ 0x7c36c2ce00] profile High, level 6.1, 4:2:0, 8-bit
+[libx264 @ 0x7c36c2ce00] 264 - core 165 r3222 b35605a - H.264/MPEG-4 AVC codec - Copyleft 2003-2025 - http://www.videolan.org/x264.html - options: cabac=1 ref=2 deblock=1:0:0 analyse=0x3:0x113 me=hex subme=6 psy=1 psy_rd=1.00:0.00 mixed_ref=1 me_range=16 chroma_me=1 trellis=1 8x8dct=1 cqm=0 deadzone=21,11 fast_pskip=1 chroma_qp_offset=-2 threads=15 lookahead_threads=2 sliced_threads=0 nr=0 decimate=1 interlaced=0 bluray_compat=0 constrained_intra=0 bframes=3 b_pyramid=2 b_adapt=1 b_bias=0 direct=1 weightb=1 open_gop=0 weightp=1 keyint=250 keyint_min=25 scenecut=40 intra_refresh=0 rc_lookahead=30 rc=crf mbtree=1 crf=20.0 qcomp=0.60 qpmin=0 qpmax=69 qpstep=4 ip_ratio=1.40 aq=1:1.00
+Output #0, mp4, to '/Users/rishabh/Documents/Codex/2026-11-01/otec-otec-is-a-live-height/outputs/03_breach.mp4':
+  Metadata:
+    encoder         : Lavf63.1.102
+  Stream #0:0(eng): Video: h264 (avc1 / 0x31637661), yuv420p(pc, bt709/bt709/iec61966-2-1, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 1k fps, 16k tbn (default)
+    Metadata:
+      encoder         : Lavc63.1.102 libx264
+      alpha_mode      : 1
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/0 buffer size: 0 vbv_delay: N/A
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:00.50    frame=    6 fps=5.9 q=27.0 size=    1280KiB time=00:00:00.17 bitrate=60265.2kbits/s speed=0.171x elapsed=0:00:01.01    frame=   19 fps= 13 q=26.0 size=    3328KiB time=00:00:00.74 bitrate=36743.1kbits/s speed=0.489x elapsed=0:00:01.51    frame=   31 fps= 15 q=24.0 size=    5120KiB time=00:00:01.37 bitrate=30615.6kbits/s speed=0.677x elapsed=0:00:02.02    frame=   46 fps= 18 q=25.0 size=    7424KiB time=00:00:02.25 bitrate=26922.4kbits/s speed=0.895x elapsed=0:00:02.52    frame=   60 fps= 20 q=25.0 size=   10496KiB time=00:00:03.21 bitrate=26761.2kbits/s speed=1.06x elapsed=0:00:03.02    frame=   73 fps= 21 q=24.0 size=   12800KiB time=00:00:03.90 bitrate=26845.4kbits/s speed=1.11x elapsed=0:00:03.52    frame=   93 fps= 23 q=25.0 size=   15872KiB time=00:00:04.81 bitrate=26992.7kbits/s speed=1.19x elapsed=0:00:04.03    frame=  112 fps= 25 q=26.0 size=   19712KiB time=00:00:05.70 bitrate=28320.1kbits/s speed=1.26x elapsed=0:00:04.53    frame=  126 fps= 25 q=24.0 size=   21760KiB time=00:00:06.40 bitrate=27822.4kbits/s speed=1.27x elapsed=0:00:05.04    frame=  143 fps= 26 q=28.0 size=   24064KiB time=00:00:07.37 bitrate=26744.4kbits/s speed=1.33x elapsed=0:00:05.55    frame=  163 fps= 27 q=26.0 size=   26624KiB time=00:00:08.30 bitrate=26258.6kbits/s speed=1.37x elapsed=0:00:06.06    frame=  179 fps= 27 q=26.0 size=   28672KiB time=00:00:09.04 bitrate=25982.5kbits/s speed=1.38x elapsed=0:00:06.56    frame=  195 fps= 28 q=26.0 size=   30464KiB time=00:00:09.76 bitrate=25556.7kbits/s speed=1.38x elapsed=0:00:07.06    frame=  213 fps= 28 q=23.0 size=   32512KiB time=00:00:10.59 bitrate=25128.7kbits/s speed= 1.4x elapsed=0:00:07.57    frame=  228 fps= 28 q=27.0 size=   34560KiB time=00:00:11.52 bitrate=24559.0kbits/s speed=1.43x elapsed=0:00:08.07    frame=  233 fps= 27 q=26.0 size=   34816KiB time=00:00:11.69 bitrate=24385.5kbits/s speed=1.36x elapsed=0:00:08.57    frame=  241 fps= 27 q=26.0 size=   35840KiB time=00:00:11.99 bitrate=24477.0kbits/s speed=1.32x elapsed=0:00:09.08    frame=  255 fps= 27 q=26.0 size=   37632KiB time=00:00:12.61 bitrate=24430.0kbits/s speed=1.32x elapsed=0:00:09.59    frame=  265 fps= 26 q=24.0 size=   38656KiB time=00:00:13.08 bitrate=24206.6kbits/s speed= 1.3x elapsed=0:00:10.10    frame=  269 fps= 25 q=22.0 size=   39168KiB time=00:00:13.22 bitrate=24258.3kbits/s speed=1.25x elapsed=0:00:10.60    frame=  277 fps= 25 q=25.0 size=   39680KiB time=00:00:13.68 bitrate=23752.9kbits/s speed=1.23x elapsed=0:00:11.11    frame=  281 fps= 24 q=26.0 size=   40448KiB time=00:00:13.86 bitrate=23898.3kbits/s speed=1.18x elapsed=0:00:11.76    frame=  281 fps= 23 q=26.0 size=   40448KiB time=00:00:13.86 bitrate=23898.3kbits/s speed=1.13x elapsed=0:00:12.27    frame=  295 fps= 23 q=26.0 size=   41984KiB time=00:00:14.52 bitrate=23675.5kbits/s speed=1.14x elapsed=0:00:12.77    frame=  305 fps= 23 q=28.0 size=   43008KiB time=00:00:15.01 bitrate=23466.2kbits/s speed=1.13x elapsed=0:00:13.28    frame=  325 fps= 24 q=25.0 size=   45312KiB time=00:00:15.95 bitrate=23271.0kbits/s speed=1.16x elapsed=0:00:13.78    frame=  337 fps= 24 q=26.0 size=   46848KiB time=00:00:16.52 bitrate=23224.2kbits/s speed=1.16x elapsed=0:00:14.29    frame=  350 fps= 24 q=26.0 size=   48384KiB time=00:00:17.20 bitrate=23039.0kbits/s speed=1.16x elapsed=0:00:14.79    frame=  373 fps= 24 q=23.0 size=   51456KiB time=00:00:18.20 bitrate=23153.2kbits/s speed=1.19x elapsed=0:00:15.30    frame=  390 fps= 25 q=27.0 size=   53504KiB time=00:00:18.98 bitrate=23086.9kbits/s speed= 1.2x elapsed=0:00:15.80    [mp4 @ 0x7c36c20280] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0x7c3705c240] video:56949KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.016838%
+frame=  417 fps= 26 q=-1.0 Lsize=   56959KiB time=00:00:20.36 bitrate=22911.1kbits/s speed=1.25x elapsed=0:00:16.22    
+[libx264 @ 0x7c36c2ce00] frame I:2     Avg QP:19.43  size:552653
+[libx264 @ 0x7c36c2ce00] frame P:109   Avg QP:21.06  size:272445
+[libx264 @ 0x7c36c2ce00] frame B:306   Avg QP:26.67  size: 89914
+[libx264 @ 0x7c36c2ce00] consecutive B-frames:  1.4%  1.0%  3.6% 94.0%
+[libx264 @ 0x7c36c2ce00] mb I  I16..4:  6.2% 39.0% 54.8%
+[libx264 @ 0x7c36c2ce00] mb P  I16..4:  1.0% 11.8%  4.3%  P16..4: 32.9% 27.2% 17.3%  0.0%  0.0%    skip: 5.5%
+[libx264 @ 0x7c36c2ce00] mb B  I16..4:  0.4%  2.0%  0.6%  B16..8: 43.0% 16.5%  6.1%  direct: 7.0%  skip:24.5%  L0:47.2% L1:34.6% BI:18.3%
+[libx264 @ 0x7c36c2ce00] 8x8 transform intra:66.3% inter:50.4%
+[libx264 @ 0x7c36c2ce00] coded y,uvDC,uvAC intra: 85.6% 38.8% 15.9% inter: 32.5% 9.6% 1.1%
+[libx264 @ 0x7c36c2ce00] i16 v,h,dc,p: 41% 30% 24%  5%
+[libx264 @ 0x7c36c2ce00] i8 v,h,dc,ddl,ddr,vr,hd,vl,hu:  8% 16% 37%  4%  6%  4%  8%  4% 12%
+[libx264 @ 0x7c36c2ce00] i4 v,h,dc,ddl,ddr,vr,hd,vl,hu: 14% 23% 18%  5%  9%  6% 10%  5% 11%
+[libx264 @ 0x7c36c2ce00] i8c dc,h,v,p: 69% 17% 13%  2%
+[libx264 @ 0x7c36c2ce00] Weighted P-Frames: Y:0.0% UV:0.0%
+[libx264 @ 0x7c36c2ce00] ref P L0: 68.9% 31.1%
+[libx264 @ 0x7c36c2ce00] ref B L0: 86.4% 13.6%
+[libx264 @ 0x7c36c2ce00] ref B L1: 94.3%  5.7%
+[libx264 @ 0x7c36c2ce00] kb/s:22654.51
+[2026-11-01T04:40:07+05:30] encode_breach: complete; exit=0; elapsed=16.4s

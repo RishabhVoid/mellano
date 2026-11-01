@@ -1,0 +1,90 @@
+{
+  "checked_at": "2026-10-31T23:55:02.711801+00:00",
+  "project": "project-ade28d51-55f0-45fb-bd9",
+  "configuration": "otec",
+  "expected_account_verified": true,
+  "earthengine_api_enabled": true,
+  "gemini_api_enabled": true,
+  "gemini_model_listing": {
+    "http_status": 403,
+    "available": false,
+    "models": [],
+    "error_status": "PERMISSION_DENIED",
+    "error_message": "Request had insufficient authentication scopes.",
+    "error_details": [
+      {
+        "type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+        "domain": null,
+        "metadata": {
+          "method": "google.ai.generativelanguage.v1beta.ModelService.ListModels",
+          "service": "generativelanguage.googleapis.com"
+        }
+      }
+    ],
+    "credential_source": "gcloud named configuration otec; OAuth bearer held in memory; explicit target quota project"
+  },
+  "gemini_key_model_listing": {
+    "available": true,
+    "http_status": 200,
+    "model_count": 46,
+    "key_resource_listing_succeeded": true,
+    "key_resource": "projects/794626398039/locations/global/keys/otec-gemini-server",
+    "keys_created_or_changed": true,
+    "secret_persisted_to_project": false
+  },
+  "gemini_oauth_diagnosis": {
+    "reason": "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+    "verified_identity_configuration": "otec",
+    "plain_gcloud_login_can_add_arbitrary_scopes": false,
+    "current_official_quickstart_scope": "https://www.googleapis.com/auth/generative-language.retriever",
+    "narrow_models_inference_only_scope_verified": false,
+    "public_discovery_model_method_scopes": null,
+    "action_taken": "None: no new OAuth authorization, ADC writes, API keys, IAM or billing changes. Preserve existing Earth Engine broker.",
+    "documentation": [
+      "https://ai.google.dev/gemini-api/docs/oauth",
+      "https://docs.cloud.google.com/sdk/gcloud/reference/auth/login",
+      "https://docs.cloud.google.com/sdk/gcloud/reference/auth/application-default/login",
+      "https://generativelanguage.googleapis.com/$discovery/rest?version=v1beta"
+    ]
+  },
+  "gemini_authentication": {
+    "status": "working",
+    "credential_source": "Gemini-only restricted API key fetched from Google Cloud via explicit otec gcloud config; secret in memory only",
+    "key_resource": "projects/794626398039/locations/global/keys/otec-gemini-server",
+    "key_created_for_requested_fix": true,
+    "restrictions": {
+      "apiTargets": [
+        {
+          "service": "generativelanguage.googleapis.com"
+        }
+      ]
+    },
+    "models_listing_http_status": 200,
+    "selected_model": "models/gemini-3.5-flash-lite",
+    "environment_files_accessed": false,
+    "billing_or_iam_changed": false
+  },
+  "gemini_inference": {
+    "status": "working",
+    "ready": true,
+    "model": "models/gemini-3.5-flash-lite",
+    "http_status": 200,
+    "nonempty_text": true,
+    "check_marker": "OTEC_GEMINI_OK",
+    "check_marker_matched": true,
+    "checked_at": "2026-10-31T23:55:02.711801+00:00",
+    "method": "one real generateContent request through installed sim.gemini check; max_output_tokens=512; no retry",
+    "environment_files_accessed": false
+  },
+  "gemini_inference_previous_blocker": {
+    "status": "blocked_prepaid_credits_depleted",
+    "ready": false,
+    "model": "models/gemini-3.5-flash-lite",
+    "http_status": 402,
+    "reason": "Your prepayment credits are depleted. Please go to AI Studio at https://ai.studio/projects to manage your project and billing. Learn more at https://ai.google.dev/gemini-api/docs/billing#prepay.",
+    "billing_enabled": true,
+    "billing_account_linked": true,
+    "nonempty_text": false
+  }
+}

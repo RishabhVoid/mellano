@@ -1,0 +1,77 @@
+{
+  "duration_s": 20,
+  "scenario": "relative_breach_near_ito",
+  "split": true,
+  "timeline": [
+    0,
+    1
+  ],
+  "layers": {
+    "river": true,
+    "roads": true,
+    "green": true,
+    "buildings": true,
+    "outline": false,
+    "reported": false,
+    "embankments": true,
+    "freshness": false
+  },
+  "camera": [
+    {
+      "time": 0,
+      "position": [
+        -0.3,
+        0.36,
+        0.65
+      ],
+      "target": [
+        -0.1,
+        0,
+        0.19
+      ]
+    },
+    {
+      "time": 10,
+      "position": [
+        -0.22,
+        0.15,
+        0.39
+      ],
+      "target": [
+        -0.1,
+        0,
+        0.19
+      ]
+    },
+    {
+      "time": 20,
+      "position": [
+        -0.02,
+        0.18,
+        0.43
+      ],
+      "target": [
+        -0.1,
+        0,
+        0.19
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 7,
+      "text": "Hypothetical, not a forecast \u00b7 breach near ITO + river rise"
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "text": "Water spreads under the common +1 m forcing"
+    },
+    {
+      "start": 14,
+      "end": 20,
+      "text": "This dry embankment cut adds no wet area in the 5-minute run"
+    }
+  ]
+}

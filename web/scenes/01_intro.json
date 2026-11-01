@@ -1,0 +1,71 @@
+{
+  "duration_s": 14,
+  "scenario": "terrain",
+  "timeline": [
+    0,
+    1
+  ],
+  "layers": {
+    "buildings": true,
+    "outline": false,
+    "reported": false,
+    "embankments": false,
+    "freshness": false,
+    "river": true,
+    "roads": true,
+    "green": true
+  },
+  "camera": [
+    {
+      "time": 0,
+      "position": [
+        0.83,
+        0.94,
+        1.12
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "time": 8,
+      "position": [
+        -0.7,
+        0.7,
+        1.05
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "time": 14,
+      "position": [
+        -0.3,
+        1.4,
+        0.7
+      ],
+      "target": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 7,
+      "text": "Delhi / Yamuna \u00b7 real terrain and mapped buildings"
+    },
+    {
+      "start": 7,
+      "end": 14,
+      "text": "FABDEM bare ground \u00b7 OpenStreetMap \u00b7 Google Open Buildings"
+    }
+  ]
+}

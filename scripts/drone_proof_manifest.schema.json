@@ -1,0 +1,302 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Confirmed public drone proof inputs",
+  "type": "object",
+  "required": [
+    "confirmed_sources",
+    "lidar",
+    "output_crs",
+    "bounds"
+  ],
+  "properties": {
+    "confirmed_sources": {
+      "const": true
+    },
+    "video": {
+      "type": "object",
+      "required": [
+        "source_url",
+        "acquired_at",
+        "path"
+      ],
+      "properties": {
+        "source_url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "acquired_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "paths": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "vertical_datum": {
+          "type": "string",
+          "minLength": 1
+        },
+        "project": {
+          "type": "string",
+          "pattern": "TX_Hurricane_2018"
+        },
+        "time_reference": {
+          "const": "video_seconds"
+        }
+      }
+    },
+    "telemetry": {
+      "type": "object",
+      "required": [
+        "source_url",
+        "acquired_at",
+        "path",
+        "vertical_datum",
+        "time_reference"
+      ],
+      "properties": {
+        "source_url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "acquired_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "paths": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "vertical_datum": {
+          "type": "string",
+          "minLength": 1
+        },
+        "project": {
+          "type": "string",
+          "pattern": "TX_Hurricane_2018"
+        },
+        "time_reference": {
+          "const": "video_seconds"
+        }
+      }
+    },
+    "lidar": {
+      "type": "object",
+      "required": [
+        "source_url",
+        "acquired_at",
+        "project",
+        "vertical_datum",
+        "vertical_unit"
+      ],
+      "properties": {
+        "source_url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "acquired_at": {
+          "type": "string",
+          "minLength": 1
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "paths": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "vertical_datum": {
+          "type": "string",
+          "minLength": 1
+        },
+        "project": {
+          "type": "string",
+          "minLength": 1
+        },
+        "time_reference": {
+          "const": "video_seconds"
+        },
+        "vertical_unit": {
+          "const": "metre"
+        },
+        "ept_url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "metadata_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "local_path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "datum_source_url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "acquisition_range": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "items": {
+            "type": "string",
+            "format": "date"
+          }
+        }
+      },
+      "oneOf": [
+        {
+          "required": [
+            "paths"
+          ]
+        },
+        {
+          "required": [
+            "ept_url",
+            "metadata_path",
+            "local_path",
+            "datum_source_url"
+          ]
+        }
+      ]
+    },
+    "output_crs": {
+      "type": "string",
+      "minLength": 1
+    },
+    "bounds": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "number"
+      }
+    },
+    "frame_interval_s": {
+      "type": "number",
+      "minimum": 0.2,
+      "maximum": 20
+    },
+    "candidate_fps": {
+      "type": "number",
+      "minimum": 0.5,
+      "maximum": 10
+    },
+    "validation": {
+      "type": "object",
+      "properties": {
+        "checkpoints_csv": {
+          "type": "string",
+          "minLength": 1
+        },
+        "areas_geojson": {
+          "type": "string",
+          "minLength": 1
+        },
+        "buildings_geojson": {
+          "type": "string",
+          "minLength": 1
+        },
+        "geometry_crs": {
+          "type": "string",
+          "minLength": 1
+        },
+        "buildings_crs": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mode": {
+          "enum": [
+            "independent_surface_split",
+            "manual_checkpoints"
+          ]
+        }
+      },
+      "required": [
+        "areas_geojson",
+        "buildings_geojson"
+      ]
+    },
+    "image_collection": {
+      "type": "object",
+      "required": [
+        "dataset",
+        "path",
+        "source_url",
+        "license",
+        "license_url",
+        "capture_date",
+        "vertical_datum"
+      ],
+      "properties": {
+        "dataset": {
+          "type": "string",
+          "minLength": 1
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "license": {
+          "type": "string",
+          "minLength": 1
+        },
+        "license_url": {
+          "type": "string",
+          "minLength": 1
+        },
+        "capture_date": {
+          "type": "string",
+          "minLength": 1
+        },
+        "acquired_at": {
+          "type": "string",
+          "minLength": 1
+        },
+        "vertical_datum": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  },
+  "oneOf": [
+    {
+      "required": [
+        "image_collection"
+      ]
+    },
+    {
+      "required": [
+        "video",
+        "telemetry"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,628 @@
+{
+  "version": 1,
+  "downloaded_at": "2026-11-01T00:01:49.655080+00:00",
+  "purpose": "CC0 visual representations of modelled response units; not observed fleets",
+  "packs": [
+    {
+      "name": "car-kit",
+      "source_url": "https://opengameart.org/content/car-kit",
+      "download_url": "https://opengameart.org/sites/default/files/kenney_car-kit_3.1.zip",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "creator": "Kenney",
+      "sha256": "fac7dacac5c7874348cf19729af3ef205f3d366493edaf0a827d93f4fdf3d0c4",
+      "models": [
+        {
+          "name": "ambulance.glb",
+          "url": "/assets/vehicles/car-kit/ambulance.glb",
+          "bytes": 233612,
+          "sha256": "9e429e2b6202c0d78d0c38b2adbaae6b77716bb2a0f6fbb2811556e1fb31edba"
+        },
+        {
+          "name": "box.glb",
+          "url": "/assets/vehicles/car-kit/box.glb",
+          "bytes": 14108,
+          "sha256": "b773815c791d2708a2a70f1a9bb6d197d7211269ad96e273f9e364ea536c1b18"
+        },
+        {
+          "name": "cone-flat.glb",
+          "url": "/assets/vehicles/car-kit/cone-flat.glb",
+          "bytes": 16712,
+          "sha256": "ae3ffbf948c4c8c5c26d0d509f7de4c1dc66e3cc0dfd8ca8abf380aab2d6dd8e"
+        },
+        {
+          "name": "cone.glb",
+          "url": "/assets/vehicles/car-kit/cone.glb",
+          "bytes": 16696,
+          "sha256": "d6659fc365de47c5d056b14f3d3fb3e191d3a5b869c43171753621dcf14b76bd"
+        },
+        {
+          "name": "debris-bolt.glb",
+          "url": "/assets/vehicles/car-kit/debris-bolt.glb",
+          "bytes": 4768,
+          "sha256": "7951734ddc5256a69e0f15ad1ff91b64fc8e5a3cd2d77be9d7d99b2e9f6d945a"
+        },
+        {
+          "name": "debris-bumper.glb",
+          "url": "/assets/vehicles/car-kit/debris-bumper.glb",
+          "bytes": 11312,
+          "sha256": "dac8b9a01766f187c4f116eb7070e13485b642120f4d53ec611bf987100a1792"
+        },
+        {
+          "name": "debris-door-window.glb",
+          "url": "/assets/vehicles/car-kit/debris-door-window.glb",
+          "bytes": 7576,
+          "sha256": "b1adc1a83d72f96754c000ab7661844ecc8c26a6b5b8053716c608f2aa91ca42"
+        },
+        {
+          "name": "debris-door.glb",
+          "url": "/assets/vehicles/car-kit/debris-door.glb",
+          "bytes": 7052,
+          "sha256": "c62ab01c07be9be5dfc0f940dbc933fa836019ea1bc8fd0baa2d0e52cd764ea2"
+        },
+        {
+          "name": "debris-drivetrain-axle.glb",
+          "url": "/assets/vehicles/car-kit/debris-drivetrain-axle.glb",
+          "bytes": 18740,
+          "sha256": "5ac6335574ba941e8afa827a377d667686541668b71192972179b5439e53bf78"
+        },
+        {
+          "name": "debris-drivetrain.glb",
+          "url": "/assets/vehicles/car-kit/debris-drivetrain.glb",
+          "bytes": 36896,
+          "sha256": "4a93bba25d3004b028f8494105d1774a91797d116dcb136fde00b4882bfec652"
+        },
+        {
+          "name": "debris-nut.glb",
+          "url": "/assets/vehicles/car-kit/debris-nut.glb",
+          "bytes": 4744,
+          "sha256": "1a535f639861746799d95853017c08273d25c2ae888f5cd1ff8d3c973c0b895a"
+        },
+        {
+          "name": "debris-plate-a.glb",
+          "url": "/assets/vehicles/car-kit/debris-plate-a.glb",
+          "bytes": 5048,
+          "sha256": "3ecb3242d9e984dadd149fcdd0ded5f43e803b6370b6ddf2b7ab24876aa361ae"
+        },
+        {
+          "name": "debris-plate-b.glb",
+          "url": "/assets/vehicles/car-kit/debris-plate-b.glb",
+          "bytes": 5380,
+          "sha256": "363f9baf530b25fe97b7c54f8ff186249cd974b34897d39dae4c95bafca2a181"
+        },
+        {
+          "name": "debris-plate-small-a.glb",
+          "url": "/assets/vehicles/car-kit/debris-plate-small-a.glb",
+          "bytes": 4224,
+          "sha256": "d710da638e0709318a06fb06a71a6c8c3b2bc1a59b87c6736f4d14ea84a8ff09"
+        },
+        {
+          "name": "debris-plate-small-b.glb",
+          "url": "/assets/vehicles/car-kit/debris-plate-small-b.glb",
+          "bytes": 5392,
+          "sha256": "4bca4c02db94ba05a611bf835a638aa7b0a66208d9dc49a66799682c7cbe8446"
+        },
+        {
+          "name": "debris-spoiler-a.glb",
+          "url": "/assets/vehicles/car-kit/debris-spoiler-a.glb",
+          "bytes": 5616,
+          "sha256": "0deed006f429b46b2583b503d2b32cfe854c997eb63d1de39be2418d9e1bc0ab"
+        },
+        {
+          "name": "debris-spoiler-b.glb",
+          "url": "/assets/vehicles/car-kit/debris-spoiler-b.glb",
+          "bytes": 8596,
+          "sha256": "93a3ff0d440ecd61f315e257ff81c7ba80cd6fa32a854ff8d0e2d3a0b9c3f498"
+        },
+        {
+          "name": "debris-tire.glb",
+          "url": "/assets/vehicles/car-kit/debris-tire.glb",
+          "bytes": 26548,
+          "sha256": "7c3f5968244e2c617c698820e943493b8480c7bef8535fbab04d4a501b3489e9"
+        },
+        {
+          "name": "delivery-flat.glb",
+          "url": "/assets/vehicles/car-kit/delivery-flat.glb",
+          "bytes": 214456,
+          "sha256": "2973152df7699767692ce890b3a0845a11333a52a23aa74b86a12ed443254c1b"
+        },
+        {
+          "name": "delivery.glb",
+          "url": "/assets/vehicles/car-kit/delivery.glb",
+          "bytes": 240264,
+          "sha256": "426a3e3a2c242c05c889b1445ba02ef95b2c8b7cd6f597e1275ef736a826014b"
+        },
+        {
+          "name": "firetruck.glb",
+          "url": "/assets/vehicles/car-kit/firetruck.glb",
+          "bytes": 232448,
+          "sha256": "c0c0a22809316536468da7e9c7f57b8ec1a8e387ec3a1cde032976c6d8a6c7a4"
+        },
+        {
+          "name": "garbage-truck.glb",
+          "url": "/assets/vehicles/car-kit/garbage-truck.glb",
+          "bytes": 268224,
+          "sha256": "6f2943e0ba4c6d86eb69a9243224259d6e0f169f474228439cda0579d49d3509"
+        },
+        {
+          "name": "hatchback-sports.glb",
+          "url": "/assets/vehicles/car-kit/hatchback-sports.glb",
+          "bytes": 197804,
+          "sha256": "bd5c9d4c3b4bdd254a66b8426563a68b1487ae7a5076df3a2488e6ffed7be64f"
+        },
+        {
+          "name": "kart-oobi.glb",
+          "url": "/assets/vehicles/car-kit/kart-oobi.glb",
+          "bytes": 251516,
+          "sha256": "035c80531d201f050fb38c3edb348833fd0f6be0b2a132fe8d804f52a15e5756"
+        },
+        {
+          "name": "kart-oodi.glb",
+          "url": "/assets/vehicles/car-kit/kart-oodi.glb",
+          "bytes": 230984,
+          "sha256": "1a6d7dc227d7f1edb8aebcecaeef0749c614dcb168b69a59e0127ad6a3a71a59"
+        },
+        {
+          "name": "kart-ooli.glb",
+          "url": "/assets/vehicles/car-kit/kart-ooli.glb",
+          "bytes": 233380,
+          "sha256": "8b496397361b92f481e83dd5d0b74649571bae53e900ffbd785bb2d384182cc2"
+        },
+        {
+          "name": "kart-oopi.glb",
+          "url": "/assets/vehicles/car-kit/kart-oopi.glb",
+          "bytes": 236196,
+          "sha256": "09c1a7522345761dec9d0d1efbf6093aa1611a5ccbd825e1e3260b1607a2d8ab"
+        },
+        {
+          "name": "kart-oozi.glb",
+          "url": "/assets/vehicles/car-kit/kart-oozi.glb",
+          "bytes": 240776,
+          "sha256": "116afde6ab8e4b94ff8f2d79ea0ef8cca15bab3a3aad2c5d73c0dc0fed5da654"
+        },
+        {
+          "name": "police.glb",
+          "url": "/assets/vehicles/car-kit/police.glb",
+          "bytes": 195336,
+          "sha256": "a617b880594f56239b7ac4cf6fd4d74ebdae3ba6c5d842e77c76a5906eff352a"
+        },
+        {
+          "name": "race-future.glb",
+          "url": "/assets/vehicles/car-kit/race-future.glb",
+          "bytes": 173164,
+          "sha256": "869e2a58d2c12de474e824aff137334491b8f234b97127cf23f1ea04e42deec6"
+        },
+        {
+          "name": "race.glb",
+          "url": "/assets/vehicles/car-kit/race.glb",
+          "bytes": 167272,
+          "sha256": "e1408c4c6e135f5a39c5f34cbfbcac9ae21c5c491e793fdee74bccac8334d942"
+        },
+        {
+          "name": "sedan-sports.glb",
+          "url": "/assets/vehicles/car-kit/sedan-sports.glb",
+          "bytes": 177676,
+          "sha256": "2889c428ca1dd9c975c3ff760eb8757883490410555ab60b818f712f583826d6"
+        },
+        {
+          "name": "sedan.glb",
+          "url": "/assets/vehicles/car-kit/sedan.glb",
+          "bytes": 172216,
+          "sha256": "b532ea7d2c59f7f6b22b138cf1955218a2c1898f1cea932af4d3fd563c3959b7"
+        },
+        {
+          "name": "suv-luxury.glb",
+          "url": "/assets/vehicles/car-kit/suv-luxury.glb",
+          "bytes": 175908,
+          "sha256": "9e2a79dc050189d4555a88d2e9da0f30ff946ba74f1d43b5b3bda3c193d1f7d7"
+        },
+        {
+          "name": "suv.glb",
+          "url": "/assets/vehicles/car-kit/suv.glb",
+          "bytes": 207572,
+          "sha256": "9df31f6e89e927a8176fc792aa125f0b19dc1ba29d2025bfef7c4f4d6ab1778a"
+        },
+        {
+          "name": "taxi.glb",
+          "url": "/assets/vehicles/car-kit/taxi.glb",
+          "bytes": 175608,
+          "sha256": "3803539718ffd3b84b515dbce8ed6b489f1ff5be58edb1903d2c5db5c584bdc7"
+        },
+        {
+          "name": "tractor-police.glb",
+          "url": "/assets/vehicles/car-kit/tractor-police.glb",
+          "bytes": 196308,
+          "sha256": "25cd7801798fd1c81bb82cd8e9d5ec1ec1797b9fb720304efff5e6cbc7949142"
+        },
+        {
+          "name": "tractor-shovel.glb",
+          "url": "/assets/vehicles/car-kit/tractor-shovel.glb",
+          "bytes": 222584,
+          "sha256": "1bc67bcc36dc563baf7b5060e2a790f67a5a0b42fbdf17c18ab933fcc8a4aa53"
+        },
+        {
+          "name": "tractor.glb",
+          "url": "/assets/vehicles/car-kit/tractor.glb",
+          "bytes": 175960,
+          "sha256": "48b30b3e4bb0adb48378c473dc27ee5ae4d9296ec758c85816f17121a3ce8371"
+        },
+        {
+          "name": "truck-flat.glb",
+          "url": "/assets/vehicles/car-kit/truck-flat.glb",
+          "bytes": 207424,
+          "sha256": "4279862f2442e96c6603c514edf50bfb932707545695d8c4747611cd3796cf3b"
+        },
+        {
+          "name": "truck.glb",
+          "url": "/assets/vehicles/car-kit/truck.glb",
+          "bytes": 176360,
+          "sha256": "5e1bc66c343501dd7d5734b57e672dd949bf95d7abdce680c6508cef99d374f8"
+        },
+        {
+          "name": "van.glb",
+          "url": "/assets/vehicles/car-kit/van.glb",
+          "bytes": 175664,
+          "sha256": "ed4ed56e8e5ed98db050af09ed2062b3b6bb7b93eab1e563cb6774b387b233a1"
+        },
+        {
+          "name": "wheel-dark.glb",
+          "url": "/assets/vehicles/car-kit/wheel-dark.glb",
+          "bytes": 29116,
+          "sha256": "ca871b4db5c5300314c5873b4c8e412f30fc95c1f1deee87599fde736a7adc20"
+        },
+        {
+          "name": "wheel-default.glb",
+          "url": "/assets/vehicles/car-kit/wheel-default.glb",
+          "bytes": 26820,
+          "sha256": "7d61941bc27bcc3b235e2e26c598cbcb4166bd66eb8f9920e26842a11015c62b"
+        },
+        {
+          "name": "wheel-racing.glb",
+          "url": "/assets/vehicles/car-kit/wheel-racing.glb",
+          "bytes": 29120,
+          "sha256": "5d8dbff9da004a2aabc471a12be0a4b70725c49463ec36ec3465b15c0cf64571"
+        },
+        {
+          "name": "wheel-tractor-back.glb",
+          "url": "/assets/vehicles/car-kit/wheel-tractor-back.glb",
+          "bytes": 36628,
+          "sha256": "818d83067e1196608fe81dbc04d354b0d65af51c2612e683ab755e92c49253b4"
+        },
+        {
+          "name": "wheel-tractor-dark-back.glb",
+          "url": "/assets/vehicles/car-kit/wheel-tractor-dark-back.glb",
+          "bytes": 36644,
+          "sha256": "a969fa48317f6da226c1c3505b917603c325080949fbc510bc6fe736bed8fed9"
+        },
+        {
+          "name": "wheel-tractor-dark-front.glb",
+          "url": "/assets/vehicles/car-kit/wheel-tractor-dark-front.glb",
+          "bytes": 29156,
+          "sha256": "76eda5c812243a85cac5074c4e0726cb521d45f1e8fdd30c62dacd1c6ba9d364"
+        },
+        {
+          "name": "wheel-tractor-front.glb",
+          "url": "/assets/vehicles/car-kit/wheel-tractor-front.glb",
+          "bytes": 29140,
+          "sha256": "427a632a5b930cdda9d55a63fba94f01f0c77e86face3878ce9fbc63e9879b2f"
+        },
+        {
+          "name": "wheel-truck.glb",
+          "url": "/assets/vehicles/car-kit/wheel-truck.glb",
+          "bytes": 34304,
+          "sha256": "411ff9692f72e9b0490d20574e3efd94b20058732a587abc26f4952e2c91351e"
+        }
+      ]
+    },
+    {
+      "name": "watercraft-kit",
+      "source_url": "https://opengameart.org/content/watercraft-kit",
+      "download_url": "https://opengameart.org/sites/default/files/kenney_watercraft_kit_0.zip",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "creator": "Kenney",
+      "sha256": "149e303de27b7eeb7b6b6ae3471649175b6ff6ad8b8e4afc8fc4b47a6e2940bb",
+      "models": [
+        {
+          "name": "arrow-standing.glb",
+          "url": "/assets/vehicles/watercraft-kit/arrow-standing.glb",
+          "bytes": 4616,
+          "sha256": "d780459e3403e03285034ba4c4258b4f60ed09b600b28943d09d144fa895649a"
+        },
+        {
+          "name": "arrow.glb",
+          "url": "/assets/vehicles/watercraft-kit/arrow.glb",
+          "bytes": 6776,
+          "sha256": "639e1d37f8b93e112bb10fdb8f01ecadc85a32f26512f95d620a29ca7dbeb9b6"
+        },
+        {
+          "name": "boat-fan.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-fan.glb",
+          "bytes": 31172,
+          "sha256": "8a347193f6235821a3b5508a8937450190296b1e9344a01d61b0a503240e6a43"
+        },
+        {
+          "name": "boat-fishing-small.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-fishing-small.glb",
+          "bytes": 22948,
+          "sha256": "f6a03c86e7147764de6aac135433a428ee503d42852ecd101c1795a278480742"
+        },
+        {
+          "name": "boat-house-a.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-house-a.glb",
+          "bytes": 38416,
+          "sha256": "8b912a92f6e12192fe360077377336990e214f6171cb7d68cad56feca84cdad6"
+        },
+        {
+          "name": "boat-house-b.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-house-b.glb",
+          "bytes": 36316,
+          "sha256": "107c1eb7bcd5ce32c6a96b09cef402233f33619b7647a476aaab43b9c0c7581e"
+        },
+        {
+          "name": "boat-house-c.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-house-c.glb",
+          "bytes": 40780,
+          "sha256": "847620d910064ad38a7bf2e2fad062270bebc66e20d490f5d56d9370496f2bd2"
+        },
+        {
+          "name": "boat-house-d.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-house-d.glb",
+          "bytes": 48676,
+          "sha256": "3af440cd1729d9d3633d34e99df5c52e173bc809c15fe2ae03a41236dbb57516"
+        },
+        {
+          "name": "boat-row-large.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-row-large.glb",
+          "bytes": 15988,
+          "sha256": "25eed6585c7398654522d338ec575509615443887362ca8e598559b4eca142a3"
+        },
+        {
+          "name": "boat-row-small.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-row-small.glb",
+          "bytes": 17636,
+          "sha256": "82e85f716f059b3e5cd90088a6e5b7c7722518ff93e1592afe3fff076b617830"
+        },
+        {
+          "name": "boat-sail-a.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-sail-a.glb",
+          "bytes": 35276,
+          "sha256": "35c8e2adae1d3f0fe9d0e37c65422f1c6c6f1f10d818f9bde273a9da264eef4c"
+        },
+        {
+          "name": "boat-sail-b.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-sail-b.glb",
+          "bytes": 38156,
+          "sha256": "b163432688e3912462d961b074a0b84fa00200359cb188e1d966c8f23f986386"
+        },
+        {
+          "name": "boat-speed-a.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-speed-a.glb",
+          "bytes": 16520,
+          "sha256": "d6d5605408e8be888551588b4c73d2953414250e2f29864ee133e9ba5ee2e8b2"
+        },
+        {
+          "name": "boat-speed-b.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-speed-b.glb",
+          "bytes": 15800,
+          "sha256": "64d4456f34d28cfd630e92e741d9145a63a8ddad88b0e8adf1c372e408305c49"
+        },
+        {
+          "name": "boat-speed-c.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-speed-c.glb",
+          "bytes": 16396,
+          "sha256": "6b63dbd0d76e8b5dc5685df15a5857950246ff9fe3e765f2739e8298327473e6"
+        },
+        {
+          "name": "boat-speed-d.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-speed-d.glb",
+          "bytes": 23536,
+          "sha256": "5d23d6b0f4fcfd87d36064029ab10a450e26e0e160f27aeb5537645458b1fcfc"
+        },
+        {
+          "name": "boat-speed-e.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-speed-e.glb",
+          "bytes": 25116,
+          "sha256": "bf6956932dc0566725a60223b72be6571d05f81fa6c7b7665dbd1349d5fc374a"
+        },
+        {
+          "name": "boat-speed-f.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-speed-f.glb",
+          "bytes": 22284,
+          "sha256": "fdcfc255038cbb7bbd18ef4e6b709043c83aa1ad0810e012c82d358b1bc41b55"
+        },
+        {
+          "name": "boat-speed-g.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-speed-g.glb",
+          "bytes": 14168,
+          "sha256": "ea3e1ea9573c0142cc17322ec1880d1913b2c41570f1950b83375a5b51f943cf"
+        },
+        {
+          "name": "boat-speed-h.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-speed-h.glb",
+          "bytes": 19816,
+          "sha256": "c37d62aefceeb146c2dd24ca3a138a9190e75ffd051fcde9eb82accf8d6aa6ad"
+        },
+        {
+          "name": "boat-speed-i.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-speed-i.glb",
+          "bytes": 14992,
+          "sha256": "b9af271c14a29205a14c8fb72315c0a3abeb262570935abfab244acbb7fc2d70"
+        },
+        {
+          "name": "boat-speed-j.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-speed-j.glb",
+          "bytes": 20572,
+          "sha256": "74e4961432343f18c9eaedb43595d497ccb7fe56eda04b693b48234225ea77b3"
+        },
+        {
+          "name": "boat-tow-a.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-tow-a.glb",
+          "bytes": 50924,
+          "sha256": "4c464cc894b5ba60f48437087e6ac94118553c8b3e7fe9a4f1e134b5b7f7dfe6"
+        },
+        {
+          "name": "boat-tow-b.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-tow-b.glb",
+          "bytes": 51476,
+          "sha256": "5de0b6a46e5679d651e673198256e8a369bea4970025c2c4e25da60d15ac85c5"
+        },
+        {
+          "name": "boat-tug-a.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-tug-a.glb",
+          "bytes": 41036,
+          "sha256": "02bae14474daa601658692fb7737fc7b7547a869412590243e08e883b8ba3985"
+        },
+        {
+          "name": "boat-tug-b.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-tug-b.glb",
+          "bytes": 33524,
+          "sha256": "cc9d64359eb1d3a68747d173f16a2ab4de8fd24b82742740c2634ab51b0c6a4b"
+        },
+        {
+          "name": "boat-tug-c.glb",
+          "url": "/assets/vehicles/watercraft-kit/boat-tug-c.glb",
+          "bytes": 18844,
+          "sha256": "6e124b82c3426c6dd653b65882a55dad97c9ad0fa35cd0e2cf5628ef32ff8193"
+        },
+        {
+          "name": "buoy-flag.glb",
+          "url": "/assets/vehicles/watercraft-kit/buoy-flag.glb",
+          "bytes": 21720,
+          "sha256": "2c1116caef32bc00ac939f73c7c48fff343ef577580fad2210f31c0afc5836bd"
+        },
+        {
+          "name": "buoy.glb",
+          "url": "/assets/vehicles/watercraft-kit/buoy.glb",
+          "bytes": 12112,
+          "sha256": "25cde68fddeaf8a43bb5c7d844817680f0ad9598b0df34a3b4ab79aafa55e14e"
+        },
+        {
+          "name": "cargo-container-a.glb",
+          "url": "/assets/vehicles/watercraft-kit/cargo-container-a.glb",
+          "bytes": 16696,
+          "sha256": "d45502f2ca3af2a9885d3082de62f89c37f2aad12e8447d35f7eca656e7cbee0"
+        },
+        {
+          "name": "cargo-container-b.glb",
+          "url": "/assets/vehicles/watercraft-kit/cargo-container-b.glb",
+          "bytes": 16696,
+          "sha256": "a9d3de69ef45ab5e5000b4f945a0949111637eca67b152a746fb6a49dbccc45e"
+        },
+        {
+          "name": "cargo-container-c.glb",
+          "url": "/assets/vehicles/watercraft-kit/cargo-container-c.glb",
+          "bytes": 16696,
+          "sha256": "39565e146559ece1178e8bf5bd46ea7539be7109624006081465c3a61ec45539"
+        },
+        {
+          "name": "cargo-pile-a.glb",
+          "url": "/assets/vehicles/watercraft-kit/cargo-pile-a.glb",
+          "bytes": 18304,
+          "sha256": "679a2eede164da5bcd48c848984cf11a43287d9c17a1caa3723a39057d887f6e"
+        },
+        {
+          "name": "cargo-pile-b.glb",
+          "url": "/assets/vehicles/watercraft-kit/cargo-pile-b.glb",
+          "bytes": 34760,
+          "sha256": "4f80a12ba506f6b0a15eec819cbe6843b5b7078192021c8aba945029fcd62fd8"
+        },
+        {
+          "name": "gate-finish.glb",
+          "url": "/assets/vehicles/watercraft-kit/gate-finish.glb",
+          "bytes": 9140,
+          "sha256": "62713288af22cdd8f7832ad31194866f942be105daac45d563b89a06215b653a"
+        },
+        {
+          "name": "gate.glb",
+          "url": "/assets/vehicles/watercraft-kit/gate.glb",
+          "bytes": 9888,
+          "sha256": "97be542b8e2647f339239e3a0f847330b3460caafe804efb165eec40af8cd23e"
+        },
+        {
+          "name": "ramp-wide.glb",
+          "url": "/assets/vehicles/watercraft-kit/ramp-wide.glb",
+          "bytes": 14824,
+          "sha256": "5c3a978bf1ffaa35da7720277f3004e2d44a60c5f46b4cd5ca953e5b72ed9f50"
+        },
+        {
+          "name": "ramp.glb",
+          "url": "/assets/vehicles/watercraft-kit/ramp.glb",
+          "bytes": 14808,
+          "sha256": "fefbd8cf1988bf40bbbc88cedc5027a6c77b260e056d4298a4d57e35ef09daae"
+        },
+        {
+          "name": "ship-cargo-a.glb",
+          "url": "/assets/vehicles/watercraft-kit/ship-cargo-a.glb",
+          "bytes": 98052,
+          "sha256": "deb0c23eebda5d6271f5e0a0d0f836b045372886adb6e552fdaadfcd77f6882e"
+        },
+        {
+          "name": "ship-cargo-b.glb",
+          "url": "/assets/vehicles/watercraft-kit/ship-cargo-b.glb",
+          "bytes": 79844,
+          "sha256": "ba6dbd398a5dc114993e9912004b43b4bee138afde2040a4d113c2bf7196c582"
+        },
+        {
+          "name": "ship-cargo-c.glb",
+          "url": "/assets/vehicles/watercraft-kit/ship-cargo-c.glb",
+          "bytes": 31600,
+          "sha256": "dafbf1e0543e65585af2846932f66e2ac6561dab303174aa71b7fc61807f8677"
+        },
+        {
+          "name": "ship-large.glb",
+          "url": "/assets/vehicles/watercraft-kit/ship-large.glb",
+          "bytes": 146252,
+          "sha256": "82e28d37a5290602c22ab712e3745b879fa3868cfd6bf93aa9fe380a833ffba2"
+        },
+        {
+          "name": "ship-ocean-liner-small.glb",
+          "url": "/assets/vehicles/watercraft-kit/ship-ocean-liner-small.glb",
+          "bytes": 145708,
+          "sha256": "de93fc7a8e2c61dc6559a041d86f8e5057028ad3f51a9faeb5e283eade6cbf0d"
+        },
+        {
+          "name": "ship-ocean-liner.glb",
+          "url": "/assets/vehicles/watercraft-kit/ship-ocean-liner.glb",
+          "bytes": 228268,
+          "sha256": "431a6e023753cacf46fed96543130f14371cf15f2952ba5e3b23cb194a68f579"
+        },
+        {
+          "name": "ship-small-ghost.glb",
+          "url": "/assets/vehicles/watercraft-kit/ship-small-ghost.glb",
+          "bytes": 149972,
+          "sha256": "9af954920666bd0ca2c5ef87c95332ff623d224a2a34a8d6a91de763c8ce2ed3"
+        },
+        {
+          "name": "ship-small.glb",
+          "url": "/assets/vehicles/watercraft-kit/ship-small.glb",
+          "bytes": 140428,
+          "sha256": "9dcb3658eee88007779cd532cb3094f302c0fae7828bec94d894fe263d66207c"
+        }
+      ]
+    }
+  ],
+  "vehicles": {
+    "ambulance": {
+      "url": "/assets/vehicles/car-kit/ambulance.glb",
+      "length_m": 5.5,
+      "rotation_y": 0
+    },
+    "fire_engine": {
+      "url": "/assets/vehicles/car-kit/firetruck.glb",
+      "length_m": 8.0,
+      "rotation_y": 0
+    },
+    "police": {
+      "url": "/assets/vehicles/car-kit/police.glb",
+      "length_m": 4.5,
+      "rotation_y": 0
+    },
+    "rescue_boat": {
+      "url": "/assets/vehicles/watercraft-kit/boat-speed-a.glb",
+      "length_m": 5.0,
+      "rotation_y": 0
+    }
+  },
+  "display_note": "Illustrative CC0 vehicle models. Listed dimensions and overview scaling are display assumptions, not observed Delhi fleet specifications."
+}

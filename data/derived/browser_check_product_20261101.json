@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-11-01T00:16:15.686Z",
+  "mode": "near",
+  "width": 1920,
+  "height": 1080,
+  "frames": 179,
+  "fps": 41.298479569942096,
+  "median_frame_ms": 17,
+  "p95_frame_ms": 34.19999999999982,
+  "memory": {
+    "geometryBytes": 271543736,
+    "textureBytes": 7578900,
+    "renderTargetBytes": 71760000,
+    "totalBytes": 350882636,
+    "geometries": 9,
+    "textures": 1
+  },
+  "imagery": {
+    "enabled": false,
+    "mode": "matte",
+    "reason": "Satellite textures removed by request"
+  }
+}

@@ -1,0 +1,79 @@
+name: otec
+services:
+  web:
+    image: otec:prepared
+    build:
+      context: ..
+      dockerfile: Dockerfile
+      target: runtime
+    init: true
+    restart: "no"
+    ports:
+      - "127.0.0.1:${OTEC_PORT:-5173}:5173"
+    environment:
+      - OTEC_ENABLE_LOCAL_COMPUTE=0
+      - OTEC_WATCH_EXPORTS=0
+      - OTEC_DATABASE_URL
+    volumes:
+      - type: bind
+        source: ${OTEC_RUNTIME_DIR:?Set an absolute server runtime directory}/public
+        target: /app/web/public/data
+        read_only: true
+        bind: {create_host_path: false}
+      - type: bind
+        source: ${OTEC_RUNTIME_DIR}/cache
+        target: /app/data/cache/areas
+        bind: {create_host_path: false}
+      - type: bind
+        source: ${OTEC_RUNTIME_DIR}/derived
+        target: /app/data/derived
+        read_only: true
+        bind: {create_host_path: false}
+      - type: bind
+        source: ${OTEC_RUNTIME_DIR}/runs
+        target: /app/runs
+        read_only: true
+        bind: {create_host_path: false}
+      - type: bind
+        source: ${OTEC_RUNTIME_DIR}/logs
+        target: /app/logs
+        bind: {create_host_path: false}
+    read_only: true
+    tmpfs:
+      - /tmp
+    cpus: 1.0
+    mem_limit: 2g
+    pids_limit: 128
+    stop_grace_period: 20s
+  worker:
+    image: otec:prepared
+    profiles: [worker]
+    init: true
+    restart: "no"
+    entrypoint: [python, -m, sim.areas]
+    command: [worker, --watch, --source-tile, /sources/N28E077_FABDEM_V1-2.tif, --worker-id, regional-1]
+    environment:
+      - OTEC_DATABASE_URL
+    volumes:
+      - type: bind
+        source: ${OTEC_RUNTIME_DIR}/public
+        target: /app/web/public/data
+        bind: {create_host_path: false}
+      - type: bind
+        source: ${OTEC_RUNTIME_DIR}/cache
+        target: /app/data/cache/areas
+        bind: {create_host_path: false}
+      - type: bind
+        source: ${OTEC_RUNTIME_DIR}/sources
+        target: /sources
+        read_only: true
+        bind: {create_host_path: false}
+    read_only: true
+    tmpfs:
+      - /tmp
+    healthcheck:
+      disable: true
+    cpus: 2.0
+    mem_limit: 4g
+    pids_limit: 128
+    stop_grace_period: 20s

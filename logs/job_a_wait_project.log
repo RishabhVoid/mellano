@@ -1,0 +1,75 @@
+
+[2026-11-01T04:40:09+05:30] New authorized job attempt: job_a_wait_project
+Installed 27 packages in 42ms
+Attempt 1: Earth Engine access unavailable; waiting to retry. Next read-only check in 60 seconds.
+[2026-11-01T04:41:01+05:30] job_a_wait_project: failed; exit=143; elapsed=52.2s
+
+[2026-11-01T04:41:06+05:30] New authorized job attempt: job_a_wait_project
+Attempt 1: Earth Engine API enablement pending. Next read-only check in 60 seconds.
+Attempt 2: Earth Engine API enablement pending. Next read-only check in 60 seconds.
+Attempt 3: Earth Engine API enablement pending. Next read-only check in 60 seconds.
+Attempt 4: Earth Engine API enablement pending. Next read-only check in 60 seconds.
+Attempt 5: Earth Engine API enablement pending. Next read-only check in 60 seconds.
+Attempt 6: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 7: Earth Engine project registration pending. Next read-only check in 60 seconds.
+
+[2026-11-01T04:51:12+05:30] New authorized job attempt: job_a_wait_project
+Attempt 1: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 2: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 3: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 4: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 5: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 6: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 7: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 8: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 9: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 10: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 11: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 12: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 13: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 14: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 15: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 16: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 17: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 18: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 19: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 20: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 21: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 22: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 23: Earth Engine project registration pending. Next read-only check in 60 seconds.
+Attempt 24: Earth Engine access unavailable; waiting to retry. Next read-only check in 60 seconds.
+Attempt 25: Earth Engine access unavailable; waiting to retry. Next read-only check in 60 seconds.
+Attempt 26: Earth Engine access unavailable; waiting to retry. Next read-only check in 60 seconds.
+Attempt 27: Earth Engine access unavailable; waiting to retry. Next read-only check in 60 seconds.
+Attempt 28: Earth Engine access unavailable; waiting to retry. Next read-only check in 60 seconds.
+Attempt 29: Earth Engine access unavailable; waiting to retry. Next read-only check in 60 seconds.
+Attempt 30: Earth Engine access unavailable; waiting to retry. Next read-only check in 60 seconds.
+Attempt 31: Earth Engine access unavailable; waiting to retry. Next read-only check in 60 seconds.
+Attempt 32: Earth Engine access unavailable; waiting to retry. Next read-only check in 60 seconds.
+Attempt 33: Earth Engine access unavailable; waiting to retry. Next read-only check in 60 seconds.
+Attempt 34: Earth Engine access unavailable; waiting to retry. Next read-only check in 60 seconds.
+Attempt 35: Earth Engine access unavailable; waiting to retry. Next read-only check in 60 seconds.
+Attempt 36: Earth Engine access unavailable; waiting to retry. Next read-only check in 60 seconds.
+Attempt 37: Earth Engine access unavailable; waiting to retry. Next read-only check in 60 seconds.
+
+[2026-11-01T05:33:51+05:30] New authorized job attempt: job_a_wait_project
+Attempt 1: Earth Engine noncommercial eligibility expired; reverify this project in Earth Engine configuration. Next read-only check in 60 seconds.
+Attempt 2: Earth Engine noncommercial eligibility expired; reverify this project in Earth Engine configuration. Next read-only check in 60 seconds.
+Attempt 3: Earth Engine noncommercial eligibility expired; reverify this project in Earth Engine configuration. Next read-only check in 60 seconds.
+Attempt 4: Earth Engine noncommercial eligibility expired; reverify this project in Earth Engine configuration. Next read-only check in 60 seconds.
+Attempt 5: Earth Engine noncommercial eligibility expired; reverify this project in Earth Engine configuration. Next read-only check in 60 seconds.
+Attempt 6: Earth Engine noncommercial eligibility expired; reverify this project in Earth Engine configuration. Next read-only check in 60 seconds.
+Attempt 7: Earth Engine noncommercial eligibility expired; reverify this project in Earth Engine configuration. Next read-only check in 60 seconds.
+Attempt 8: Earth Engine noncommercial eligibility expired; reverify this project in Earth Engine configuration. Next read-only check in 60 seconds.
+Attempt 9: Earth Engine noncommercial eligibility expired; reverify this project in Earth Engine configuration. Next read-only check in 60 seconds.
+Attempt 10: Earth Engine noncommercial eligibility expired; reverify this project in Earth Engine configuration. Next read-only check in 60 seconds.
+Attempt 11: Earth Engine noncommercial eligibility expired; reverify this project in Earth Engine configuration. Next read-only check in 60 seconds.
+Attempt 12: Earth Engine noncommercial eligibility expired; reverify this project in Earth Engine configuration. Next read-only check in 60 seconds.
+Attempt 13: Earth Engine noncommercial eligibility expired; reverify this project in Earth Engine configuration. Next read-only check in 60 seconds.
+Attempt 14: Earth Engine noncommercial eligibility expired; reverify this project in Earth Engine configuration. Next read-only check in 60 seconds.
+Attempt 15: Earth Engine noncommercial eligibility expired; reverify this project in Earth Engine configuration. Next read-only check in 60 seconds.
+Attempt 16: Earth Engine noncommercial eligibility expired; reverify this project in Earth Engine configuration. Next read-only check in 60 seconds.
+Attempt 17: Earth Engine noncommercial eligibility expired; reverify this project in Earth Engine configuration. Next read-only check in 60 seconds.
+Attempt 18: Earth Engine noncommercial eligibility expired; reverify this project in Earth Engine configuration. Next read-only check in 60 seconds.
+Attempt 19: Earth Engine noncommercial eligibility expired; reverify this project in Earth Engine configuration. Next read-only check in 60 seconds.
+Attempt 20: Earth Engine noncommercial eligibility expired; reverify this project in Earth Engine configuration. Next read-only check in 60 seconds.

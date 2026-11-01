@@ -1,0 +1,16 @@
+
+[2026-11-01T04:25:41+05:30] New authorized job attempt: job_a
+[2026-10-31T22:55:42+00:00] sentinel-1-rtc: before has 0 VV scene(s) in the exact requested window
+[2026-10-31T22:55:43+00:00] sentinel-1-rtc: peak has 2 VV scene(s) in the exact requested window
+[2026-10-31T22:55:43+00:00] sentinel-1-rtc: recession has 1 VV scene(s) in the exact requested window
+[2026-10-31T22:55:44+00:00] sentinel-1-grd: before has 0 VV scene(s) in the exact requested window
+[2026-10-31T22:55:44+00:00] sentinel-1-grd: peak has 2 VV scene(s) in the exact requested window
+[2026-10-31T22:55:44+00:00] sentinel-1-grd: recession has 1 VV scene(s) in the exact requested window
+[2026-10-31T22:55:44+00:00] Reading only the AOI from S1A_IW_GRDH_1SDV_20230716T125521_20230716T125550_049449_05F23F_rtc
+[2026-10-31T22:56:25+00:00] Completed AOI clip S1A_IW_GRDH_1SDV_20230716T125521_20230716T125550_049449_05F23F_rtc; valid fraction 1.000000
+[2026-10-31T22:56:25+00:00] Reading only the AOI from S1A_IW_GRDH_1SDV_20230712T005233_20230712T005258_049383_05F03C_rtc
+[2026-10-31T23:00:03+00:00] Completed AOI clip S1A_IW_GRDH_1SDV_20230712T005233_20230712T005258_049383_05F03C_rtc; valid fraction 1.000000
+[2026-10-31T23:00:04+00:00] Reading only the AOI from S1A_IW_GRDH_1SDV_20230724T005234_20230724T005259_049558_05F58F_rtc
+[2026-10-31T23:00:36+00:00] Completed AOI clip S1A_IW_GRDH_1SDV_20230724T005234_20230724T005259_049558_05F58F_rtc; valid fraction 1.000000
+[2026-10-31T23:00:36+00:00] Available PC RTC clips cached. Exact before window missing in PC; waiting for authorized Earth Engine login and project ID.
+[2026-11-01T04:30:36+05:30] job_a: needs_input; exit=2; elapsed=294.6s

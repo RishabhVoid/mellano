@@ -1,0 +1,8 @@
+
+[2026-11-01T04:25:31+05:30] New authorized job attempt: relative_scenarios
+{"run_id": "relative_river_plus_1m", "runtime_s": 66.74807495799905, "flooded_area_km2": 0.5565}
+{"run_id": "relative_river_plus_2m", "runtime_s": 67.10534225000447, "flooded_area_km2": 1.0081}
+{"run_id": "relative_river_plus_3m", "runtime_s": 67.8806377909932, "flooded_area_km2": 1.5176}
+{"run_id": "relative_breach_near_ito", "runtime_s": 69.07736387500336, "flooded_area_km2": 0.5565}
+{"run_id": "relative_debris_ring_road", "runtime_s": 88.82852333399933, "flooded_area_km2": 0.5565}
+[2026-11-01T04:31:37+05:30] relative_scenarios: complete; exit=0; elapsed=366.5s

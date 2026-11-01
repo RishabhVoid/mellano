@@ -1,0 +1,19 @@
+
+[2026-11-01T05:14:36+05:30] New authorized job attempt: product_dependencies
+error: unexpected argument '--no-env-file' found
+
+  tip: a similar argument exists: '--no-offline'
+
+Usage: uv add [OPTIONS] <PACKAGES|--requirements <REQUIREMENTS>>
+
+For more information, try '--help'.
+[2026-11-01T05:14:36+05:30] product_dependencies: failed; exit=2; elapsed=0.0s
+
+[2026-11-01T05:15:25+05:30] New authorized job attempt: product_dependencies
+Resolved 39 packages in 250ms
+Downloading networkx (2.0MiB)
+ Downloaded networkx
+Prepared 1 package in 294ms
+Installed 1 package in 8ms
+ + networkx==3.6.1
+[2026-11-01T05:15:26+05:30] product_dependencies: complete; exit=0; elapsed=0.6s

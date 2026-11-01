@@ -1,0 +1,80 @@
+{
+  "duration_s": 24,
+  "scenario": "product",
+  "product": {
+    "preset_id": "quake_m6_east_bank",
+    "stage": 3
+  },
+  "timeline": [
+    0,
+    1
+  ],
+  "layers": {
+    "buildings": true,
+    "outline": false,
+    "reported": false,
+    "embankments": false,
+    "freshness": false,
+    "river": true,
+    "roads": true,
+    "green": false
+  },
+  "camera": [
+    {
+      "time": 0,
+      "position": [
+        0.3,
+        0.52,
+        0.75
+      ],
+      "target": [
+        0,
+        0.01,
+        0.08
+      ]
+    },
+    {
+      "time": 12,
+      "position": [
+        0.07,
+        0.25,
+        0.47
+      ],
+      "target": [
+        -0.03,
+        0.01,
+        0.12
+      ]
+    },
+    {
+      "time": 24,
+      "position": [
+        -0.13,
+        0.32,
+        0.5
+      ],
+      "target": [
+        -0.03,
+        0.01,
+        0.12
+      ]
+    }
+  ],
+  "captions": [
+    {
+      "start": 0,
+      "end": 8,
+      "text": "Hypothetical M6 earthquake \u00b7 modelled damage and response"
+    },
+    {
+      "start": 8,
+      "end": 16,
+      "text": "Severity and metrics read from this computed run"
+    },
+    {
+      "start": 16,
+      "end": 24,
+      "text": "Modelled units \u00b7 real mapped stations \u00b7 availability unknown"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# Optional override: no credentials are included in this file or image.
+services:
+  web:
+    image: otec:prepared-gemini
+    build:
+      target: runtime-gemini
+    environment:
+      - OTEC_ENABLE_LOCAL_COMPUTE=0
+      - OTEC_WATCH_EXPORTS=0
+      - OTEC_DATABASE_URL
+      - CLOUDSDK_CONFIG=/var/lib/otec/gcloud
+    volumes:
+      - type: bind
+        source: ${OTEC_GCLOUD_CONFIG_DIR:?Provide the operator-managed named gcloud configuration directory}
+        target: /var/lib/otec/gcloud
+        bind: {create_host_path: false}
+      - type: bind
+        source: ${OTEC_GEMINI_CONFIG_PATH:?Provide the exact nonsecret gemini_config.json path}
+        target: /app/data/derived/gemini_config.json
+        read_only: true
+        bind: {create_host_path: false}

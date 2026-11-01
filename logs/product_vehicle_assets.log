@@ -1,0 +1,134 @@
+
+[2026-11-01T05:16:26+05:30] New authorized job attempt: product_vehicle_assets
+Traceback (most recent call last):
+  File "/Users/rishabh/Documents/codebase/projects/hackcbs/the_one/scripts/download_vehicles.py", line 69, in <module>
+    sources=[fetch_pack(*pack) for pack in PACKS]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rishabh/Documents/codebase/projects/hackcbs/the_one/scripts/download_vehicles.py", line 69, in <listcomp>
+    sources=[fetch_pack(*pack) for pack in PACKS]
+             ^^^^^^^^^^^^^^^^^
+  File "/Users/rishabh/Documents/codebase/projects/hackcbs/the_one/scripts/download_vehicles.py", line 32, in fetch_pack
+    response.raise_for_status()
+  File "/Users/rishabh/Documents/codebase/projects/hackcbs/the_one/.venv/lib/python3.11/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: https://kenney.nl/assets/car-kit
+[2026-11-01T05:16:28+05:30] product_vehicle_assets: failed; exit=1; elapsed=1.5s
+
+[2026-11-01T05:28:44+05:30] New authorized job attempt: product_vehicle_assets
+Traceback (most recent call last):
+  File "/Users/rishabh/Documents/codebase/projects/hackcbs/the_one/scripts/download_vehicles.py", line 68, in <module>
+    sources=[fetch_pack(*pack) for pack in PACKS]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/rishabh/Documents/codebase/projects/hackcbs/the_one/scripts/download_vehicles.py", line 68, in <listcomp>
+    sources=[fetch_pack(*pack) for pack in PACKS]
+             ^^^^^^^^^^^^^^^^^
+  File "/Users/rishabh/Documents/codebase/projects/hackcbs/the_one/scripts/download_vehicles.py", line 60, in fetch_pack
+    if uri and not uri.startswith('data:'):raise ValueError('External GLB resource requires explicit handling')
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: External GLB resource requires explicit handling
+[2026-11-01T05:28:49+05:30] product_vehicle_assets: failed; exit=1; elapsed=5.1s
+
+[2026-11-01T05:31:46+05:30] New authorized job attempt: product_vehicle_assets
+{
+  "car-kit": [
+    "ambulance.glb",
+    "box.glb",
+    "cone-flat.glb",
+    "cone.glb",
+    "debris-bolt.glb",
+    "debris-bumper.glb",
+    "debris-door-window.glb",
+    "debris-door.glb",
+    "debris-drivetrain-axle.glb",
+    "debris-drivetrain.glb",
+    "debris-nut.glb",
+    "debris-plate-a.glb",
+    "debris-plate-b.glb",
+    "debris-plate-small-a.glb",
+    "debris-plate-small-b.glb",
+    "debris-spoiler-a.glb",
+    "debris-spoiler-b.glb",
+    "debris-tire.glb",
+    "delivery-flat.glb",
+    "delivery.glb",
+    "firetruck.glb",
+    "garbage-truck.glb",
+    "hatchback-sports.glb",
+    "kart-oobi.glb",
+    "kart-oodi.glb",
+    "kart-ooli.glb",
+    "kart-oopi.glb",
+    "kart-oozi.glb",
+    "police.glb",
+    "race-future.glb",
+    "race.glb",
+    "sedan-sports.glb",
+    "sedan.glb",
+    "suv-luxury.glb",
+    "suv.glb",
+    "taxi.glb",
+    "tractor-police.glb",
+    "tractor-shovel.glb",
+    "tractor.glb",
+    "truck-flat.glb",
+    "truck.glb",
+    "van.glb",
+    "wheel-dark.glb",
+    "wheel-default.glb",
+    "wheel-racing.glb",
+    "wheel-tractor-back.glb",
+    "wheel-tractor-dark-back.glb",
+    "wheel-tractor-dark-front.glb",
+    "wheel-tractor-front.glb",
+    "wheel-truck.glb"
+  ],
+  "watercraft-kit": [
+    "arrow-standing.glb",
+    "arrow.glb",
+    "boat-fan.glb",
+    "boat-fishing-small.glb",
+    "boat-house-a.glb",
+    "boat-house-b.glb",
+    "boat-house-c.glb",
+    "boat-house-d.glb",
+    "boat-row-large.glb",
+    "boat-row-small.glb",
+    "boat-sail-a.glb",
+    "boat-sail-b.glb",
+    "boat-speed-a.glb",
+    "boat-speed-b.glb",
+    "boat-speed-c.glb",
+    "boat-speed-d.glb",
+    "boat-speed-e.glb",
+    "boat-speed-f.glb",
+    "boat-speed-g.glb",
+    "boat-speed-h.glb",
+    "boat-speed-i.glb",
+    "boat-speed-j.glb",
+    "boat-tow-a.glb",
+    "boat-tow-b.glb",
+    "boat-tug-a.glb",
+    "boat-tug-b.glb",
+    "boat-tug-c.glb",
+    "buoy-flag.glb",
+    "buoy.glb",
+    "cargo-container-a.glb",
+    "cargo-container-b.glb",
+    "cargo-container-c.glb",
+    "cargo-pile-a.glb",
+    "cargo-pile-b.glb",
+    "gate-finish.glb",
+    "gate.glb",
+    "ramp-wide.glb",
+    "ramp.glb",
+    "ship-cargo-a.glb",
+    "ship-cargo-b.glb",
+    "ship-cargo-c.glb",
+    "ship-large.glb",
+    "ship-ocean-liner-small.glb",
+    "ship-ocean-liner.glb",
+    "ship-small-ghost.glb",
+    "ship-small.glb"
+  ]
+}
+[2026-11-01T05:31:49+05:30] product_vehicle_assets: complete; exit=0; elapsed=3.3s

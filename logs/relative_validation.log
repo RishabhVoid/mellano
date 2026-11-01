@@ -1,0 +1,5 @@
+
+[2026-11-01T04:33:48+05:30] New authorized job attempt: relative_validation
+{"run_id": "relative_breach_near_ito", "actual_edit_depth_max_m": 0.0, "frames_equal_to_baseline": true, "reconstructed_equal": true}
+{"run_id": "relative_debris_ring_road", "actual_edit_depth_max_m": 0.0, "frames_equal_to_baseline": true, "reconstructed_equal": true}
+[2026-11-01T04:37:59+05:30] relative_validation: complete; exit=0; elapsed=250.5s

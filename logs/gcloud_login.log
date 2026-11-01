@@ -1,0 +1,7 @@
+
+[2026-11-01T04:48:25+05:30] New authorized job attempt: gcloud_login
+Your browser has been opened to visit:
+
+    https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=32555940559.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A8085%2F&scope=openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fappengine.admin+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fsqlservice.login+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcompute+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Faccounts.reauth&state=zZvUs2PKyPv8NBJwvDKYnWjq0FLD1r&access_type=offline&code_challenge=8K2i50Ngq7boweZiB8Pe245f8sJXtbFXKZlomyZ54VU&code_challenge_method=S256
+
+[2026-11-01T04:48:45+05:30] gcloud_login: complete; exit=0; elapsed=19.3s

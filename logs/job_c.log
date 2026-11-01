@@ -1,0 +1,93 @@
+
+[2026-11-01T04:24:04+05:30] New authorized job attempt: job_c
+Downloading pillow (4.6MiB)
+ Downloaded pillow
+Installed 1 package in 4ms
+Traceback (most recent call last):
+  File "/Users/rishabh/Documents/codebase/projects/hackcbs/the_one/scripts/drone_proof_acquire.py", line 11, in <module>
+    from sim.jobs import update
+ModuleNotFoundError: No module named 'sim'
+[2026-11-01T04:24:12+05:30] job_c: failed; exit=1; elapsed=8.2s
+
+[2026-11-01T04:25:07+05:30] New authorized job attempt: job_c
+First real image GPS 41.30382155555555 -81.75046644444444 camera DSC-WX220 date 2016:06:29 10:47:04
+Matching USGS coverage [{"name": "OH_Statewide_Phase1_1_2019", "id": 1050, "count": 109984998020, "url": "https://s3-us-west-2.amazonaws.com/usgs-lidar-public/OH_Statewide_Phase1_1_2019/ept.json"}]
+Downloaded original images 1 of 77
+Downloaded original images 2 of 77
+Downloaded original images 3 of 77
+Downloaded original images 4 of 77
+Downloaded original images 5 of 77
+Downloaded original images 6 of 77
+Downloaded original images 7 of 77
+Downloaded original images 8 of 77
+Downloaded original images 9 of 77
+Downloaded original images 10 of 77
+Downloaded original images 11 of 77
+Downloaded original images 12 of 77
+Downloaded original images 13 of 77
+Downloaded original images 14 of 77
+Downloaded original images 15 of 77
+Downloaded original images 16 of 77
+Downloaded original images 17 of 77
+Downloaded original images 18 of 77
+Downloaded original images 19 of 77
+Downloaded original images 20 of 77
+Downloaded original images 21 of 77
+Downloaded original images 22 of 77
+Downloaded original images 23 of 77
+Downloaded original images 24 of 77
+Downloaded original images 25 of 77
+Downloaded original images 26 of 77
+Downloaded original images 27 of 77
+Downloaded original images 28 of 77
+Downloaded original images 29 of 77
+Downloaded original images 30 of 77
+Downloaded original images 31 of 77
+Downloaded original images 32 of 77
+Downloaded original images 33 of 77
+Downloaded original images 34 of 77
+Downloaded original images 35 of 77
+Downloaded original images 36 of 77
+Downloaded original images 37 of 77
+Downloaded original images 38 of 77
+Downloaded original images 39 of 77
+Downloaded original images 40 of 77
+Downloaded original images 41 of 77
+Downloaded original images 42 of 77
+Downloaded original images 43 of 77
+Downloaded original images 44 of 77
+Downloaded original images 45 of 77
+Downloaded original images 46 of 77
+Downloaded original images 47 of 77
+Downloaded original images 48 of 77
+Downloaded original images 49 of 77
+Downloaded original images 50 of 77
+Downloaded original images 51 of 77
+Downloaded original images 52 of 77
+Downloaded original images 53 of 77
+Downloaded original images 54 of 77
+Downloaded original images 55 of 77
+Downloaded original images 56 of 77
+Downloaded original images 57 of 77
+Downloaded original images 58 of 77
+Downloaded original images 59 of 77
+Downloaded original images 60 of 77
+Downloaded original images 61 of 77
+Downloaded original images 62 of 77
+Downloaded original images 63 of 77
+Downloaded original images 64 of 77
+Downloaded original images 65 of 77
+Downloaded original images 66 of 77
+Downloaded original images 67 of 77
+Downloaded original images 68 of 77
+Downloaded original images 69 of 77
+Downloaded original images 70 of 77
+Downloaded original images 71 of 77
+Downloaded original images 72 of 77
+Downloaded original images 73 of 77
+Downloaded original images 74 of 77
+Downloaded original images 75 of 77
+Downloaded original images 76 of 77
+Downloaded original images 77 of 77
+Source acquisition complete: 77 images; full-envelope EPT projects [{"name": "OH_Statewide_Phase1_1_2019", "id": 1050, "count": 109984998020, "url": "https://s3-us-west-2.amazonaws.com/usgs-lidar-public/OH_Statewide_Phase1_1_2019/ept.json"}]
+[2026-11-01T04:33:20+05:30] job_c: complete; exit=0; elapsed=493.0s
