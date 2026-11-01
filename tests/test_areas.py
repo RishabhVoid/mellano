@@ -30,6 +30,11 @@ class AreasTests(unittest.TestCase):
         region=self.region()
         with ThreadPoolExecutor(max_workers=2) as pool:rows=list(pool.map(lambda _:self.store.admit(region),range(8)))
         self.assertEqual(len({r['job_id'] for r in rows}),1);other=areas.Store(self.root/'metadata.sqlite3');self.assertEqual(other.get(rows[0]['job_id'])['status'],'queued')
+    def test_configured_database_never_falls_back_when_driver_is_missing(self):
+        with patch.dict('sys.modules',{'psycopg':None}):
+            with self.assertRaisesRegex(RuntimeError,'PostgreSQL driver unavailable'):
+                areas.Store(self.root/'unused.sqlite3',dsn='postgresql://example.invalid/test')
+        self.assertFalse((self.root/'unused.sqlite3').exists())
     def test_http_selection_does_not_launch_process(self):
         with patch.object(areas,'cached_delhi',return_value=None),patch.object(areas.subprocess,'Popen') as process:
             a=areas.select_area({'bbox':self.region()['bbox']},self.store);b=areas.select_area({'bbox':self.region()['bbox']},self.store)

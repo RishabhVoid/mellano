@@ -126,7 +126,7 @@ class Store:
         if dsn:
             if not dsn.startswith(('postgresql://','postgres://')):raise ValueError('Database DSN must be a PostgreSQL URI')
             try:import psycopg;self.driver=psycopg
-            except ImportError:self.backend='sqlite';self.warning='PostgreSQL driver unavailable; local SQLite metadata is active.'
+            except ImportError:raise RuntimeError('PostgreSQL driver unavailable; configured metadata database cannot be used.') from None
         with self.connection() as con:
             for statement in SCHEMA.split(';'):
                 if statement.strip():self.execute(con,statement)

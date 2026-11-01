@@ -7,6 +7,7 @@ import unittest
 from unittest.mock import patch
 
 from sim import deployment, product
+from scripts import stage_cloudrun
 
 
 class DeploymentTests(unittest.TestCase):
@@ -33,3 +34,13 @@ class DeploymentTests(unittest.TestCase):
             self.assertEqual(product.admit(scenario)['run_id'],current);launch.assert_not_called()
         with patch.object(deployment,'frozen_snapshot',return_value=snapshot),patch.object(product,'normalize',return_value=scenario),patch.object(product,'read',return_value={'scenario':{'module':'flood'}}):
             with self.assertRaises(product.LocalComputeDisabled):product.admit(scenario)
+
+    def test_staging_includes_cluster_ca_when_present(self):
+        source=self.root/'source';source.mkdir()
+        paths=('Dockerfile','pyproject.toml','uv.lock','web/package.json','web/package-lock.json','web/tsconfig.json','web/vite.config.ts','web/index.html','root.crt')
+        for name in paths:
+            path=source/name;path.parent.mkdir(parents=True,exist_ok=True);path.write_text('public certificate fixture' if name=='root.crt' else '')
+        destination=self.root/'staged'
+        with patch.object(stage_cloudrun,'ROOT',source),patch.object(stage_cloudrun,'DERIVED',source/'data/derived'),patch.object(stage_cloudrun.subprocess,'check_output',return_value=''),patch.object(product,'catalog',return_value={'runs':[]}),patch.object(stage_cloudrun.drone_proof,'get_status',return_value={'assets':{}}):
+            stage_cloudrun.stage(destination)
+        self.assertEqual((destination/'runtime/root.crt').read_text(),'public certificate fixture')

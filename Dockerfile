@@ -32,8 +32,7 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends libexpat1 libgomp1 \
     && rm -rf /var/lib/apt/lists/*
 COPY pyproject.toml uv.lock ./
-RUN uv sync --frozen --no-dev --no-install-project \
-    && uv pip install --python /opt/otec-venv/bin/python 'psycopg[binary]==3.3.6'
+RUN uv sync --frozen --no-dev --no-install-project
 COPY sim ./sim
 COPY --from=web-build /build/web/dist ./web/dist
 COPY web/public/assets/vehicles ./web/public/assets/vehicles

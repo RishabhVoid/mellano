@@ -18,7 +18,7 @@ setup:
 
 check:
 	$(UV) run --frozen --no-env-file python -m sim.check
-	$(UV) run --frozen --no-env-file python -m unittest tests.test_pipeline tests.test_dynamic tests.test_imagery tests.test_drone_proof tests.test_stages tests.test_relative tests.test_sentinel tests.test_jobs tests.test_api_runs tests.test_export_masks tests.test_gemini tests.test_gemini_api tests.test_response_context tests.test_product tests.test_response tests.test_ply_scalar tests.test_app tests.test_areas tests.test_decision_support tests.test_situation_api tests.test_cached_events
+	$(UV) run --frozen --no-env-file python -m unittest tests.test_pipeline tests.test_dynamic tests.test_imagery tests.test_drone_proof tests.test_stages tests.test_relative tests.test_sentinel tests.test_jobs tests.test_api_runs tests.test_export_masks tests.test_gemini tests.test_gemini_api tests.test_response_context tests.test_product tests.test_response tests.test_ply_scalar tests.test_app tests.test_areas tests.test_deployment tests.test_decision_support tests.test_situation_api tests.test_cached_events
 	$(NPM) --prefix web run check
 	node --experimental-strip-types --test web/tests/eventState.test.mjs web/tests/productEvents.test.mjs web/tests/responseMotion.test.mjs web/tests/responseVisuals.test.mjs web/tests/vehicleAssets.test.mjs
 

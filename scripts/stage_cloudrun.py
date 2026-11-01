@@ -23,6 +23,8 @@ def stage(destination):
         target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source,target);copied.append((str(relative),source.stat().st_size))
     for path in ('Dockerfile','pyproject.toml','uv.lock','web/package.json','web/package-lock.json','web/tsconfig.json','web/vite.config.ts','web/index.html'):
         copy(path)
+    # The Yugabyte cluster CA is public, but is required for verify-full TLS.
+    if (ROOT/'root.crt').is_file():copy(Path('root.crt'),runtime=True)
     for root in ('sim','web/src','web/scenes','web/public/assets/vehicles','web/public/data'):
         paths=subprocess.check_output(['rg','--files','--hidden','--no-ignore',root,'-g','!**/*env*','-g','!**/__pycache__/**','-g','!**/*.pyc','-g','!**/.git/**'],cwd=ROOT,text=True).splitlines()
         for path in paths:copy(path,runtime=root=='web/public/data')

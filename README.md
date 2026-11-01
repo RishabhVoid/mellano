@@ -72,6 +72,8 @@ Source dates, processing details and attribution are recorded in the derived pro
 
 The analysis grid covers the Delhi–Yamuna area in UTM zone 43N. Flood experiments use a deterministic local-inertial approximation on the grid; response paths use a directed OSM road graph. Results depend on the quality and date of their inputs and on explicitly modelled assumptions. The [product contract](docs/part-d.md) and [verification report](docs/diorama-check.md) give further detail.
 
+Area metadata can use YugabyteDB through the PostgreSQL-compatible adapter. The live connection, schema initialization and metadata read have been checked with verified TLS; local SQLite remains the default until a database URL is configured. Terrain and simulation artifacts remain file-based. See the [deployment guide](deploy/README.md) for configuration and limitations.
+
 ## Project structure
 
 ```text
